@@ -7,11 +7,11 @@ from functools import wraps
 from flask import Flask, render_template
 from itertools import groupby as _groupby, chain
 
-BASE = 'https://ndcsydney.com/'
+BASE = "https://ndcsydney.com/"
 DAYS = {
-    'Wednesday': datetime(2019, 10, 16),
-    'Thursday': datetime(2019, 10, 17),
-    'Friday': datetime(2019, 10, 18),
+    "Wednesday": datetime(2019, 10, 16),
+    "Thursday": datetime(2019, 10, 17),
+    "Friday": datetime(2019, 10, 18),
 }
 app = Flask(__name__)
 
@@ -23,7 +23,7 @@ def groupby(iterable, key):
 def cached(func):
     @wraps(func)
     def wrapper(*args):
-        slug = func.__name__ + '.json'
+        slug = func.__name__ + ".json"
         try:
             with open(slug) as fh:
                 return json.load(fh)
@@ -32,7 +32,7 @@ def cached(func):
 
         result = func(*args)
 
-        with open(slug, 'w') as fh:
+        with open(slug, "w") as fh:
             json.dump(result, fh, indent=2, default=datetime.isoformat)
 
         return result
@@ -41,36 +41,36 @@ def cached(func):
 
 
 def dotime(day: str, string: str) -> datetime:
-    hour, minute = map(int, string.split(':'))
+    hour, minute = map(int, string.split(":"))
     return DAYS[day].replace(hour=hour, minute=minute)
 
 
 def process_talk(talk: Element) -> Dict:
-    link, = talk.xpath('.//a/@href')
-    title, = talk.xpath('.//h2/text()')
-    venue, = talk.xpath('.//*[contains(@class, "venue")]')
-    speakers, = talk.xpath('.//*[contains(@class, "speaker")]')
+    (link,) = talk.xpath(".//a/@href")
+    (title,) = talk.xpath(".//h2/text()")
+    (venue,) = talk.xpath('.//*[contains(@class, "venue")]')
+    (speakers,) = talk.xpath('.//*[contains(@class, "speaker")]')
 
-    day, time = venue.attrib['data-time'].split('<br/>')
-    start, end = time.split(' - ')
+    day, time = venue.attrib["data-time"].split("<br/>")
+    start, end = time.split(" - ")
 
     start = dotime(day, start)
     end = dotime(day, end)
 
     return {
-        'name': title,
-        'start': start,
-        'end': end,
-        'duration': (end - start).total_seconds() // 60,
-        'conf_url': link,
-        'room': venue.text,
-        'authors': [speaker.strip() for speaker in speakers.itertext()],
+        "name": title,
+        "start": start,
+        "end": end,
+        "duration": (end - start).total_seconds() // 60,
+        "conf_url": link,
+        "room": venue.text,
+        "authors": [speaker.strip() for speaker in speakers.itertext()],
     }
 
 
 @cached
 def get_talks() -> List[Dict]:
-    html = get('agenda/')
+    html = get("agenda/")
 
     talks = html.xpath('.//div[contains(@class, "msnry-item")]')
 
@@ -78,7 +78,7 @@ def get_talks() -> List[Dict]:
 
 
 def get(path: str) -> Element:
-    if not path.startswith('http'):
+    if not path.startswith("http"):
         path = BASE + path
     r = requests.get(path)
     r.raise_for_status()
@@ -86,45 +86,45 @@ def get(path: str) -> Element:
 
 
 def get_slug(speaker: str) -> str:
-    if speaker == 'Victoria Almazova':
-        speaker = 'Viktorija Almazova'
-    elif speaker == 'Filip Ekberg':
-        speaker += ' 1'
+    if speaker == "Victoria Almazova":
+        speaker = "Viktorija Almazova"
+    elif speaker == "Filip Ekberg":
+        speaker += " 1"
 
-    return speaker.lower().replace(' ', '-')
+    return speaker.lower().replace(" ", "-")
 
 
 def process_speaker(speaker: str) -> Dict:
-    path = 'speaker/' + get_slug(speaker)
+    path = "speaker/" + get_slug(speaker)
     html = get(path)
 
     twitter = html.xpath('.//span[contains(text(), "Twitter")]')
     if twitter:
         _, twitter = twitter[0].getparent().itertext()
-        twitter = twitter.strip(' @')
+        twitter = twitter.strip(" @")
     else:
         twitter = None
 
     print(speaker, twitter)
 
-    return {'name': speaker, 'twitter': twitter, 'url': BASE + path}
+    return {"name": speaker, "twitter": twitter, "url": BASE + path}
 
 
 @cached
 def speakers(talks: List[Dict]) -> List[Dict]:
-    speakers = set(chain.from_iterable(talk['authors'] for talk in talks))
+    speakers = set(chain.from_iterable(talk["authors"] for talk in talks))
 
     return [process_speaker(speaker) for speaker in speakers if speaker]
 
 
 def get_talk_description(talk: Dict) -> Tuple[str, str]:
-    html = get(talk['conf_url'])
-    article, = html.xpath('.//article')
+    html = get(talk["conf_url"])
+    (article,) = html.xpath(".//article")
 
-    text = '\n'.join(article.itertext())
-    text = '\n'.join(text.split('\n\n')).strip()
+    text = "\n".join(article.itertext())
+    text = "\n".join(text.split("\n\n")).strip()
 
-    return talk['conf_url'], text
+    return talk["conf_url"], text
 
 
 @cached
@@ -133,41 +133,36 @@ def get_talk_descriptions(talks: List[Dict]) -> Dict[str, str]:
 
 
 def to_time(minutes: int) -> str:
-    return '%02d:%02d' % divmod(minutes, 60)
+    return "%02d:%02d" % divmod(minutes, 60)
 
 
-@app.route('/schedule.xml')
+@app.route("/schedule.xml")
 def index():
     schedule = get_talks()
 
-    print({talk['start'] for talk in schedule})
+    print({talk["start"] for talk in schedule})
 
     schedule = [
-        dict(talk, start=datetime.fromisoformat(talk['start']))
-        for talk in schedule
+        dict(talk, start=datetime.fromisoformat(talk["start"])) for talk in schedule
     ]
 
-    days = groupby(schedule, lambda talk: talk['start'].date())
-    days = {
-        date: groupby(talks, lambda talk: talk['room']) for date, talks in days
-    }
+    days = groupby(schedule, lambda talk: talk["start"].date())
+    days = {date: groupby(talks, lambda talk: talk["room"]) for date, talks in days}
 
     return (
         render_template(
-            'schedule.xml',
+            "schedule.xml",
             days=days,
-            speakers={
-                speaker['name']: speaker for speaker in speakers(schedule)
-            },
+            speakers={speaker["name"]: speaker for speaker in speakers(schedule)},
             descriptions=get_talk_descriptions(schedule),
-            start_date=DAYS['Wednesday'],
-            end_date=DAYS['Friday'],
+            start_date=DAYS["Wednesday"],
+            end_date=DAYS["Friday"],
             to_time=to_time,
         ),
         200,
-        {'content-type': 'application/xml'},
+        {"content-type": "application/xml"},
     )
 
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5004)
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=5004)
