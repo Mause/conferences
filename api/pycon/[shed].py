@@ -26,7 +26,7 @@ def schedule_xml():
     return redirect(url_for("schedule_year_xml", year="2019"))
 
 
-@app.route("/<year>/schedule.xml")
+@app.route("/api/pycon/<year>")
 def schedule_year_xml(year):
     schedule = requests.get(f"https://{year}.pycon-au.org/schedule/avdata.json").json()[
         "schedule"

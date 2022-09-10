@@ -136,7 +136,7 @@ def to_time(minutes: int) -> str:
     return "%02d:%02d" % divmod(minutes, 60)
 
 
-@app.route("/schedule.xml")
+@app.route("/api/ndc/shed")
 def index():
     schedule = get_talks()
 
