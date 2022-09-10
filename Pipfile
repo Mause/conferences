@@ -10,6 +10,8 @@ ipdb = "*"
 requests = "*"
 flask = "*"
 lxml = "*"
+unidecode = "*"
+python-dateutil = "*"
 
 [requires]
 python_version = "3.10"
