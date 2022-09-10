@@ -1,39 +1,39 @@
 <schedule>
     <conference>
         <acronym>dddperth-{{ start_date.year }}</acronym>
-        <title>PyCon Au {{ start_date.year }} X</title>
+        <title>DDD Perth {{ start_date.year }} X</title>
         <subtitle/>
         <venue>Perth Conference and Exhibition Center</venue>
-        <start>{{ start_date.isoformat() }}</start>
-        <end>{{ end_date.isoformat() }}</end>
+        <start>{{ start_date.date().isoformat() }}</start>
+        <end>{{ end_date.date().isoformat() }}</end>
         <days>1</days>
         <timeslot_duration>01:00</timeslot_duration>
     </conference>
     {% for date, rooms in days.items() %}
-    <day date="{{ date }}">
+    <day date="{{ date.date().isoformat() }}">
         {% for room, talks in rooms.items() %}
         <room name="{{ room }}">
             {% for talk in talks %}
-            <event id="{{ talk.conf_key }}">
+            <event id="{{ talk.Id }}">
                 <slug/>
-                <date>{{ talk.start.isoformat() }}</date>
+                <date>{{ talk.start.date().isoformat() }}</date>
                 <start>{{ talk.start.time().isoformat() }}</start>
-                <duration>{{ to_time(talk.duration) }}</duration>
-                <room>{{ talk.room }}</room>
-                <title>{{ talk.name }}</title>
-                <subtitle/>
+                <duration>{{ to_time(talk) }}</duration>
+                <room>{{ room }}</room>
+                <title>{{ talk.Title }}</title>
+		<subtitle>{{ talk.Level }}</subtitle>
                 <track>{{ talk.track }}</track>
                 <type>{{ talk.type }}</type>
                 <language/>
                 <description/>
-                <abstract>{{ talk.abstract }}</abstract>
+                <abstract>{{ talk.Abstract }}</abstract>
                 <persons>
-                    {% for author in talk.authors %}
-                    <person>{{ author }}</person>
+                    {% for author in talk.Presenters %}
+                    <person>{{ author.Name }}</person>
                     {% endfor %}
                 </persons>
                 <links>
-                    <link href="{{ talk.conf_url }}">
+                    <link href="https://dddperth.com/agenda?sessionId={{ talk.Id }}">
                         Conference link
                     </link>
                     {% if talk.video_url %}
@@ -41,10 +41,10 @@
                             Youtube video
                         </link>
                     {% endif %}
-                    {% for twitter in talk.twitter_ids %}
-                        {% if twitter %}
-                            <link href="https://twitter.com/{{ twitter }}">
-                                @{{ twitter }}
+                    {% for author in talk.Presenters %}
+                        {% if author.TwitterHandle %}
+                            <link href="https://twitter.com/{{ author.TwitterHandle }}">
+                                @{{ author.TwitterHandle }}
                             </link>
                         {% endif %}
                     {% endfor %}
