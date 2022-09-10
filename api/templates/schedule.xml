@@ -1,7 +1,7 @@
 <schedule>
     <conference>
         <acronym>dddperth-{{ start_date.year }}</acronym>
-        <title>DDD Perth {{ start_date.year }} X</title>
+        <title>DDD Perth {{ start_date.year }}</title>
         <subtitle/>
         <venue>Perth Conference and Exhibition Center</venue>
         <start>{{ start_date.date().isoformat() }}</start>
@@ -21,7 +21,9 @@
                 <duration>{{ to_time(talk) }}</duration>
                 <room>{{ room }}</room>
                 <title>{{ talk.Title }}</title>
+		{% if talk.Level %}
 		<subtitle>{{ talk.Level }}</subtitle>
+		{% endif %}
                 <track>{{ talk.track }}</track>
                 <type>{{ talk.type }}</type>
                 <language/>
@@ -43,8 +45,13 @@
                     {% endif %}
                     {% for author in talk.Presenters %}
                         {% if author.TwitterHandle %}
-                            <link href="https://twitter.com/{{ author.TwitterHandle }}">
+			<link href="https://twitter.com/{{ author.TwitterHandle }}">
                                 @{{ author.TwitterHandle }}
+                            </link>
+                        {% endif %}
+                        {% if author.WebsiteUrl %}
+                            <link href="{{ author.WebsiteUrl }}">
+                                {{ author.Name }}'s site
                             </link>
                         {% endif %}
                     {% endfor %}
