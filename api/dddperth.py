@@ -16,7 +16,7 @@ def schedule():
     return (
         render_template(
             "schedule.xml",
-            days=data,
+            days={start_date: {'room': data}},
             to_time=lambda t: '{:02d}:{:02d}'.format(*divmod(t, 60)),
             start_date=start_date,
             end_date=end_date,
