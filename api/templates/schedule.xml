@@ -11,7 +11,7 @@
     </conference>
     {% for date, rooms in days.items() %}
     <day date="{{ date }}">
-        {% for room, talks in rooms %}
+        {% for room, talks in rooms.items() %}
         <room name="{{ room }}">
             {% for talk in talks %}
             <event id="{{ talk.conf_key }}">
