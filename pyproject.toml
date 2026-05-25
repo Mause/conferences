@@ -1,0 +1,18 @@
+[project]
+name = "conferences"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "flask",
+  "lxml",
+  "python-dateutil",
+  "requests",
+  "unidecode",
+]
+
+[dependency-groups]
+dev = [
+  "ipdb",
+]
