@@ -1,0 +1,3243 @@
+<schedule>
+    <conference>
+        <acronym>pyconau-2026</acronym>
+        <title>PyCon Au 2026 X</title>
+        <subtitle/>
+        <venue>Sofitel Brisbane Central, Brisbane</venue>
+        <start>2026-08-26</start>
+        <end>2026-08-30</end>
+        <days>5</days>
+        <timeslot_duration>01:00</timeslot_duration>
+    </conference>
+    
+    <day date="2026-08-26">
+        
+        <room name="Ballroom 2">
+            
+            <event id="BREAK-202608261500-ballroom2">
+                <slug/>
+                <date>2026-08-26T15:00:00+10:00</date>
+                <start>15:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608261500-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Lyon">
+            
+            <event id="BREAK-202608261230-lyon">
+                <slug/>
+                <date>2026-08-26T12:30:00+10:00</date>
+                <start>12:30:00</start>
+                <duration>00:30</duration>
+                <room>Lyon</room>
+                <title>Lunch break</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608261230-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="H33RW8">
+                <slug/>
+                <date>2026-08-26T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>02:00</duration>
+                <room>Lyon</room>
+                <title>Build a cross-platform GUI app with Python</title>
+                <subtitle/>
+                <track>None</track>
+                <type>workshop</type>
+                <language/>
+                <description/>
+                <abstract>If you have a Python program, and you want to display information to the user that is more than text, you&#39;re going to need something more complex than a script with `print()` and `input()` calls. You could build a website - but is a web browser your best option? Can you write a native GUI application using Python? And can you use the same GUI on your laptop *and* your phone? Find out in this hands-on workshop, where you&#39;ll be introduced to the BeeWare suite of tools for building and deploying GUI apps.</abstract>
+                <persons>
+                    
+                    <person>Russell Keith-Magee</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/H33RW8">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608261500-lyon">
+                <slug/>
+                <date>2026-08-26T15:00:00+10:00</date>
+                <start>15:00:00</start>
+                <duration>00:30</duration>
+                <room>Lyon</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608261500-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+    </day>
+    
+    <day date="2026-08-27">
+        
+        <room name="Ballroom 1">
+            
+            <event id="BZ93H7">
+                <slug/>
+                <date>2026-08-27T12:30:00+10:00</date>
+                <start>12:30:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Developing Problem Solvers under Pressure: SREs, DBREs and Ponies &lt;3</title>
+                <subtitle/>
+                <track>platform-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Training people (and ponies &lt;3) to problem solve under pressure. A discussion on neurorigidity vs neuroflexibility during emergency response. It will expand on how different kinds of incidents, working styles, experience levels, team structures etc create different needs.
+
+The speaker has spent 8 years as an SRE, DBRE and Support Engineer working with major New Zealand and international companies, responding to P1 incidents that affected millions of people. She has also spent 20+ years as an amateur trainer of horses.</abstract>
+                <persons>
+                    
+                    <person>Zoe</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BZ93H7">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271300-ballroom1">
+                <slug/>
+                <date>2026-08-27T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 1</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271300-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271000-ballroom1">
+                <slug/>
+                <date>2026-08-27T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271000-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="V9UCGA">
+                <slug/>
+                <date>2026-08-27T15:10:00+10:00</date>
+                <start>15:10:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Just Enough Reliability</title>
+                <subtitle/>
+                <track>platform-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>SRE is all about simplicity. So why do so many of us have a copy of The Google Book sitting on our desk? So much of what we build seeks to emulate companies with millions (if not billions) of customers, while we have neither the scale to justify such effort, nor the runway to still be around when we’re finished. This talk asks - does my medium-sized scale up need Chaos Engineering, circuit breakers, and a 10 tier severity matrix… or does it need a spreadsheet?</abstract>
+                <persons>
+                    
+                    <person>Shaun O&#39;Keefe</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/V9UCGA">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="8VSJFM">
+                <slug/>
+                <date>2026-08-27T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>From On-Prem to the Cloud and Back Again</title>
+                <subtitle/>
+                <track>platform-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Before the advent of Cloud Computing, owning all your servers and keeping them in a server room or a leased datacenter was the norm if not the only game in town. But despite The Cloud having turned into The Hyperscalers, owning your platform from the switch plane on up is still available... and it rocks!</abstract>
+                <persons>
+                    
+                    <person>Luke</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/8VSJFM">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271540-ballroom1">
+                <slug/>
+                <date>2026-08-27T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271540-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="7GHUBT">
+                <slug/>
+                <date>2026-08-27T14:35:00+10:00</date>
+                <start>14:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>What Happened in Production?! Instrumenting with OpenTelemetry</title>
+                <subtitle/>
+                <track>platform-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Every day at 2pm, our microservice crashed. Same traffic patterns, same infrastructure, same code - yet the database deadlocked and our SLA burned. Logs showed nothing. Metrics showed capacity. Something we couldn&#39;t see was destroying our system.
+
+This is a story about unknown-unknowns: the failures you can&#39;t predict because you can&#39;t observe them. Join us as we retrace how OpenTelemetry exposed what our existing tools hid, guided by the principles of observability (or &#34;O11y&#34; as we&#39;ll affectionately call it).
+
+We&#39;ll explore:
+- &#34;The three pillars&#34; of observability
+- OpenTelemetry Tracing with auto- and manual-instrumentation in Python
+- High cardinality, high dimensionality, and intelligent sampling
+- Querying and visualising traces to debug production mysteries
+
+Leave knowing exactly where to start instrumenting your own services—and why you should, before 2pm strikes your system.</abstract>
+                <persons>
+                    
+                    <person>David Bell</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/7GHUBT">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="7JZY3E">
+                <slug/>
+                <date>2026-08-27T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Kubernetes as LEGO: Building Platforms one block at a time</title>
+                <subtitle/>
+                <track>platform-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Have you ever wondered what it actually takes to deploy your Python/Django or any application to Kubernetes - and build a platform around it? Or if you already have one, whether you&#39;d build it the same way in 2026?
+This talk introduces Kubernetes as LEGO: building a real platform one block at a time, starting from raw primitives, layering Helm and Kustomize where they genuinely earn their place, and finally writing a custom operator in plain Python using kopf.
+At each step, we ask: Does this next block solve a real problem, or create a new one? You&#39;ll leave with a composable mental model and a sharper instinct for when to stop.</abstract>
+                <persons>
+                    
+                    <person>Dipendra Paudel</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/7JZY3E">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="RCY8RK">
+                <slug/>
+                <date>2026-08-27T11:20:00+10:00</date>
+                <start>11:20:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Talk under construction</title>
+                <subtitle/>
+                <track>platform-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>We build the plane while we fly it</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/RCY8RK">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="QRNWPN">
+                <slug/>
+                <date>2026-08-27T11:55:00+10:00</date>
+                <start>11:55:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>TOGA: Checklists and Safety Measures for &#34;Yoloing&#34; in Prod</title>
+                <subtitle/>
+                <track>platform-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Changes are scary. Changes in production are scarier, especially if you haven’t done them before. Ideally, you’d have pipelines and staging environments, and everything just gets handled automatically.
+
+Unfortunately, reality isn’t always ideal, and you’re faced with having to “yolo” a change; implementing something without waiting for everything to be perfect.
+
+The aviation industry has spent decades operating safely in environments where not everything is known in advance. It relies on shared attitudes, behaviours, and simple checklists to help people make good decisions under pressure.
+
+In this talk, I’ll draw on those ideas and apply them to platform engineering, looking at how to recognise when to commit to a change and when it’s safer to abort and try again.</abstract>
+                <persons>
+                    
+                    <person>Chelsea Finnie</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/QRNWPN">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Ballroom 2">
+            
+            <event id="RCTNSQ">
+                <slug/>
+                <date>2026-08-27T12:30:00+10:00</date>
+                <start>12:30:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Global Instructing Lock pending</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>This presentation has not been announced yet.</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/RCTNSQ">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271000-ballroom2">
+                <slug/>
+                <date>2026-08-27T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271000-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="NGF8XQ">
+                <slug/>
+                <date>2026-08-27T11:55:00+10:00</date>
+                <start>11:55:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Enterprise Grade Accessibility for Everyone</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>At Atlassian, we take accessibility seriously enough that we have entire teams dedicated to it. There are experts on hand to provide feedback on designs, and answer questions about implementation details. There&#39;s a team that runs audits of new features before they&#39;re launched. It&#39;s honestly pretty good.
+
+But obviously not everyone has the resources available for this kind of setup. So what can you do instead? I&#39;m going to talk you through a range of tools and processes that we use to improve the accessibility of our products, what each does well, where they fall short, and what they cost to implement. You can then use this information to figure out which solutions best fit your particular situation, and how you can get the best bang for your accessibility buck.</abstract>
+                <persons>
+                    
+                    <person>Erin Zimmer</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/NGF8XQ">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="KLTVGF">
+                <slug/>
+                <date>2026-08-27T11:20:00+10:00</date>
+                <start>11:20:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Solutions and Other Problems</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>The tech industry is notoriously fixated on solving things. All products are &#34;solutions&#34;, all problems are fixable, all friction is anti-productive waste that deserves to be eliminated. We&#39;ve hacked our workflows and our homes and our lives, automated the boring stuff, and Gotten Things Done. Throwing LLMs into the mix has only amped up this rhetoric.
+
+But not all friction is waste. Some of the things that we call &#34;problems&#34; are doing the necessary work of teaching us something, building our capabilities, and raising important opportunities to ask questions and double-check assumptions. Optimising this type of problem away creates a short-term win, but the longer-term losses are often much harder to see.
+
+We&#39;ve also taken steps into a landscape where many everyday acts of problem-solving are being delegated to webs of AI &#34;agents&#34;, who will autonomously &#34;decide&#34; which things are problems, solve them on our behalf, and ping us to tell us when they&#39;re done. But how often do they create additional problems as they solve others? How well can humans understand and build on the &#34;solutions&#34; that emerge? And what does it do to the development and maintenance of human expertise along the way?
+
+This talk digs into why problems, friction, and &#34;inefficiency&#34; are our some of our greatest allies, especially with AI in the picture. We&#39;ll look at what researchers like Robert and Elizabeth Bjork and Renée Gosline have shown about the importance of friction, discuss how to distinguish problems worth solving from problems worth preserving, and interrogate the reasons why we are compelled to solve certain problems in the first place. You&#39;ll leave this talk with ways determine which problems deserve your tools, and which ones deserve your time.
+
+(With apologies and thanks to Allie Brosh for the title.)</abstract>
+                <persons>
+                    
+                    <person>Lilly Ryan</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/KLTVGF">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="3CYQGY">
+                <slug/>
+                <date>2026-08-27T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>An Intro to Glue Work</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Every team has at least one go-to person that gets others out of sticky situations!
+Are they being recognised for contributions to building a cohesive team, or getting bogged down in work that isn’t part of their job description? Let’s get stuck into the concept of glue work, and how handling it properly can help your team bond.</abstract>
+                <persons>
+                    
+                    <person>Jade Edward</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/3CYQGY">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271540-ballroom2">
+                <slug/>
+                <date>2026-08-27T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271540-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="XQ8VVL">
+                <slug/>
+                <date>2026-08-27T15:10:00+10:00</date>
+                <start>15:10:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Adventures in FastAPI: A Choose-Your-Own PyCon Talk</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Do you ever go to a talk and find that the speaker doesn&#39;t talk about quite what you expected? Do you ever wish you could tell them, mid-talk, to talk about something else?
+
+Well, this is your opportunity to guide me through my own talk!
+
+I&#39;m going to tell you all about FastAPI. Why it&#39;s my web framework of choice, what makes it easy to use, develop and test. How it empowers you to focus on the important stuff instead of spending loads of time on boilerplate.
+
+There&#39;s far too much in one framework to talk about it all in 30 minutes though, so you&#39;ll get to vote on which topics I should focus on, which examples should get more detail, and what matters to you.</abstract>
+                <persons>
+                    
+                    <person>Jack Reichelt</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/XQ8VVL">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271300-ballroom2">
+                <slug/>
+                <date>2026-08-27T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 2</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271300-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="SS9FAU">
+                <slug/>
+                <date>2026-08-27T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Productivity: a dialogue</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>What does it mean to be productive? If you work in software development that generally means shipping code, or at least changes to code. There’s always been a tension in how to measure the output of a software developer though, and that’s partly due to the at least partially creative nature of the work we do.
+
+So when a tool comes along and promises to make you more productive, how do you assess that?</abstract>
+                <persons>
+                    
+                    <person>Benno Rice</person>
+                    
+                    <person>Daisy Leigh Brenecki</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/SS9FAU">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="RQ7STH">
+                <slug/>
+                <date>2026-08-27T14:35:00+10:00</date>
+                <start>14:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Goodbye GIL: Exploring the Free-threaded mode in Python</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Python 3.13 was the first Python version released with a free-threaded mode. Although the default interpreter still utilizes the GIL, it provides provisions that enable us to run a free-threaded version of the interpreter with the GIL disabled. 
+
+Through this talk, we’ll set up and run the free-threaded interpreter, benchmarking it against the GIL-enabled version for various tasks. We&#39;ll assess the impact on single-threaded vs multithreaded code and test the performance across CPU-bound and I/O-bound tasks, aiming to identify scenarios where free-threaded Python excels.</abstract>
+                <persons>
+                    
+                    <person>Adarsh Divakaran</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/RQ7STH">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Ballroom 3">
+            
+            <event id="YFRLUY">
+                <slug/>
+                <date>2026-08-27T11:55:00+10:00</date>
+                <start>11:55:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Additional data needed to predict title</title>
+                <subtitle/>
+                <track>data-and-ai</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>More examples required</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/YFRLUY">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="XWLM8L">
+                <slug/>
+                <date>2026-08-27T11:20:00+10:00</date>
+                <start>11:20:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Ship Reliable RAG: Evals That Grow with Your Retrieval Complexity</title>
+                <subtitle/>
+                <track>data-and-ai</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>RAG applications come in many shapes. Some start as simple keyword searches over historical records. Others layer on semantic embeddings, hybrid retrieval (semantic + keyword/lexical searches), reranking, and increasingly sophisticated prompting. But regardless of where your system sits on that spectrum, the question is the same: how do you know it actually works?
+
+This talk presents a level-by-level framework for building and evaluating RAG systems in Python, using a real AI-assisted ticket resolution application as the running example. Starting from the simplest possible retrieval setup (lexical matching with BM25 over historical tickets), the talk introduces evaluations early, explains why they matter, and then walks through growing both the RAG application and its eval suite in lockstep through four levels of complexity: lexical retrieval, semantic embedding-based retrieval, hybrid retrieval with log filtering using Drain3, and hybrid retrieval with reranking and context window tuning. At each level, the talk introduces only the evaluation metrics that become necessary at that stage, so the audience builds intuition for which evals matter and when.
+
+Along the way, the talk covers practical topics including how to compose simple metrics like faithfulness, context precision, and recall into an experiment harness for tuning reranking strategies (comparing Weighted RRF, plain RRF, Z-score normalization, and Min-Max normalization), and for detecting context rot. At the end, the talk covers how to avoid common pitfalls in LLM-based evaluation such as positional bias and numerical scoring scales.
+
+This talk is for Python developers and data scientists who are building or planning to build reliable &amp; robust RAG applications and want a practical mental model for when to introduce which evaluations as their system grows in complexity.</abstract>
+                <persons>
+                    
+                    <person>Ravi Vats</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/XWLM8L">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="U8CRTN">
+                <slug/>
+                <date>2026-08-27T16:25:00+10:00</date>
+                <start>16:25:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 3</room>
+                <title>Thursday lightning talks</title>
+                <subtitle/>
+                <track>None</track>
+                <type>plenary</type>
+                <language/>
+                <description/>
+                <abstract>Like regular talks, but shorter! Anything could happen!</abstract>
+                <persons>
+                    
+                    <person>Daisy Leigh Brenecki</person>
+                    
+                    <person>Nic Crouch</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/U8CRTN">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="VHXDSA">
+                <slug/>
+                <date>2026-08-27T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>AI-assisted coding, Python and dbt: taking Chronos live in two days</title>
+                <subtitle/>
+                <track>data-and-ai</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>We needed to produce 25 years of gap-free half-hourly weather data in just two days. The output had to be continuous, reproducible, and ready for production use. We achieved that speed by combining domain knowledge, Python, dbt, and AI-assisted coding, with detailed prompting and a few tight loops of refinement rather than a zero-shot approach. In this talk, we’ll show how we used Python, dbt, and the Chronos-2 time-series foundation model to build a practical weather gap-filling pipeline for variables such as temperature, humidity, and wind speed.
+
+This talk focuses on a practical Python engineering question: when does a foundation model become a pragmatic shortcut rather than just an impressive demo? We’ll compare our Chronos-based workflow with a more traditional approach using correlations with nearby weather stations, explain why dbt was such a strong backbone for reproducibility and maintainability, and show why that mattered for a pipeline that needed to remain understandable and easy to update. We’ll also show that gap filling is different from ordinary forecasting: because a missing window has data on both sides, future approaches could fill forward from the start of the gap, backward from the end, and meet in the middle.</abstract>
+                <persons>
+                    
+                    <person>Jay Stein</person>
+                    
+                    <person>serg</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/VHXDSA">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271300-ballroom3">
+                <slug/>
+                <date>2026-08-27T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 3</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271300-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="JDERLD">
+                <slug/>
+                <date>2026-08-27T15:10:00+10:00</date>
+                <start>15:10:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>When AI Screens for Blindness: Equity Evaluation Using Python</title>
+                <subtitle/>
+                <track>data-and-ai</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>AI-assisted screening tools for diabetic retinopathy (DR) are increasingly 
+being considered for deployment within national health systems. In Aotearoa 
+New Zealand, the diabetic retinal screening programme serves over 200,000 
+people, and AI tools — including THEIA, a system prospectively validated 
+within the NZ programme — are being evaluated for clinical integration. 
+Published clinical trials consistently report strong aggregate diagnostic 
+accuracy. But aggregate performance metrics can obscure something critical: 
+does the tool perform equally well for *everyone*?
+
+This talk presents a simulation-based evaluation framework, built entirely 
+in Python, that interrogates the equity implications of deploying AI 
+screening tools across demographically diverse populations. Māori and Pacific 
+peoples in New Zealand experience higher rates of both diabetes and diabetic 
+retinopathy, greater socioeconomic deprivation, and lower screening attendance 
+than NZ European populations. If an AI tool performs less accurately for 
+these groups — even modestly — deployment at scale could widen existing 
+health disparities rather than close them.
+
+**The Framework**
+
+The framework generates a synthetic cohort of 10,000 patients calibrated to 
+the NZ diabetic screening population, with demographics (ethnicity, age, sex, 
+NZDep deprivation quintile) and true disease status drawn from published 
+epidemiological data. Three AI tool profiles are then simulated: the IDx-DR 
+system (from its pivotal trial and a recent meta-analysis) and the 
+NZ-developed THEIA system. Each tool is evaluated under two scenarios — equal 
+performance across subgroups, and differential performance informed by bias 
+patterns documented in the clinical AI literature.
+
+Performance metrics (sensitivity, specificity, PPV, ROC curves) are 
+disaggregated by ethnicity, area deprivation (NZDep), and their intersection, 
+with statistical testing to identify significant disparities.
+
+All simulation parameters are fully documented with citations in a 
+`config/parameters.yaml` file, making the framework transparent, reproducible, 
+and adaptable. The code is structured as three Jupyter notebooks (cohort 
+generation, diagnostic accuracy evaluation, equity analysis) backed by a 
+clean Python module layer — so anyone can swap in their own AI tool&#39;s 
+performance data and re-run the analysis for their own health system context.
+
+**Key Findings**
+
+Even modest subgroup-level accuracy gaps — easily obscured in aggregate trial 
+reports — translate into meaningfully worse outcomes for already-disadvantaged 
+populations when projected across a national programme. This is not a 
+hypothetical concern. Studies of AI diagnostic tools in chest radiology, 
+ophthalmology, and dermatology have documented precisely this pattern.
+
+**Why Python, Why This Matters**
+
+Python provides all the tools needed to build rigorous equity evaluations: 
+NumPy and Pandas for cohort simulation, SciPy for statistical testing, and 
+Matplotlib/Seaborn for disaggregated visualisation. This talk demonstrates 
+that pre-deployment equity evaluation doesn&#39;t require proprietary software or 
+large clinical datasets — just well-structured Python and publicly available 
+literature.
+
+Attendees will leave with: an understanding of why aggregate AI performance 
+metrics are insufficient for equitable deployment decisions; a mental model 
+for simulation-based pre-deployment evaluation; and an open-source Python 
+framework (MIT licence) they can adapt to their own context.</abstract>
+                <persons>
+                    
+                    <person>Dr Reju Sam John</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/JDERLD">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="YGUJEG">
+                <slug/>
+                <date>2026-08-27T12:30:00+10:00</date>
+                <start>12:30:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>From Pixels to Points: Inferring Archery Scores with Computer Vision</title>
+                <subtitle/>
+                <track>data-and-ai</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Improving in archery often goes beyond simply increasing your score; it also means building consistency, tightening groupings, and recognising patterns such as shots drifting off-centre.  However, tracking the final position of arrows after each shot is a slow, imprecise, and awkward process. 
+
+In this talk, I show how I trained and validated a computer vision pipeline using oriented object detection to infer arrow locations and scores directly from a target image. By deploying this system on a Raspberry Pi, the process becomes simple enough to use during regular practice, while also creating a record of shot placement that can be analysed over time. This makes it possible to look beyond individual scores and start tracking broader patterns in accuracy and consistency.</abstract>
+                <persons>
+                    
+                    <person>Jacob Seiler</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/YGUJEG">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271000-ballroom3">
+                <slug/>
+                <date>2026-08-27T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271000-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271540-ballroom3">
+                <slug/>
+                <date>2026-08-27T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271540-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="TYXRSM">
+                <slug/>
+                <date>2026-08-27T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Please Don&#39;t Put That in a Dict: Better Data Models in Python</title>
+                <subtitle/>
+                <track>data-and-ai</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Dictionaries are one of the first tools Python developers reach for: fast, flexible, and easy to use when building something new. But when do they stop being enough? And when it&#39;s easy to generate dataclasses and classes, how do you know if that structure is actually useful?</abstract>
+                <persons>
+                    
+                    <person>Arshia Sharma</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/TYXRSM">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="3FQZVE">
+                <slug/>
+                <date>2026-08-27T09:00:00+10:00</date>
+                <start>09:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 3</room>
+                <title>Conference welcome &amp; Thursday keynote</title>
+                <subtitle/>
+                <track>None</track>
+                <type>plenary</type>
+                <language/>
+                <description/>
+                <abstract>Welcome to PyCon AU 2026!
+Join us for a short welcome address followed by our first keynote (to be announced).</abstract>
+                <persons>
+                    
+                    <person>Jack Skinner</person>
+                    
+                    <person>Sophie Quinn-Graham</person>
+                    
+                    <person>Nic Crouch</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/3FQZVE">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="7KE7PU">
+                <slug/>
+                <date>2026-08-27T14:35:00+10:00</date>
+                <start>14:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Stop Prompting, Start Composing: Agent Skills in Practice</title>
+                <subtitle/>
+                <track>data-and-ai</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>AI agents are changing how we build software. They have augmented our software engineering workflow and challenged us to practice a new discipline, Agentic Engineering. Central to this emerging discipline is the skill, a natural language markdown file that bundles workflows, tools, and domain knowledge into a new unit of work for defining what an agent can do. Adopted as an open standard across the industry, skills sit above programming languages, not within them. If you&#39;ve ever written a runbook, a playbook, or an SOP, you already understand what a skill encodes. This talk explores what a skill is, how skills compose through context rather than interfaces, and what breaks when your smallest unit of work is no longer deterministic. It is drawn from real experience building an enterprise architect agent, with practical examples in Python.</abstract>
+                <persons>
+                    
+                    <person>Marty Kieliszek</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/7KE7PU">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Lyon">
+            
+            <event id="BREAK-202608271000-lyon">
+                <slug/>
+                <date>2026-08-27T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Lyon</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271000-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271540-lyon">
+                <slug/>
+                <date>2026-08-27T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:45</duration>
+                <room>Lyon</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271540-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608271300-lyon">
+                <slug/>
+                <date>2026-08-27T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Lyon</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271300-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+    </day>
+    
+    <day date="2026-08-28">
+        
+        <room name="Ballroom 1">
+            
+            <event id="BREAK-202608281505-ballroom1">
+                <slug/>
+                <date>2026-08-28T15:05:00+10:00</date>
+                <start>15:05:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281505-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="M9HBCP">
+                <slug/>
+                <date>2026-08-28T13:25:00+10:00</date>
+                <start>13:25:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>The Neurospicy Toolbox: A Guide for Educators</title>
+                <subtitle/>
+                <track>education</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Have you got neurodivergent kids who you’d like to teach coding to, but don’t know where to start? Finding a coding project that kids will enjoy is challenging enough as it is, but finding one that engages neurodivergent kids can be even harder. 
+Let’s look at some strategies for designing coding projects for school aged students, and break down the technical, physical and emotional considerations that help neurodiverse students succeed. There are many tools we can incorporate into lessons to foster growth, and all have different pros and cons. Both the technologies we use and the way we teach are important. 
+By constructing your projects with intention for a neurodiverse audience, it can make them more accessible and entertaining for everyone, and build skills outside of just programming.</abstract>
+                <persons>
+                    
+                    <person>Maddie Mackey</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/M9HBCP">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281225-ballroom1">
+                <slug/>
+                <date>2026-08-28T12:25:00+10:00</date>
+                <start>12:25:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 1</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281225-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="J9UC8X">
+                <slug/>
+                <date>2026-08-28T11:55:00+10:00</date>
+                <start>11:55:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Hash It Out: Teaching Password Security Through Code</title>
+                <subtitle/>
+                <track>education</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>How do you get teenagers to care about what data they share online? How do you teach them how to make a safe password? How do you keep them engaged and maybe even teach them some python along the way?
+
+These were the questions I was asking myself when I created the latest cyber security project for our high-school level workshops and it turns out, after a decade of running python workshops, I might know the answers!
+
+Come along to see how I took a concept that I wanted students to care about, and broke that down into hands-on activities, all designed to get that “aha” moment in the classroom. Not only teaching python but using python to facilitate teaching deeper computer and cyber literacy, by peeking behind the curtain at what bad actors are actually doing, and how you can apply this technique to other topics.</abstract>
+                <persons>
+                    
+                    <person>Alex Penna</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/J9UC8X">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281000-ballroom1">
+                <slug/>
+                <date>2026-08-28T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="QCWMLU">
+                <slug/>
+                <date>2026-08-28T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>The Good, The Bad, and the Ugly – Python in Secondary Education in Queensland</title>
+                <subtitle/>
+                <track>education</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Python has become a standard for many (although not all) secondary schools teaching Digital Technologies in Queensland and Australia more broadly. Yet challenges remain in bridging the gap between technical skills that schools are expected to teach and the expertise that industry requires.</abstract>
+                <persons>
+                    
+                    <person>Matt Collyer</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/QCWMLU">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="HBK7XS">
+                <slug/>
+                <date>2026-08-28T14:35:00+10:00</date>
+                <start>14:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Feed-Forward, Not Feedback: Rethinking Project Based Assessment</title>
+                <subtitle/>
+                <track>education</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>When students can use AI to generate code, explain syntax, and accelerate routine development tasks, the challenge for teachers is no longer just how to assess coding. It is how to keep students genuinely engaged, how to value the design, judgment, communication, and reflection that sit around a software project, and how to structure complex project work so that students can succeed rather than stall at the end. In my dashboarding unit, these pressures came together in a large, project-based subject where students had to build a substantial data product over the semester.
+
+This talk shares how I responded by redesigning the unit around a feed-forward assessment model. Instead of relying mainly on post-submission feedback, I broke the project into authentic stages, replaced lectures before each deadline with draft workshops, built in peer evaluation that assessed the quality of students’ critique rather than their peers’ marks, and used a final showcase to make student work visible to the wider cohort. The result was an assessment design that focused less on what students could produce at the last minute and more on how they developed ideas, responded to feedback, collaborated, and improved over time.
+
+For educators teaching Python, data science, or project-based computing subjects, this offers a practical way to design assessment for an AI-open classroom without falling back on bans or surveillance.</abstract>
+                <persons>
+                    
+                    <person>Stephen Tierney</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/HBK7XS">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="KYA9TU">
+                <slug/>
+                <date>2026-08-28T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Assessment in the age of AI</title>
+                <subtitle/>
+                <track>education</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>With IDEs like VS Code wanting to autocomplete your entire file based on the first line, how on earth do we write assessment that actually tests the skill of our students, rather than the skills of Claude? This talk will explore what is being done in schools and universities across QLD, and offer suggestions for what you can try in your classroom.</abstract>
+                <persons>
+                    
+                    <person>Thea Koutsoukis</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/KYA9TU">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="CGG8LN">
+                <slug/>
+                <date>2026-08-28T11:20:00+10:00</date>
+                <start>11:20:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>How Being Terrified of Code Helped Me Get Girls to Love It</title>
+                <subtitle/>
+                <track>education</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Girls don’t leave STEM once; they leave three times. First, in primary school when “I’m bad at maths” becomes a personality. Second, in high school when they drop senior tech for “something more cool.” Third, in first‑year engineering when the boyish culture and difficulty finally wear them down. I’m a mechatronics engineer who is terrified of coding and still somehow convinces girls to give it a chance. By being openly honest about my fear, connecting code to real hobbies, and normalising failure out loud, I turn anxiety into curiosity - and keep more girls in the room.</abstract>
+                <persons>
+                    
+                    <person>Gwyneth De Guia</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/CGG8LN">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="K3B9LZ">
+                <slug/>
+                <date>2026-08-28T16:10:00+10:00</date>
+                <start>16:10:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>From COBOL to Copilots: Why “No-Code” Never Kills the Coder</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Every few years somebody swears the newest tool to magically avoid needing developers will boot developers out of a job. Yet here we are, still coding, still shipping. Come along for a quick tour from COBOL’s “English you can compile” to today’s LLM powered vibe coding agents and see why each wave of “code without coders” crashed on the same rocks. You’ll leave with a pocketful of history, a nose for hype, and concrete ways to pair AI helpers with your hard-won craft instead of handing the keys over.</abstract>
+                <persons>
+                    
+                    <person>Sam Bishop</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/K3B9LZ">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="8LEEB7">
+                <slug/>
+                <date>2026-08-28T15:35:00+10:00</date>
+                <start>15:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>The 20-Year Port: from PhD project to polished professional Python packaging</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Porting a scientific software library from a proprietary language to Python can potentially increase its user base, but the porting process itself can be tedious and error prone, and therefore cries out for automation, such as the use of AI coding agents. At the same time, scientific software libraries must be accurate, performant, easy to use, and easy to maintain. An over-reliance on automated tools can result in the software porting equivalent of AI slop: code that is unreliable and unmaintainable. The application of Research Software Engineering principles to the porting of scientific code can complement AI coding agents in preserving both academic rigour and thorough testing throughout the porting process, resulting in a reliable, well-tested and well-documented library.
+
+In 2006, my mathematics PhD project resulted in a highly specialized geometrical toolbox that over the years has been used in diverse scientific and engineering applications. In 2013, at a SciPy conference, one of the attendees asked when the toolbox would be ported to Python.
+
+On and off over a period of 20 years, I took that toolbox on a journey from an open source package within a proprietary mathematical software ecosystem to its current state as a polished, production-grade Python library. Firstly, in 2024, motivated by my deepening understanding of the diversity of its applications, I modernized the toolbox itself, including automating the testing of help examples. Next, in 2025, the rapid rise of Large Language Models as coding agents prompted me to undertake the long-delayed Python port. The coding agents did far more than a superficial translation of language syntax to Python. They improved the performance of the code by implementing improved algorithms, they converted the help examples into doctests, they created an automated test harness, they helped me to organize and improve the documentation, and they helped automate the PyPI release process.</abstract>
+                <persons>
+                    
+                    <person>Paul Leopardi</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/8LEEB7">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Ballroom 2">
+            
+            <event id="3LN3GZ">
+                <slug/>
+                <date>2026-08-28T11:20:00+10:00</date>
+                <start>11:20:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Super secret python talk</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>not yet announced</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/3LN3GZ">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281505-ballroom2">
+                <slug/>
+                <date>2026-08-28T15:05:00+10:00</date>
+                <start>15:05:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281505-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="9KBBEQ">
+                <slug/>
+                <date>2026-08-28T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Launching Rockets with Python</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>I&#39;m not joking. In 2025 and 2026 our university rocketry team launched several high-powered 12ft tall competition rockets with a custom Python-based process manager framework that controlled all of their rocket telemetry and ground control systems. We called it the Ground Control Station, or GCS for short. 
+
+I lead the creation of the GCS software to compete at the 2025 International Rocket Engineering Competition (IREC) with the intention of winning the Rocket Telemetry Visualisation Sub-Category. We have our own custom flight computer with it&#39;s own custom firmware and LoRa networking setup. So we build our visualisation system from the ground up for reliability, scaleability and deployability. All in our Python process manager</abstract>
+                <persons>
+                    
+                    <person>Freddy Mcloughlan</person>
+                    
+                    <person>Amber Taylor</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/9KBBEQ">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="8CA7D3">
+                <slug/>
+                <date>2026-08-28T15:35:00+10:00</date>
+                <start>15:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Disentangling formatted strings with T-strings</title>
+                <subtitle/>
+                <track>cybersecurity</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>In October 2025, Python 3.14 was released and with it t-strings, which promise to help python developers write better, and safer python code. While on the surface, t-string share a similar name to f-strings and are instantiated with a similar syntax, the resulting Template type, and the intended usage and audience there of is not always immediately understood. This talk explores what they are, how they work, who they are for and how they are core to a python philosophy of using constructs and guardrails to helping python developers write safer code.</abstract>
+                <persons>
+                    
+                    <person>Simon Merrick</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/8CA7D3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281000-ballroom2">
+                <slug/>
+                <date>2026-08-28T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="JK7XEF">
+                <slug/>
+                <date>2026-08-28T14:35:00+10:00</date>
+                <start>14:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Why should I write software well?</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Balancing short-term and long-term objectives during software development forms an underpinning tension which often exhibits during code reviews, sprint planning and prioritisation.
+
+Audiences should attend to see how concepts like modularity, consistent design language and the use of software patterns can be seen as an expression of managing cost and complexity over time, and how this perspective can help bring clarity to processes such as code reviews, sprint planning, prioritisation and effort estimation.
+
+This talk comprises an exploration of how to discuss trade-offs during software development, based on technical examples.</abstract>
+                <persons>
+                    
+                    <person>Tennessee Leeuwenburg</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/JK7XEF">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="T3ALAS">
+                <slug/>
+                <date>2026-08-28T16:10:00+10:00</date>
+                <start>16:10:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>From Trauma ICU to InfoSec: A Nurse&#39;s Pivot into Cybersecurity</title>
+                <subtitle/>
+                <track>cybersecurity</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>What does a trauma ICU nurse have in common with an Information Security Officer? More than you&#39;d think. This talk charts one nurse&#39;s unconventional path into cybersecurity, and the moment she realised the skills she&#39;d spent years building were exactly what the industry needed. Beyond the personal story, it makes the case that the cybersecurity skills shortage won&#39;t be solved by fishing in the same pond. The people we need are already out there: in hospitals, in classrooms, in labs. This talk is for leaders who want teams that think differently, for hiring managers ready to consider cross-sector skill sets, and for anyone standing at a career crossroads wondering if security is even for them.</abstract>
+                <persons>
+                    
+                    <person>Sam Marsh</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/T3ALAS">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="X9MRPY">
+                <slug/>
+                <date>2026-08-28T11:55:00+10:00</date>
+                <start>11:55:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Experiments in Engineering without reading code</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>At the start of 2026 I decided I wanted to build my own Coding Agent. The goal was to build the tool that would let me do the work of a Software Engineer, but without reading the code. It&#39;s a Python codebase that I&#39;ve never read, and I never intend to read. By building it I&#39;ve learned some things about doing serious engineering, without reading code.
+
+With AI we&#39;re writing more code than ever, and more and more non-Engineers are involved in building with code. It is increasingly unsustainable for a human to read and review every line of code. Even if we do human review, the volume is so large and the context is totally gone - we can&#39;t expect them to do a good job. So how can we feel safe? What techniques do we need to apply? What technologies do we build? How do we Engineer in a world where we no longer read code?</abstract>
+                <persons>
+                    
+                    <person>Ben Taylor</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/X9MRPY">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="QUZ9TS">
+                <slug/>
+                <date>2026-08-28T13:25:00+10:00</date>
+                <start>13:25:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Breaking the PR Review Bottleneck</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Pull request reviews are often the single biggest bottleneck in software delivery. What takes minutes to write can sit for days waiting for review, killing velocity and frustrating teams.
+
+This talk explores why PR queues stall, what we can learn from massive open source projects that have solved this at scale, and the practical techniques, from automation with Python tooling to team process shifts, that can dramatically reduce your time to merge.</abstract>
+                <persons>
+                    
+                    <person>Pavel Oborin</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/QUZ9TS">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="J9DDEA">
+                <slug/>
+                <date>2026-08-28T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Research Software Stories: Four Years of Lessons in Sustainable Science</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Python powers the world’s most critical research, yet the software behind the science often remains hidden and under supported. This talk distils four years of insights from Research Software Engineering Stories to explore the real world motivators of the people building Australia’s most impactful research tools. Attendees will be motivated to transition from fragile scripts to sustainable and citable reusable software infrastructure that endure long after the code is working for a specific use case.</abstract>
+                <persons>
+                    
+                    <person>Paula Andrea Martinez</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/J9DDEA">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281225-ballroom2">
+                <slug/>
+                <date>2026-08-28T12:25:00+10:00</date>
+                <start>12:25:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 2</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281225-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Ballroom 3">
+            
+            <event id="NF9ZDV">
+                <slug/>
+                <date>2026-08-28T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>40,000 CVEs and Counting: What 60 Years of AppSec Tells Us About 2025</title>
+                <subtitle/>
+                <track>cybersecurity</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Application security is not getting easier. Despite better tools, more CVEs, and widespread “shift-left” adoption, vulnerabilities continue to scale with system complexity.
+
+This talk distils 60 years of application security history—from early networked systems to modern cloud-native and AI-driven stacks—and connects it to what Python developers are facing today. Using real incidents, ecosystem data, and patterns observed across decades, the session explains why AppSec keeps failing in familiar ways and where the industry is heading next.
+
+The goal is understanding which problems are structural, which are self-inflicted, and which approaches are finally worth investing in.</abstract>
+                <persons>
+                    
+                    <person>Pedram Hayati</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/NF9ZDV">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="GHRSMW">
+                <slug/>
+                <date>2026-08-28T11:55:00+10:00</date>
+                <start>11:55:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Not yet disclosed</title>
+                <subtitle/>
+                <track>cybersecurity</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Not telling</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/GHRSMW">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281505-ballroom3">
+                <slug/>
+                <date>2026-08-28T15:05:00+10:00</date>
+                <start>15:05:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281505-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="RQR97D">
+                <slug/>
+                <date>2026-08-28T13:25:00+10:00</date>
+                <start>13:25:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Vibe-Check Your Vibe Code: Surviving the Era of Agentic Open Source Dependencies</title>
+                <subtitle/>
+                <track>cybersecurity</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>In the good ol&#39; days, we worried about individual maintainers becoming overburdened, or ripple effects from surprise deletions in dependency graphs. Now, with the power of AI, we get to worry about these things on a much bigger scale: on repeat, across entire ecosystems!
+
+As AI agents outpace humans in code output, we’re entering a delightful time where vibe-coded pull requests are checked in because they &#34;look right,&#34; even if they’ve silently re-introduced classes of security vulnerabilities we thought we&#39;d eliminated.
+
+In this talk, we’ll look at some delicious data from [suggested redaction during CFP review of the dataset] to see just how big the problem is (so far). We’ll explore AI slopsquatting, DDOSing maintainers through vulnerability reports (valid or superfluous), and whether &#34;living at HEAD&#34; (with its security risks) might be our best security strategy.
+
+We’ll also talk: private forks, dynamic cooldowns, and whether or not that one legend in Nebraska has already left the chat. Come for the existential dread; stay for the practical tips on not letting your dependency graph become (more of) a dumpster fire.</abstract>
+                <persons>
+                    
+                    <person>Nicky Ringland</person>
+                    
+                    <person>Ash</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/RQR97D">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="PZTFZF">
+                <slug/>
+                <date>2026-08-28T14:35:00+10:00</date>
+                <start>14:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Privacy data encryption &amp; deletion while preserving analytical integrity</title>
+                <subtitle/>
+                <track>cybersecurity</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Privacy regulations around the world impose strict requirements on how organisations handle personal data (such as Australia&#39;s Privacy Act, the EU&#39;s GDPR, US&#39;s HIPAA &amp; CCPA, etc). Among the hardest to implement in a data pipeline are protecting sensitive data from breaches, and erasing an individual&#39;s personal data on request.Finding and deleting every copy of sensitive data is cumbersome, error-prone, and breaks referential integrity. Meanwhile, sensitive data sitting in plaintext is exposed the moment a breach occurs.</abstract>
+                <persons>
+                    
+                    <person>XiaoHan Li</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/PZTFZF">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281000-ballroom3">
+                <slug/>
+                <date>2026-08-28T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281225-ballroom3">
+                <slug/>
+                <date>2026-08-28T12:25:00+10:00</date>
+                <start>12:25:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 3</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281225-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="KRR377">
+                <slug/>
+                <date>2026-08-28T15:35:00+10:00</date>
+                <start>15:35:00</start>
+                <duration>02:00</duration>
+                <room>Ballroom 3</room>
+                <title>Student Showcase</title>
+                <subtitle/>
+                <track>education</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>We&#39;re thrilled to announce that PyConAU&#39;s Education Track will once again feature a dedicated Student Showcase, giving Australian high school students the chance to present their Python projects on the conference stage.</abstract>
+                <persons>
+                    
+                    <person>Amanda J Hogan</person>
+                    
+                    <person>Nicky Ringland</person>
+                    
+                    <person>Alison Wong</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/KRR377">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="KFJLUE">
+                <slug/>
+                <date>2026-08-28T11:20:00+10:00</date>
+                <start>11:20:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Can I Trust You? Service-to-Service Identity with SPIFFE</title>
+                <subtitle/>
+                <track>cybersecurity</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Sam built a great gateway. Users are authenticated, requests are validated, the front door is solid. Inside the cluster, services trust each other — because they&#39;re inside the cluster.
+
+Then Omen shows up.
+
+This talk follows Sam the SRE through a nightly battle against Omen the Evil Hacker — and how SPIFFE and SPIRE finally give every Python service a cryptographic identity it can prove, not just claim.</abstract>
+                <persons>
+                    
+                    <person>Oliver Bassett</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/KFJLUE">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="K3M8AE">
+                <slug/>
+                <date>2026-08-28T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Authentication for humans, why passkeys finally make sense.</title>
+                <subtitle/>
+                <track>cybersecurity</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Authentication continues to fail not because users ignore security advice, but because our systems rely on humans managing reusable secrets. Despite password managers and multi-factor authentication, phishing and credential theft remain the most common causes of account compromise.
+
+This talk examines why password-based authentication fails at a structural level. We will explore the assumptions passwords make about human behaviour, why those assumptions break down in practice, and why layered controls like MFA often add friction without removing core failure modes.
+
+We will then introduce passkeys as a human-centred redesign of authentication. We will explain what passkeys are, how they work using public-key cryptography, and why removing shared secrets improves security and usability at the same time.
+
+Using two real-world examples, we will show how passkeys succeed where passwords struggle. We will examine phishing attacks that bypass traditional MFA, and explain how passkeys eliminate the need for users to identify real login pages. We will also look at account compromise caused by password reuse, and how passkeys prevent cross-site impact by design.
+
+Attendees will leave with a clear mental model of how passkeys work, understand the role of biometrics as a local unlock mechanism, and gain practical guidance on how individuals and developers can start using passkeys today through modern, open web standards.</abstract>
+                <persons>
+                    
+                    <person>George Coldham</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/K3M8AE">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="VQD3SG">
+                <slug/>
+                <date>2026-08-28T09:00:00+10:00</date>
+                <start>09:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 3</room>
+                <title>Conference welcome &amp; Friday keynote</title>
+                <subtitle/>
+                <track>None</track>
+                <type>plenary</type>
+                <language/>
+                <description/>
+                <abstract>Welcome to PyCon AU 2026!
+Join us for a short welcome address followed by our second keynote (to be announced).</abstract>
+                <persons>
+                    
+                    <person>Jack Skinner</person>
+                    
+                    <person>Sophie Quinn-Graham</person>
+                    
+                    <person>Nic Crouch</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/VQD3SG">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Lyon">
+            
+            <event id="BREAK-202608281505-lyon">
+                <slug/>
+                <date>2026-08-28T15:05:00+10:00</date>
+                <start>15:05:00</start>
+                <duration>00:30</duration>
+                <room>Lyon</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281505-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281225-lyon">
+                <slug/>
+                <date>2026-08-28T12:25:00+10:00</date>
+                <start>12:25:00</start>
+                <duration>01:00</duration>
+                <room>Lyon</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281225-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281000-lyon">
+                <slug/>
+                <date>2026-08-28T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Lyon</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+    </day>
+    
+    <day date="2026-08-29">
+        
+        <room name="Ballroom 1">
+            
+            <event id="ZJET3E">
+                <slug/>
+                <date>2026-08-29T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Gerrymandering Australia</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>If Australia&#39;s electoral districts were drawn just a bit differently (or by a lot), how much would that change election results?</abstract>
+                <persons>
+                    
+                    <person>Rachel Bunder</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/ZJET3E">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="QNHZNS">
+                <slug/>
+                <date>2026-08-29T15:10:00+10:00</date>
+                <start>15:10:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>From Jupyter Notebook to Eruption: Getting Geohazard Research into Production</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Geoscientists love Python and Jupyter Notebooks for prototyping their ideas. What they often don&#39;t like is dealing with containers, CI/CD, version control and long-term support.  Whether you are just into volcano photos from New Zealand or received a notebook called final_model_v3_ACTUAL_FINAL.ipynb and were asked to &#34;just put it on the server&#34; come along to see how Earth Sciences New Zealand bridges the gap between research and production.</abstract>
+                <persons>
+                    
+                    <person>Yannik</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/QNHZNS">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="CWFAQP">
+                <slug/>
+                <date>2026-08-29T11:20:00+10:00</date>
+                <start>11:20:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Unlocking growth, collaboration and impact through developer communities</title>
+                <subtitle/>
+                <track>devrel</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Developer communities are more than just places to ask questions or share code. They are platforms where careers grow, ideas spark, and real impact happens. In this talk, I’ll draw on my experience building and contributing to global developer programs, including initiatives like GitHub Stars, Twilio Champions, and more to explore what makes a community truly thrive.
+
+We’ll dive into how communities across platforms like Discord, Reddit, and Twitch create opportunities for learning, visibility, and connection, whether you’re just starting out or looking to level up. I’ll share practical ways developers can get involved, contribute meaningfully, and turn participation into career growth.
+
+We’ll also unpack what separates a good community from a great one, from fostering psychological safety to encouraging collaboration and recognising contributions. Whether you’re a developer, advocate, or community builder, you’ll walk away with actionable insights on how to find your people, grow your presence, and help shape communities that give back as much as they give you.</abstract>
+                <persons>
+                    
+                    <person>Michelle &#34;MishManners&#34; Duke</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/CWFAQP">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="FCLJP9">
+                <slug/>
+                <date>2026-08-29T14:35:00+10:00</date>
+                <start>14:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>How to make a blob breathe like a human</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Breathing is something we all do, tens of thousands of times a day, without even thinking. Should be pretty straightforward to animate, right?
+To answer that question, I made an interactive breathing simulator - a blob that &#39;breathes&#39; like a human - using the Python Arcade library and techniques for modeling human breathing dynamics based on the scientific research.
+Turns out there&#39;s a lot more to what keeps us alive than first meets the eye.</abstract>
+                <persons>
+                    
+                    <person>Peta Muir</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/FCLJP9">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="S9AR8C">
+                <slug/>
+                <date>2026-08-29T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>DevRelling in the age of GenAI</title>
+                <subtitle/>
+                <track>devrel</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>GenAI, aka LLMs, have thrown a monkey wrench into the role of DevRel. What does it mean to create educational materials when someone can just ask their favourite LLM to create a personalised educational adventure for them? This talk will investigate options for creating interactive coding environments that are useful for developers aiming to learn a new technique, technology, or library.</abstract>
+                <persons>
+                    
+                    <person>Brett Morgan</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/S9AR8C">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291300-ballroom1">
+                <slug/>
+                <date>2026-08-29T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 1</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291300-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291540-ballroom1">
+                <slug/>
+                <date>2026-08-29T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291540-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="ASSXNF">
+                <slug/>
+                <date>2026-08-29T11:55:00+10:00</date>
+                <start>11:55:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>Hands-on learning in the age of AI: are developer workshops still relevant</title>
+                <subtitle/>
+                <track>devrel</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>AI assistants can answer most technical questions in seconds now. So why would a developer sit through a guided workshop? Because reading an answer and building muscle memory are fundamentally different things. This talk looks at how to design interactive, hands-on developer education that stays relevant and engaging in a world where &#34;just ask the AI&#34; is the default. Drawing on experience building an open source training platform and creating and delivering workshops on it, the talk gets into the practical details of structuring workshop content, giving learners real environments to work in, keeping them engaged, and using AI behind the scenes to create that content faster without sacrificing the human judgement that makes it more than just AI slop.</abstract>
+                <persons>
+                    
+                    <person>Graham Dumpleton</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/ASSXNF">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291000-ballroom1">
+                <slug/>
+                <date>2026-08-29T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291000-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="MDSJTA">
+                <slug/>
+                <date>2026-08-29T12:30:00+10:00</date>
+                <start>12:30:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 1</room>
+                <title>When the demo has to land</title>
+                <subtitle/>
+                <track>devrel</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Tech demos can make or break a presentation, and sometimes even a company. When they&#39;re on a large stage and compressed into a handful of minutes, getting them right is harder than it looks. Especially when the features are coming in hot.
+
+In this talk, I&#39;ll share what I&#39;ve learned building dozens of demos for Microsoft and GitHub keynotes, large product launches, and even a TED talk.
+
+We’ll look at how to turn a feature-parade into a coherent narrative, when and how to use smoke and mirrors without losing trust, and how to make a demo land with very different audiences. We&#39;ll also cover how to fit a surprising amount into a short window, how to stay flexible when things change at the last minute, and how to balance risk and impact when failure isn&#39;t an option.</abstract>
+                <persons>
+                    
+                    <person>Damian Brady</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/MDSJTA">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Ballroom 2">
+            
+            <event id="ZYSPB3">
+                <slug/>
+                <date>2026-08-29T15:10:00+10:00</date>
+                <start>15:10:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Switching from Sphinx to Markdown</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>For most of Python&#39;s history, the predominant option for documentation has been Sphinx and reStructuredText. However, a majority of other ecosystems have adopted Markdown. There are historical reasons for reStructuredText being a better choice, however, Markdown is now up to the task.
+
+In this talk, you&#39;ll learn why Markdown is a better option for your project&#39;s documentation. You&#39;ll be introduced to MkDocs, a static site generator built around Markdown content, and a series of associated plugins and extensions that you need to bring Sphinx-like capabilities to Markdown documentation. You&#39;ll also hear a case study of migrating multiple large, existing Sphinx-based documentation bases to Markdown, including the tools used for automating the process. You&#39;ll learn how you can engage the community to assist with the effort. Finally, you&#39;ll learn why it&#39;s worth the effort to make a change of this magnitude.</abstract>
+                <persons>
+                    
+                    <person>Kattni</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/ZYSPB3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291000-ballroom2">
+                <slug/>
+                <date>2026-08-29T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291000-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291540-ballroom2">
+                <slug/>
+                <date>2026-08-29T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291540-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="ZPGW8C">
+                <slug/>
+                <date>2026-08-29T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Your Research Code Works.. Until It Doesn’t: Rethinking Reproducibility</title>
+                <subtitle/>
+                <track>research-software-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>_You’ve shared your code. You’ve shared your data.…so why can’t anyone reproduce your results?_
+
+In real-world research projects, reproducibility often breaks in subtle ways, missing dependencies, unclear workflows, undocumented steps, or environments that no longer work. These issues don’t appear all at once; they emerge gradually as research evolves. In this talk, I introduce the idea of Reproducibility Debt as a way to understand how these issues accumulate over time. Importantly, this debt is not simply the result of poor practice, it reflects real-world constraints such as time pressure, experimentation, and shifting project goals. While reproducibility is often framed as a technical problem, solved through tools like Docker, Conda, or better documentation, it is in reality a multi-faceted challenge shaped by the interaction between technical, organisational, and human factors. Rather than focusing on technical fixes alone, this talk takes a socio-technical perspective: how decisions, trade-offs, and team practices influence reproducibility outcomes. I will show how reproducibility can be approached as something to understand, assess, and manage throughout a project, rather than something to fix at the end.
+
+The talk introduces a lightweight way of identifying and tracking reproducibility risks based on a structured view of common contributing factors. If you have ever struggled to rerun your own code, or someone else’s, this talk offers a different way to think about why, and what to do about it.</abstract>
+                <persons>
+                    
+                    <person>Zara Hassan</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/ZPGW8C">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="TYGBZJ">
+                <slug/>
+                <date>2026-08-29T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Secret snek business</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Not yet published</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/TYGBZJ">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291300-ballroom2">
+                <slug/>
+                <date>2026-08-29T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 2</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291300-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="A3XLCE">
+                <slug/>
+                <date>2026-08-29T11:20:00+10:00</date>
+                <start>11:20:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Things I don’t worry about as NumPy does them for me</title>
+                <subtitle/>
+                <track>research-software-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>I regularly enjoy performance that I absolutely did not earn. That’s because NumPy quietly handles an alarming number of hard problems on my behalf. In this talk, we’ll pop the hood on NumPy and look at what it’s actually doing to make Python fast. We’ll even glance at the source code, gently, and without expecting anyone to be an expert in C. 
+
+This isn’t a talk about becoming a NumPy wizard or writing “clever” code. It’s about building a better mental model of what NumPy already does for us, so we can stop accidentally getting in its way and continue taking credit for performance we mostly didn’t implement ourselves.</abstract>
+                <persons>
+                    
+                    <person>Kai Striega</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/A3XLCE">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="8PXFQM">
+                <slug/>
+                <date>2026-08-29T12:30:00+10:00</date>
+                <start>12:30:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Why and How to Cite Software</title>
+                <subtitle/>
+                <track>research-software-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Software is widely used and produced in the course of research. Yet, published works (e.g. journal papers and conference posters) do not always cite the software that was essential for the research. Citing software has numerous benefits, including facilitating the reproducibility and transparency of research, as well as providing attribution and credit for the developers. This talk will discuss the benefits of citing software, how to cite software and practical suggestions for how to make your software easier for others to cite.</abstract>
+                <persons>
+                    
+                    <person>Stephanie Chong</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/8PXFQM">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="NF98VJ">
+                <slug/>
+                <date>2026-08-29T11:55:00+10:00</date>
+                <start>11:55:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Optimizing Scientific Python with C++, CUDA, and Serverless Compute</title>
+                <subtitle/>
+                <track>research-software-engineering</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Moving computationally intensive scientific algorithms from desktop applications to cloud-based services presents unique challenges: How do you maintain performance when your code runs on ephemeral serverless infrastructure? How do you process datasets with 40 million points when Lambda functions have memory limits? 
+
+   This talk shares our journey of migrating geological algorithms to a modern Python-based cloud platform. We&#39;ll explore the performance optimization techniques that made this possible, achieving 3–10× speedups through profiling-driven optimization across Python, C++, SIMD, GPU acceleration, and cloud-native batch processing. 
+
+   This is not a talk about micro-optimizations or clever tricks. It&#39;s about building a sustainable performance engineering practice: measure first, optimize second, and automate the guardrails that prevent regression. Whether you&#39;re building ML pipelines, scientific simulations, or data processing systems, these principles will help you achieve high performance without sacrificing maintainability. 
+
+After this talk, you will learn how to: 
+
+- Decide when to optimize in Python vs. when to reach for C++ 
+- Use profiling tools to identify real bottlenecks—not assumed ones 
+- Apply quality guardrails that catch bugs and prevent performance regressions 
+- Design compute workloads for cloud-native horizontal scaling</abstract>
+                <persons>
+                    
+                    <person>Alex Zinovev</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/NF98VJ">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="9AK3WS">
+                <slug/>
+                <date>2026-08-29T14:35:00+10:00</date>
+                <start>14:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 2</room>
+                <title>Is This Actually Getting Better? A Three-Layer Approach to Measuring AI Products</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Many teams building AI products focus on parsing new context and editing prompts, without knowing if things are improving. They then learn that even a perfect model won&#39;t drive success if the product isn&#39;t easy to use, or people abandon it after one attempt. Getting the model right is necessary but on its own isn&#39;t sufficient.
+
+This talk is about the measurement gap between a model that performs well in offline evaluation and an AI product that actually benefits users. Using a real-world case study, I&#39;ll walk through how we built three layers of measurement that gave us genuine confidence in product decisions and shaped team priorities. 
+
+These three layers - offline model evaluation, online usage metrics, and qualitative user feedback - don&#39;t always agree. I&#39;ll share why human judgement is essential to make key decisions when navigating conflicting signals, and how to do this with confidence.
+
+If you&#39;re building AI products and can&#39;t answer &#34;is this actually getting better?&#34; - this talk is for you.</abstract>
+                <persons>
+                    
+                    <person>Wesley Volz</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/9AK3WS">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Ballroom 3">
+            
+            <event id="S9CGAD">
+                <slug/>
+                <date>2026-08-29T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>from where?!? import what?!?</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>`import re`. `from pathlib import Path`. Python&#39;s import system is easy to take for granted, and most of the time we don&#39;t need to think about how the import statements we write actually work. Sometimes, however, things do go wrong, and knowing where to look for more information can mean the difference between scratching our heads in bafflement and quickly solving whatever problem we&#39;re facing.</abstract>
+                <persons>
+                    
+                    <person>Alyssa Coghlan</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/S9CGAD">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291000-ballroom3">
+                <slug/>
+                <date>2026-08-29T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291000-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="9PXVYP">
+                <slug/>
+                <date>2026-08-29T09:00:00+10:00</date>
+                <start>09:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 3</room>
+                <title>Conference welcome &amp; Saturday keynote</title>
+                <subtitle/>
+                <track>None</track>
+                <type>plenary</type>
+                <language/>
+                <description/>
+                <abstract>Welcome to PyCon AU 2026!
+Join us for a short welcome address followed by our third keynote (to be announced).</abstract>
+                <persons>
+                    
+                    <person>Jack Skinner</person>
+                    
+                    <person>Sophie Quinn-Graham</person>
+                    
+                    <person>Nic Crouch</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/9PXVYP">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="CPWUE3">
+                <slug/>
+                <date>2026-08-29T15:10:00+10:00</date>
+                <start>15:10:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Rise of the Machines, Rise of the Workers</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>The fourth wave of the industrial revolution has been seen by many as a very bad idea. Fortunately we’ll soon all be replaced by sentient machines ruled by tech oligarchs. 
+
+Don&#39;t fear, there&#39;s some compelling parallels and lessons from good old fashioned organised labour!</abstract>
+                <persons>
+                    
+                    <person>jonah</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/CPWUE3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="Q7LCGQ">
+                <slug/>
+                <date>2026-08-29T11:55:00+10:00</date>
+                <start>11:55:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Is storing files in Slack emojis a bad idea? Maybe. Let’s do it anyway!</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>_Do you feel that hard drives and USBs aren’t keeping pace with your organisation’s &#34;AI-first dynamic cloud-based SaaS B2B&#34; technology strategy?_ 
+
+Today, I present a novel (and potentially ill-advised) alternative: a file-system that uses Slack Emojis as a storage device. We&#39;ll dive into how file systems work, how you can use Python to turn Slack Emojis into infinite free file storage, and maybe find out if this was secretly a terrible idea all along.</abstract>
+                <persons>
+                    
+                    <person>Ashley Lamont</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/Q7LCGQ">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291300-ballroom3">
+                <slug/>
+                <date>2026-08-29T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 3</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291300-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291540-ballroom3">
+                <slug/>
+                <date>2026-08-29T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291540-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="TGQGWT">
+                <slug/>
+                <date>2026-08-29T17:15:00+10:00</date>
+                <start>17:15:00</start>
+                <duration>00:15</duration>
+                <room>Ballroom 3</room>
+                <title>Closing address</title>
+                <subtitle/>
+                <track>None</track>
+                <type>plenary</type>
+                <language/>
+                <description/>
+                <abstract>We conclude PyCon AU 2026 together for closing remarks as we reflect on what was, and look forward to what will be (sprints!)</abstract>
+                <persons>
+                    
+                    <person>Jack Skinner</person>
+                    
+                    <person>Nic Crouch</person>
+                    
+                    <person>Sophie Quinn-Graham</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/TGQGWT">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="AVCYHU">
+                <slug/>
+                <date>2026-08-29T12:30:00+10:00</date>
+                <start>12:30:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>How to give your Python code to someone else</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>You&#39;ve written some Python code. It works great on your machine. Now you want someone else to use that code. How do you deliver your Python code to someone else so that they can run it? And how do you do that if the person who needs to use your code isn&#39;t a Python user themselves?
+
+In this talk, you&#39;ll learn the options you have for delivering your code to someone else. You&#39;ll learn what is involved in configuring a project so that someone else can use it, and when you might want to consider bundling your code as a standalone application. You&#39;ll get an overview of some of the tools that can be used to produce a standalone application, and a detailed look at one of those options - Briefcase. Finally, you&#39;ll be introduced some of the possibly unexpected benefits of bundling your code as a standalone application.</abstract>
+                <persons>
+                    
+                    <person>Russell Keith-Magee</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/AVCYHU">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="97G398">
+                <slug/>
+                <date>2026-08-29T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Knocking On A Process’s Door: Introspecting Live Python Processes</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>When dealing with a misbehaving Python program, classic strategies like adding piles of print statements can be unsatisfying. Fortunately, Python gives us many ways of &#34;looking inside&#34; a running Python process, getting very rich information instantly.
+
+We will look at how we can introspect live Python processes, uncovering what a program is doing, and why it’s doing it. We will also cover pragmatic tips on how to tailor these tools for your own problem’s needs, including when restarting your process isn’t an option!</abstract>
+                <persons>
+                    
+                    <person>Raphael Gaschignard</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/97G398">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="VSVXTJ">
+                <slug/>
+                <date>2026-08-29T14:35:00+10:00</date>
+                <start>14:35:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Cryptic crosswords, Code golf and Learning the rules of a language</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>_Golf lessons beginning in month six for Tiger Woods (6)_
+Code golf is terrible programming practice AND no one would want to read text written the same way as cryptic crossword clues. Neither makes any sense! But you can learn from both and they tickle one&#39;s brain in a way that puzzles often do.
+
+The benefit of both Cryptic crossword clues and code golf is that they are motivating ways to learn the rules of a thing. In Cryptic crosswords you essentially learn the rules of cryptic crosswords while also learning a way to look at the English language at its most flexible. Tiger Woods is the name of a golfer but without the capitalisation it can also be used indicate the habitat of a tiger... not normal woods, but the type of woods in which you&#39;d find a tiger!
+
+Likewise code golf can be a puzzle that helps you to learn the tricks of a language. Do you understand the parsing rules of white space? You will when you want to remove one more character. Do you use the walrus operator? It can save you a whole line!  Come along and learn a bit about code golf and a bit about cryptic crosswords and probably get addicted to one or the other.
+
+(The answer was _JUNGLE_ by the way)</abstract>
+                <persons>
+                    
+                    <person>Amanda J Hogan</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/VSVXTJ">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="PKSEBP">
+                <slug/>
+                <date>2026-08-29T16:25:00+10:00</date>
+                <start>16:25:00</start>
+                <duration>00:50</duration>
+                <room>Ballroom 3</room>
+                <title>Saturday lightning talks</title>
+                <subtitle/>
+                <track>None</track>
+                <type>plenary</type>
+                <language/>
+                <description/>
+                <abstract>Like regular talks, but shorter! Anything could happen!</abstract>
+                <persons>
+                    
+                    <person>Nic Crouch</person>
+                    
+                    <person>Daisy Leigh Brenecki</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/PKSEBP">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="HZUCVL">
+                <slug/>
+                <date>2026-08-29T11:20:00+10:00</date>
+                <start>11:20:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>The Virtues of Being Lazy</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>_The virtue of being a lazy programmer, understanding lazy evaluation, and understanding lazy imports (3.15)_
+
+Your boss wants your program to &#34;run faster&#34;. But performance can be a tricky thing.
+Sometimes we can make a choice of _when_ the program will be slow.
+This talk will explore the &#34;virtue&#34; of laziness with regards to programmer approach, and lazy evaluation (with generators and `yield`).
+But mainly the talk will focus on the new 3.15 keyword `lazy` and how it can affect module loading times.</abstract>
+                <persons>
+                    
+                    <person>Peter Lovett</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/HZUCVL">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+        <room name="Lyon">
+            
+            <event id="AJQASH">
+                <slug/>
+                <date>2026-08-29T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>01:40</duration>
+                <room>Lyon</room>
+                <title>DevRel Unconference</title>
+                <subtitle/>
+                <track>devrel</track>
+                <type>other</type>
+                <language/>
+                <description/>
+                <abstract>We invite any conference attendee to this session. You do not need to have a job title associated to DevRel. Developer Relations is about the developer community of those who use technology and products, so please join us in discussions around this subject.</abstract>
+                <persons>
+                    
+                    <person>Katie McLaughlin</person>
+                    
+                    <person>Gabi Amaral</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/AJQASH">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291540-lyon">
+                <slug/>
+                <date>2026-08-29T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:45</duration>
+                <room>Lyon</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291540-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608291300-lyon">
+                <slug/>
+                <date>2026-08-29T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Lyon</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291300-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+        </room>
+        
+    </day>
+    
+</schedule>
