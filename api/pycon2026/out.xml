@@ -83,6 +83,8 @@
                 <abstract>If you have a Python program, and you want to display information to the user that is more than text, you&#39;re going to need something more complex than a script with `print()` and `input()` calls. You could build a website - but is a web browser your best option? Can you write a native GUI application using Python? And can you use the same GUI on your laptop *and* your phone? Find out in this hands-on workshop, where you&#39;ll be introduced to the BeeWare suite of tools for building and deploying GUI apps.</abstract>
                 <persons>
                     
+                    <person>Russell Keith-Magee</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/H33RW8">
@@ -142,6 +144,8 @@
 
 The speaker has spent 8 years as an SRE, DBRE and Support Engineer working with major New Zealand and international companies, responding to P1 incidents that affected millions of people. She has also spent 20+ years as an amateur trainer of horses.</abstract>
                 <persons>
+                    
+                    <person>Zoe</person>
                     
                 </persons>
                 <links>
@@ -218,6 +222,8 @@ The speaker has spent 8 years as an SRE, DBRE and Support Engineer working with 
                 <abstract>SRE is all about simplicity. So why do so many of us have a copy of The Google Book sitting on our desk? So much of what we build seeks to emulate companies with millions (if not billions) of customers, while we have neither the scale to justify such effort, nor the runway to still be around when we’re finished. This talk asks - does my medium-sized scale up need Chaos Engineering, circuit breakers, and a 10 tier severity matrix… or does it need a spreadsheet?</abstract>
                 <persons>
                     
+                    <person>Shaun O&#39;Keefe</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/V9UCGA">
@@ -242,6 +248,8 @@ The speaker has spent 8 years as an SRE, DBRE and Support Engineer working with 
                 <description/>
                 <abstract>Before the advent of Cloud Computing, owning all your servers and keeping them in a server room or a leased datacenter was the norm if not the only game in town. But despite The Cloud having turned into The Hyperscalers, owning your platform from the switch plane on up is still available... and it rocks!</abstract>
                 <persons>
+                    
+                    <person>Luke</person>
                     
                 </persons>
                 <links>
@@ -303,6 +311,8 @@ We&#39;ll explore:
 Leave knowing exactly where to start instrumenting your own services—and why you should, before 2pm strikes your system.</abstract>
                 <persons>
                     
+                    <person>David Bell</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/7GHUBT">
@@ -329,6 +339,8 @@ Leave knowing exactly where to start instrumenting your own services—and why y
 This talk introduces Kubernetes as LEGO: building a real platform one block at a time, starting from raw primitives, layering Helm and Kustomize where they genuinely earn their place, and finally writing a custom operator in plain Python using kopf.
 At each step, we ask: Does this next block solve a real problem, or create a new one? You&#39;ll leave with a composable mental model and a sharper instinct for when to stop.</abstract>
                 <persons>
+                    
+                    <person>Dipendra Paudel</person>
                     
                 </persons>
                 <links>
@@ -385,6 +397,8 @@ The aviation industry has spent decades operating safely in environments where n
 
 In this talk, I’ll draw on those ideas and apply them to platform engineering, looking at how to recognise when to commit to a change and when it’s safer to abort and try again.</abstract>
                 <persons>
+                    
+                    <person>Chelsea Finnie</person>
                     
                 </persons>
                 <links>
@@ -467,6 +481,8 @@ In this talk, I’ll draw on those ideas and apply them to platform engineering,
 But obviously not everyone has the resources available for this kind of setup. So what can you do instead? I&#39;m going to talk you through a range of tools and processes that we use to improve the accessibility of our products, what each does well, where they fall short, and what they cost to implement. You can then use this information to figure out which solutions best fit your particular situation, and how you can get the best bang for your accessibility buck.</abstract>
                 <persons>
                     
+                    <person>Erin Zimmer</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/NGF8XQ">
@@ -500,6 +516,8 @@ This talk digs into why problems, friction, and &#34;inefficiency&#34; are our s
 (With apologies and thanks to Allie Brosh for the title.)</abstract>
                 <persons>
                     
+                    <person>Lilly Ryan</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/KLTVGF">
@@ -525,6 +543,8 @@ This talk digs into why problems, friction, and &#34;inefficiency&#34; are our s
                 <abstract>Every team has at least one go-to person that gets others out of sticky situations!
 Are they being recognised for contributions to building a cohesive team, or getting bogged down in work that isn’t part of their job description? Let’s get stuck into the concept of glue work, and how handling it properly can help your team bond.</abstract>
                 <persons>
+                    
+                    <person>Jade Edward</person>
                     
                 </persons>
                 <links>
@@ -582,6 +602,8 @@ I&#39;m going to tell you all about FastAPI. Why it&#39;s my web framework of ch
 There&#39;s far too much in one framework to talk about it all in 30 minutes though, so you&#39;ll get to vote on which topics I should focus on, which examples should get more detail, and what matters to you.</abstract>
                 <persons>
                     
+                    <person>Jack Reichelt</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/XQ8VVL">
@@ -634,6 +656,10 @@ There&#39;s far too much in one framework to talk about it all in 30 minutes tho
 So when a tool comes along and promises to make you more productive, how do you assess that?</abstract>
                 <persons>
                     
+                    <person>Benno Rice</person>
+                    
+                    <person>Daisy Leigh Brenecki</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/SS9FAU">
@@ -660,6 +686,8 @@ So when a tool comes along and promises to make you more productive, how do you 
 
 Through this talk, we’ll set up and run the free-threaded interpreter, benchmarking it against the GIL-enabled version for various tasks. We&#39;ll assess the impact on single-threaded vs multithreaded code and test the performance across CPU-bound and I/O-bound tasks, aiming to identify scenarios where free-threaded Python excels.</abstract>
                 <persons>
+                    
+                    <person>Adarsh Divakaran</person>
                     
                 </persons>
                 <links>
@@ -721,6 +749,8 @@ Along the way, the talk covers practical topics including how to compose simple 
 This talk is for Python developers and data scientists who are building or planning to build reliable &amp; robust RAG applications and want a practical mental model for when to introduce which evaluations as their system grows in complexity.</abstract>
                 <persons>
                     
+                    <person>Ravi Vats</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/XWLM8L">
@@ -745,6 +775,10 @@ This talk is for Python developers and data scientists who are building or plann
                 <description/>
                 <abstract>Like regular talks, but shorter! Anything could happen!</abstract>
                 <persons>
+                    
+                    <person>Daisy Leigh Brenecki</person>
+                    
+                    <person>Nic Crouch</person>
                     
                 </persons>
                 <links>
@@ -772,6 +806,10 @@ This talk is for Python developers and data scientists who are building or plann
 
 This talk focuses on a practical Python engineering question: when does a foundation model become a pragmatic shortcut rather than just an impressive demo? We’ll compare our Chronos-based workflow with a more traditional approach using correlations with nearby weather stations, explain why dbt was such a strong backbone for reproducibility and maintainability, and show why that mattered for a pipeline that needed to remain understandable and easy to update. We’ll also show that gap filling is different from ordinary forecasting: because a missing window has data on both sides, future approaches could fill forward from the start of the gap, backward from the end, and meet in the middle.</abstract>
                 <persons>
+                    
+                    <person>Jay Stein</person>
+                    
+                    <person>serg</person>
                     
                 </persons>
                 <links>
@@ -883,6 +921,8 @@ for simulation-based pre-deployment evaluation; and an open-source Python
 framework (MIT licence) they can adapt to their own context.</abstract>
                 <persons>
                     
+                    <person>Dr Reju Sam John</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/JDERLD">
@@ -909,6 +949,8 @@ framework (MIT licence) they can adapt to their own context.</abstract>
 
 In this talk, I show how I trained and validated a computer vision pipeline using oriented object detection to infer arrow locations and scores directly from a target image. By deploying this system on a Raspberry Pi, the process becomes simple enough to use during regular practice, while also creating a record of shot placement that can be analysed over time. This makes it possible to look beyond individual scores and start tracking broader patterns in accuracy and consistency.</abstract>
                 <persons>
+                    
+                    <person>Jacob Seiler</person>
                     
                 </persons>
                 <links>
@@ -985,6 +1027,8 @@ In this talk, I show how I trained and validated a computer vision pipeline usin
                 <abstract>Dictionaries are one of the first tools Python developers reach for: fast, flexible, and easy to use when building something new. But when do they stop being enough? And when it&#39;s easy to generate dataclasses and classes, how do you know if that structure is actually useful?</abstract>
                 <persons>
                     
+                    <person>Arshia Sharma</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/TYXRSM">
@@ -1011,6 +1055,12 @@ In this talk, I show how I trained and validated a computer vision pipeline usin
 Join us for a short welcome address followed by our first keynote (to be announced).</abstract>
                 <persons>
                     
+                    <person>Jack Skinner</person>
+                    
+                    <person>Sophie Quinn-Graham</person>
+                    
+                    <person>Nic Crouch</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/3FQZVE">
@@ -1035,6 +1085,8 @@ Join us for a short welcome address followed by our first keynote (to be announc
                 <description/>
                 <abstract>AI agents are changing how we build software. They have augmented our software engineering workflow and challenged us to practice a new discipline, Agentic Engineering. Central to this emerging discipline is the skill, a natural language markdown file that bundles workflows, tools, and domain knowledge into a new unit of work for defining what an agent can do. Adopted as an open standard across the industry, skills sit above programming languages, not within them. If you&#39;ve ever written a runbook, a playbook, or an SOP, you already understand what a skill encodes. This talk explores what a skill is, how skills compose through context rather than interfaces, and what breaks when your smallest unit of work is no longer deterministic. It is drawn from real experience building an enterprise architect agent, with practical examples in Python.</abstract>
                 <persons>
+                    
+                    <person>Marty Kieliszek</person>
                     
                 </persons>
                 <links>
@@ -1175,6 +1227,8 @@ Let’s look at some strategies for designing coding projects for school aged st
 By constructing your projects with intention for a neurodiverse audience, it can make them more accessible and entertaining for everyone, and build skills outside of just programming.</abstract>
                 <persons>
                     
+                    <person>Maddie Mackey</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/M9HBCP">
@@ -1229,6 +1283,8 @@ These were the questions I was asking myself when I created the latest cyber sec
 Come along to see how I took a concept that I wanted students to care about, and broke that down into hands-on activities, all designed to get that “aha” moment in the classroom. Not only teaching python but using python to facilitate teaching deeper computer and cyber literacy, by peeking behind the curtain at what bad actors are actually doing, and how you can apply this technique to other topics.</abstract>
                 <persons>
                     
+                    <person>Alex Penna</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/J9UC8X">
@@ -1279,6 +1335,8 @@ Come along to see how I took a concept that I wanted students to care about, and
                 <abstract>Python has become a standard for many (although not all) secondary schools teaching Digital Technologies in Queensland and Australia more broadly. Yet challenges remain in bridging the gap between technical skills that schools are expected to teach and the expertise that industry requires.</abstract>
                 <persons>
                     
+                    <person>Matt Collyer</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/QCWMLU">
@@ -1308,6 +1366,8 @@ This talk shares how I responded by redesigning the unit around a feed-forward a
 For educators teaching Python, data science, or project-based computing subjects, this offers a practical way to design assessment for an AI-open classroom without falling back on bans or surveillance.</abstract>
                 <persons>
                     
+                    <person>Stephen Tierney</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/HBK7XS">
@@ -1332,6 +1392,8 @@ For educators teaching Python, data science, or project-based computing subjects
                 <description/>
                 <abstract>With IDEs like VS Code wanting to autocomplete your entire file based on the first line, how on earth do we write assessment that actually tests the skill of our students, rather than the skills of Claude? This talk will explore what is being done in schools and universities across QLD, and offer suggestions for what you can try in your classroom.</abstract>
                 <persons>
+                    
+                    <person>Thea Koutsoukis</person>
                     
                 </persons>
                 <links>
@@ -1358,6 +1420,8 @@ For educators teaching Python, data science, or project-based computing subjects
                 <abstract>Girls don’t leave STEM once; they leave three times. First, in primary school when “I’m bad at maths” becomes a personality. Second, in high school when they drop senior tech for “something more cool.” Third, in first‑year engineering when the boyish culture and difficulty finally wear them down. I’m a mechatronics engineer who is terrified of coding and still somehow convinces girls to give it a chance. By being openly honest about my fear, connecting code to real hobbies, and normalising failure out loud, I turn anxiety into curiosity - and keep more girls in the room.</abstract>
                 <persons>
                     
+                    <person>Gwyneth De Guia</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/CGG8LN">
@@ -1382,6 +1446,8 @@ For educators teaching Python, data science, or project-based computing subjects
                 <description/>
                 <abstract>Every few years somebody swears the newest tool to magically avoid needing developers will boot developers out of a job. Yet here we are, still coding, still shipping. Come along for a quick tour from COBOL’s “English you can compile” to today’s LLM powered vibe coding agents and see why each wave of “code without coders” crashed on the same rocks. You’ll leave with a pocketful of history, a nose for hype, and concrete ways to pair AI helpers with your hard-won craft instead of handing the keys over.</abstract>
                 <persons>
+                    
+                    <person>Sam Bishop</person>
                     
                 </persons>
                 <links>
@@ -1411,6 +1477,8 @@ In 2006, my mathematics PhD project resulted in a highly specialized geometrical
 
 On and off over a period of 20 years, I took that toolbox on a journey from an open source package within a proprietary mathematical software ecosystem to its current state as a polished, production-grade Python library. Firstly, in 2024, motivated by my deepening understanding of the diversity of its applications, I modernized the toolbox itself, including automating the testing of help examples. Next, in 2025, the rapid rise of Large Language Models as coding agents prompted me to undertake the long-delayed Python port. The coding agents did far more than a superficial translation of language syntax to Python. They improved the performance of the code by implementing improved algorithms, they converted the help examples into doctests, they created an automated test harness, they helped me to organize and improve the documentation, and they helped automate the PyPI release process.</abstract>
                 <persons>
+                    
+                    <person>Paul Leopardi</person>
                     
                 </persons>
                 <links>
@@ -1493,6 +1561,10 @@ On and off over a period of 20 years, I took that toolbox on a journey from an o
 I lead the creation of the GCS software to compete at the 2025 International Rocket Engineering Competition (IREC) with the intention of winning the Rocket Telemetry Visualisation Sub-Category. We have our own custom flight computer with it&#39;s own custom firmware and LoRa networking setup. So we build our visualisation system from the ground up for reliability, scaleability and deployability. All in our Python process manager</abstract>
                 <persons>
                     
+                    <person>Freddy Mcloughlan</person>
+                    
+                    <person>Amber Taylor</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/9KBBEQ">
@@ -1517,6 +1589,8 @@ I lead the creation of the GCS software to compete at the 2025 International Roc
                 <description/>
                 <abstract>In October 2025, Python 3.14 was released and with it t-strings, which promise to help python developers write better, and safer python code. While on the surface, t-string share a similar name to f-strings and are instantiated with a similar syntax, the resulting Template type, and the intended usage and audience there of is not always immediately understood. This talk explores what they are, how they work, who they are for and how they are core to a python philosophy of using constructs and guardrails to helping python developers write safer code.</abstract>
                 <persons>
+                    
+                    <person>Simon Merrick</person>
                     
                 </persons>
                 <links>
@@ -1572,6 +1646,8 @@ Audiences should attend to see how concepts like modularity, consistent design l
 This talk comprises an exploration of how to discuss trade-offs during software development, based on technical examples.</abstract>
                 <persons>
                     
+                    <person>Tennessee Leeuwenburg</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/JK7XEF">
@@ -1596,6 +1672,8 @@ This talk comprises an exploration of how to discuss trade-offs during software 
                 <description/>
                 <abstract>What does a trauma ICU nurse have in common with an Information Security Officer? More than you&#39;d think. This talk charts one nurse&#39;s unconventional path into cybersecurity, and the moment she realised the skills she&#39;d spent years building were exactly what the industry needed. Beyond the personal story, it makes the case that the cybersecurity skills shortage won&#39;t be solved by fishing in the same pond. The people we need are already out there: in hospitals, in classrooms, in labs. This talk is for leaders who want teams that think differently, for hiring managers ready to consider cross-sector skill sets, and for anyone standing at a career crossroads wondering if security is even for them.</abstract>
                 <persons>
+                    
+                    <person>Sam Marsh</person>
                     
                 </persons>
                 <links>
@@ -1624,6 +1702,8 @@ This talk comprises an exploration of how to discuss trade-offs during software 
 With AI we&#39;re writing more code than ever, and more and more non-Engineers are involved in building with code. It is increasingly unsustainable for a human to read and review every line of code. Even if we do human review, the volume is so large and the context is totally gone - we can&#39;t expect them to do a good job. So how can we feel safe? What techniques do we need to apply? What technologies do we build? How do we Engineer in a world where we no longer read code?</abstract>
                 <persons>
                     
+                    <person>Ben Taylor</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/X9MRPY">
@@ -1651,6 +1731,8 @@ With AI we&#39;re writing more code than ever, and more and more non-Engineers a
 This talk explores why PR queues stall, what we can learn from massive open source projects that have solved this at scale, and the practical techniques, from automation with Python tooling to team process shifts, that can dramatically reduce your time to merge.</abstract>
                 <persons>
                     
+                    <person>Pavel Oborin</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/QUZ9TS">
@@ -1675,6 +1757,8 @@ This talk explores why PR queues stall, what we can learn from massive open sour
                 <description/>
                 <abstract>Python powers the world’s most critical research, yet the software behind the science often remains hidden and under supported. This talk distils four years of insights from Research Software Engineering Stories to explore the real world motivators of the people building Australia’s most impactful research tools. Attendees will be motivated to transition from fragile scripts to sustainable and citable reusable software infrastructure that endure long after the code is working for a specific use case.</abstract>
                 <persons>
+                    
+                    <person>Paula Andrea Martinez</person>
                     
                 </persons>
                 <links>
@@ -1733,6 +1817,8 @@ This talk distils 60 years of application security history—from early networke
 
 The goal is understanding which problems are structural, which are self-inflicted, and which approaches are finally worth investing in.</abstract>
                 <persons>
+                    
+                    <person>Pedram Hayati</person>
                     
                 </persons>
                 <links>
@@ -1815,6 +1901,10 @@ In this talk, we’ll look at some delicious data from [suggested redaction duri
 We’ll also talk: private forks, dynamic cooldowns, and whether or not that one legend in Nebraska has already left the chat. Come for the existential dread; stay for the practical tips on not letting your dependency graph become (more of) a dumpster fire.</abstract>
                 <persons>
                     
+                    <person>Nicky Ringland</person>
+                    
+                    <person>Ash</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/RQR97D">
@@ -1839,6 +1929,8 @@ We’ll also talk: private forks, dynamic cooldowns, and whether or not that one
                 <description/>
                 <abstract>Privacy regulations around the world impose strict requirements on how organisations handle personal data (such as Australia&#39;s Privacy Act, the EU&#39;s GDPR, US&#39;s HIPAA &amp; CCPA, etc). Among the hardest to implement in a data pipeline are protecting sensitive data from breaches, and erasing an individual&#39;s personal data on request.Finding and deleting every copy of sensitive data is cumbersome, error-prone, and breaks referential integrity. Meanwhile, sensitive data sitting in plaintext is exposed the moment a breach occurs.</abstract>
                 <persons>
+                    
+                    <person>XiaoHan Li</person>
                     
                 </persons>
                 <links>
@@ -1915,6 +2007,12 @@ We’ll also talk: private forks, dynamic cooldowns, and whether or not that one
                 <abstract>We&#39;re thrilled to announce that PyConAU&#39;s Education Track will once again feature a dedicated Student Showcase, giving Australian high school students the chance to present their Python projects on the conference stage.</abstract>
                 <persons>
                     
+                    <person>Amanda J Hogan</person>
+                    
+                    <person>Nicky Ringland</person>
+                    
+                    <person>Alison Wong</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/KRR377">
@@ -1943,6 +2041,8 @@ Then Omen shows up.
 
 This talk follows Sam the SRE through a nightly battle against Omen the Evil Hacker — and how SPIFFE and SPIRE finally give every Python service a cryptographic identity it can prove, not just claim.</abstract>
                 <persons>
+                    
+                    <person>Oliver Bassett</person>
                     
                 </persons>
                 <links>
@@ -1977,6 +2077,8 @@ Using two real-world examples, we will show how passkeys succeed where passwords
 Attendees will leave with a clear mental model of how passkeys work, understand the role of biometrics as a local unlock mechanism, and gain practical guidance on how individuals and developers can start using passkeys today through modern, open web standards.</abstract>
                 <persons>
                     
+                    <person>George Coldham</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/K3M8AE">
@@ -2002,6 +2104,12 @@ Attendees will leave with a clear mental model of how passkeys work, understand 
                 <abstract>Welcome to PyCon AU 2026!
 Join us for a short welcome address followed by our second keynote (to be announced).</abstract>
                 <persons>
+                    
+                    <person>Jack Skinner</person>
+                    
+                    <person>Sophie Quinn-Graham</person>
+                    
+                    <person>Nic Crouch</person>
                     
                 </persons>
                 <links>
@@ -2115,6 +2223,8 @@ Join us for a short welcome address followed by our second keynote (to be announ
                 <abstract>If Australia&#39;s electoral districts were drawn just a bit differently (or by a lot), how much would that change election results?</abstract>
                 <persons>
                     
+                    <person>Rachel Bunder</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/ZJET3E">
@@ -2139,6 +2249,8 @@ Join us for a short welcome address followed by our second keynote (to be announ
                 <description/>
                 <abstract>Geoscientists love Python and Jupyter Notebooks for prototyping their ideas. What they often don&#39;t like is dealing with containers, CI/CD, version control and long-term support.  Whether you are just into volcano photos from New Zealand or received a notebook called final_model_v3_ACTUAL_FINAL.ipynb and were asked to &#34;just put it on the server&#34; come along to see how Earth Sciences New Zealand bridges the gap between research and production.</abstract>
                 <persons>
+                    
+                    <person>Yannik</person>
                     
                 </persons>
                 <links>
@@ -2169,6 +2281,8 @@ We’ll dive into how communities across platforms like Discord, Reddit, and Twi
 We’ll also unpack what separates a good community from a great one, from fostering psychological safety to encouraging collaboration and recognising contributions. Whether you’re a developer, advocate, or community builder, you’ll walk away with actionable insights on how to find your people, grow your presence, and help shape communities that give back as much as they give you.</abstract>
                 <persons>
                     
+                    <person>Michelle &#34;MishManners&#34; Duke</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/CWFAQP">
@@ -2196,6 +2310,8 @@ To answer that question, I made an interactive breathing simulator - a blob that
 Turns out there&#39;s a lot more to what keeps us alive than first meets the eye.</abstract>
                 <persons>
                     
+                    <person>Peta Muir</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/FCLJP9">
@@ -2220,6 +2336,8 @@ Turns out there&#39;s a lot more to what keeps us alive than first meets the eye
                 <description/>
                 <abstract>GenAI, aka LLMs, have thrown a monkey wrench into the role of DevRel. What does it mean to create educational materials when someone can just ask their favourite LLM to create a personalised educational adventure for them? This talk will investigate options for creating interactive coding environments that are useful for developers aiming to learn a new technique, technology, or library.</abstract>
                 <persons>
+                    
+                    <person>Brett Morgan</person>
                     
                 </persons>
                 <links>
@@ -2296,6 +2414,8 @@ Turns out there&#39;s a lot more to what keeps us alive than first meets the eye
                 <abstract>AI assistants can answer most technical questions in seconds now. So why would a developer sit through a guided workshop? Because reading an answer and building muscle memory are fundamentally different things. This talk looks at how to design interactive, hands-on developer education that stays relevant and engaging in a world where &#34;just ask the AI&#34; is the default. Drawing on experience building an open source training platform and creating and delivering workshops on it, the talk gets into the practical details of structuring workshop content, giving learners real environments to work in, keeping them engaged, and using AI behind the scenes to create that content faster without sacrificing the human judgement that makes it more than just AI slop.</abstract>
                 <persons>
                     
+                    <person>Graham Dumpleton</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/ASSXNF">
@@ -2350,6 +2470,8 @@ In this talk, I&#39;ll share what I&#39;ve learned building dozens of demos for 
 We’ll look at how to turn a feature-parade into a coherent narrative, when and how to use smoke and mirrors without losing trust, and how to make a demo land with very different audiences. We&#39;ll also cover how to fit a surprising amount into a short window, how to stay flexible when things change at the last minute, and how to balance risk and impact when failure isn&#39;t an option.</abstract>
                 <persons>
                     
+                    <person>Damian Brady</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/MDSJTA">
@@ -2380,6 +2502,8 @@ We’ll look at how to turn a feature-parade into a coherent narrative, when and
 
 In this talk, you&#39;ll learn why Markdown is a better option for your project&#39;s documentation. You&#39;ll be introduced to MkDocs, a static site generator built around Markdown content, and a series of associated plugins and extensions that you need to bring Sphinx-like capabilities to Markdown documentation. You&#39;ll also hear a case study of migrating multiple large, existing Sphinx-based documentation bases to Markdown, including the tools used for automating the process. You&#39;ll learn how you can engage the community to assist with the effort. Finally, you&#39;ll learn why it&#39;s worth the effort to make a change of this magnitude.</abstract>
                 <persons>
+                    
+                    <person>Kattni</person>
                     
                 </persons>
                 <links>
@@ -2460,6 +2584,8 @@ In real-world research projects, reproducibility often breaks in subtle ways, mi
 The talk introduces a lightweight way of identifying and tracking reproducibility risks based on a structured view of common contributing factors. If you have ever struggled to rerun your own code, or someone else’s, this talk offers a different way to think about why, and what to do about it.</abstract>
                 <persons>
                     
+                    <person>Zara Hassan</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/ZPGW8C">
@@ -2537,6 +2663,8 @@ The talk introduces a lightweight way of identifying and tracking reproducibilit
 This isn’t a talk about becoming a NumPy wizard or writing “clever” code. It’s about building a better mental model of what NumPy already does for us, so we can stop accidentally getting in its way and continue taking credit for performance we mostly didn’t implement ourselves.</abstract>
                 <persons>
                     
+                    <person>Kai Striega</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/A3XLCE">
@@ -2561,6 +2689,8 @@ This isn’t a talk about becoming a NumPy wizard or writing “clever” code. 
                 <description/>
                 <abstract>Software is widely used and produced in the course of research. Yet, published works (e.g. journal papers and conference posters) do not always cite the software that was essential for the research. Citing software has numerous benefits, including facilitating the reproducibility and transparency of research, as well as providing attribution and credit for the developers. This talk will discuss the benefits of citing software, how to cite software and practical suggestions for how to make your software easier for others to cite.</abstract>
                 <persons>
+                    
+                    <person>Stephanie Chong</person>
                     
                 </persons>
                 <links>
@@ -2598,6 +2728,8 @@ After this talk, you will learn how to:
 - Design compute workloads for cloud-native horizontal scaling</abstract>
                 <persons>
                     
+                    <person>Alex Zinovev</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/NF98VJ">
@@ -2629,6 +2761,8 @@ These three layers - offline model evaluation, online usage metrics, and qualita
 If you&#39;re building AI products and can&#39;t answer &#34;is this actually getting better?&#34; - this talk is for you.</abstract>
                 <persons>
                     
+                    <person>Wesley Volz</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/9AK3WS">
@@ -2657,6 +2791,8 @@ If you&#39;re building AI products and can&#39;t answer &#34;is this actually ge
                 <description/>
                 <abstract>`import re`. `from pathlib import Path`. Python&#39;s import system is easy to take for granted, and most of the time we don&#39;t need to think about how the import statements we write actually work. Sometimes, however, things do go wrong, and knowing where to look for more information can mean the difference between scratching our heads in bafflement and quickly solving whatever problem we&#39;re facing.</abstract>
                 <persons>
+                    
+                    <person>Alyssa Coghlan</person>
                     
                 </persons>
                 <links>
@@ -2709,6 +2845,12 @@ If you&#39;re building AI products and can&#39;t answer &#34;is this actually ge
 Join us for a short welcome address followed by our third keynote (to be announced).</abstract>
                 <persons>
                     
+                    <person>Jack Skinner</person>
+                    
+                    <person>Sophie Quinn-Graham</person>
+                    
+                    <person>Nic Crouch</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/9PXVYP">
@@ -2736,6 +2878,8 @@ Join us for a short welcome address followed by our third keynote (to be announc
 Don&#39;t fear, there&#39;s some compelling parallels and lessons from good old fashioned organised labour!</abstract>
                 <persons>
                     
+                    <person>jonah</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/CPWUE3">
@@ -2762,6 +2906,8 @@ Don&#39;t fear, there&#39;s some compelling parallels and lessons from good old 
 
 Today, I present a novel (and potentially ill-advised) alternative: a file-system that uses Slack Emojis as a storage device. We&#39;ll dive into how file systems work, how you can use Python to turn Slack Emojis into infinite free file storage, and maybe find out if this was secretly a terrible idea all along.</abstract>
                 <persons>
+                    
+                    <person>Ashley Lamont</person>
                     
                 </persons>
                 <links>
@@ -2838,6 +2984,12 @@ Today, I present a novel (and potentially ill-advised) alternative: a file-syste
                 <abstract>We conclude PyCon AU 2026 together for closing remarks as we reflect on what was, and look forward to what will be (sprints!)</abstract>
                 <persons>
                     
+                    <person>Jack Skinner</person>
+                    
+                    <person>Nic Crouch</person>
+                    
+                    <person>Sophie Quinn-Graham</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/TGQGWT">
@@ -2865,6 +3017,8 @@ Today, I present a novel (and potentially ill-advised) alternative: a file-syste
 In this talk, you&#39;ll learn the options you have for delivering your code to someone else. You&#39;ll learn what is involved in configuring a project so that someone else can use it, and when you might want to consider bundling your code as a standalone application. You&#39;ll get an overview of some of the tools that can be used to produce a standalone application, and a detailed look at one of those options - Briefcase. Finally, you&#39;ll be introduced some of the possibly unexpected benefits of bundling your code as a standalone application.</abstract>
                 <persons>
                     
+                    <person>Russell Keith-Magee</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/AVCYHU">
@@ -2891,6 +3045,8 @@ In this talk, you&#39;ll learn the options you have for delivering your code to 
 
 We will look at how we can introspect live Python processes, uncovering what a program is doing, and why it’s doing it. We will also cover pragmatic tips on how to tailor these tools for your own problem’s needs, including when restarting your process isn’t an option!</abstract>
                 <persons>
+                    
+                    <person>Raphael Gaschignard</person>
                     
                 </persons>
                 <links>
@@ -2924,6 +3080,8 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
 (The answer was _JUNGLE_ by the way)</abstract>
                 <persons>
                     
+                    <person>Amanda J Hogan</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/VSVXTJ">
@@ -2948,6 +3106,10 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
                 <description/>
                 <abstract>Like regular talks, but shorter! Anything could happen!</abstract>
                 <persons>
+                    
+                    <person>Nic Crouch</person>
+                    
+                    <person>Daisy Leigh Brenecki</person>
                     
                 </persons>
                 <links>
@@ -2979,6 +3141,8 @@ This talk will explore the &#34;virtue&#34; of laziness with regards to programm
 But mainly the talk will focus on the new 3.15 keyword `lazy` and how it can affect module loading times.</abstract>
                 <persons>
                     
+                    <person>Peter Lovett</person>
+                    
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/HZUCVL">
@@ -3007,6 +3171,10 @@ But mainly the talk will focus on the new 3.15 keyword `lazy` and how it can aff
                 <description/>
                 <abstract>We invite any conference attendee to this session. You do not need to have a job title associated to DevRel. Developer Relations is about the developer community of those who use technology and products, so please join us in discussions around this subject.</abstract>
                 <persons>
+                    
+                    <person>Katie McLaughlin</person>
+                    
+                    <person>Gabi Amaral</person>
                     
                 </persons>
                 <links>

@@ -1,3 +1,4 @@
+from functools import cache
 from pathlib import Path
 import frontmatter
 from itertools import groupby as _groupby
@@ -32,6 +33,13 @@ def schedule_year_xml(year):
     return get_schedule()
 
 
+@cache
+def get_author(code: str) -> str:
+    return frontmatter.load(
+        Path(f"./2026-website/src/content/people/{code}.md")
+    ).metadata["name"]
+
+
 def get_talks():
     for talk in Path("./2026-website/src/content/sessions").glob("*.md"):
         talk = frontmatter.load(talk).metadata
@@ -44,6 +52,7 @@ def get_talks():
             "start": start,
             "end": end,
             "duration": duration.total_seconds() / 60,
+            "authors": [get_author(speaker) for speaker in talk["speakers"]],
         }
 
 
