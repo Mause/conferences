@@ -1,3 +1,5 @@
+from dulwich.porcelain import pull
+from dulwich.repo import Repo
 from functools import cache
 from pathlib import Path
 import frontmatter
@@ -57,6 +59,8 @@ def get_talks():
 
 
 def get_schedule():
+    pull(Repo("./2026-website/"))
+
     schedule = list(get_talks())
     print(schedule[0])
 
