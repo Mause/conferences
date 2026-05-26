@@ -3,10 +3,10 @@
         <acronym>pyconau-{{ start_date.year }}</acronym>
         <title>PyCon Au {{ start_date.year }} X</title>
         <subtitle/>
-        <venue>Internal Convention Centre, Sydney, AU</venue>
+        <venue>Sofitel Brisbane Central, Brisbane</venue>
         <start>{{ start_date.isoformat() }}</start>
         <end>{{ end_date.isoformat() }}</end>
-        <days>3</days>
+        <days>5</days>
         <timeslot_duration>01:00</timeslot_duration>
     </conference>
     {% for date, rooms in days.items() %}

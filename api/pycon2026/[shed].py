@@ -64,7 +64,7 @@ def get_schedule():
     days = {date: groupby(talks, lambda talk: talk["room"]) for date, talks in days}
 
     start_date = date.fromisoformat("2026-08-26")
-    end_date = date.fromisoformat("2026-08-29")
+    end_date = date.fromisoformat("2026-08-30")
     return (
         render_template(
             "schedule.xml",
