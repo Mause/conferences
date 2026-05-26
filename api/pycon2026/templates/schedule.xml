@@ -14,13 +14,13 @@
         {% for room, talks in rooms %}
         <room name="{{ room }}">
             {% for talk in talks %}
-            <event id="{{ talk.conf_key }}">
+            <event id="{{ talk.code }}">
                 <slug/>
                 <date>{{ talk.start.isoformat() }}</date>
                 <start>{{ talk.start.time().isoformat() }}</start>
                 <duration>{{ to_time(talk.duration) }}</duration>
                 <room>{{ talk.room }}</room>
-                <title>{{ talk.name }}</title>
+                <title>{{ talk.title }}</title>
                 <subtitle/>
                 <track>{{ talk.track }}</track>
                 <type>{{ talk.type }}</type>
@@ -33,7 +33,7 @@
                     {% endfor %}
                 </persons>
                 <links>
-                    <link href="{{ talk.conf_url }}">
+                    <link href="https://2026.pycon.org.au/schedule/{{ talk.code }}">
                         Conference link
                     </link>
                     {% if talk.video_url %}

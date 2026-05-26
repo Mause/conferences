@@ -1,4 +1,5 @@
-import requests
+from pathlib import Path
+import frontmatter
 from itertools import groupby as _groupby
 from datetime import datetime, date, timedelta
 from flask import Flask, render_template, redirect, url_for
@@ -28,18 +29,33 @@ def schedule_xml():
 
 @app.route("/api/pycon/<year>")
 def schedule_year_xml(year):
-    schedule = requests.get(f"https://{year}.pycon-au.org/schedule/avdata.json").json()[
-        "schedule"
-    ]
+    return get_schedule()
 
-    schedule = [
-        dict(talk, start=datetime.fromisoformat(talk["start"])) for talk in schedule
-    ]
+
+def get_talks():
+    for talk in Path("./2026-website/src/content/sessions").glob("*.md"):
+        talk = frontmatter.load(talk).metadata
+        start = datetime.fromisoformat(talk["start"])
+        end = datetime.fromisoformat(talk["end"])
+        duration = end - start
+
+        yield {
+            **talk,
+            "start": start,
+            "end": end,
+            "duration": duration.total_seconds() / 60,
+        }
+
+
+def get_schedule():
+    schedule = list(get_talks())
+    print(schedule[0])
 
     days = groupby(schedule, lambda talk: talk["start"].date())
     days = {date: groupby(talks, lambda talk: talk["room"]) for date, talks in days}
 
-    start_date, end_date = DATES[year]
+    start_date = date.fromisoformat("2026-08-26")
+    end_date = date.fromisoformat("2026-08-29")
     return (
         render_template(
             "schedule.xml",
@@ -54,4 +70,9 @@ def schedule_year_xml(year):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0")
+    # app.run(debug=True, host="0.0.0.0")
+    with app.app_context():
+        body, status, hedaers = get_schedule()
+        with open("out.xml", "w") as fh:
+            fh.write(body)
+        # print(body)
