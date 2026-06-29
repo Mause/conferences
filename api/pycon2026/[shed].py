@@ -45,6 +45,9 @@ def get_author(code: str) -> str:
 def get_talks():
     for talk in Path("./2026-website/src/content/sessions").glob("*.md"):
         talk = frontmatter.load(talk).metadata
+        if not talk["start"]:
+            print(talk["title"], "has no start time")
+            continue
         start = datetime.fromisoformat(talk["start"])
         end = datetime.fromisoformat(talk["end"])
         duration = end - start
