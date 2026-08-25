@@ -19,3 +19,6 @@ dependencies = [
 dev = [
   "ipdb",
 ]
+
+[tool.vercel]
+entrypoint = "conferences.pycon2026.shed:app"
