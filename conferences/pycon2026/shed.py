@@ -1,12 +1,12 @@
+from datetime import date, datetime, timedelta
+from functools import cache
+from itertools import groupby as _groupby
+from pathlib import Path
+
+import frontmatter
 from dulwich.porcelain import pull
 from dulwich.repo import Repo
-from functools import cache
-from pathlib import Path
-import frontmatter
-from itertools import groupby as _groupby
-from datetime import datetime, date, timedelta
-from flask import Flask, render_template, redirect, url_for
-
+from flask import Flask, redirect, render_template, url_for
 
 app = Flask(__name__)
 
