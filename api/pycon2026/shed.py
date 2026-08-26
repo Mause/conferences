@@ -6,7 +6,7 @@ from pathlib import Path
 import frontmatter
 from dulwich.porcelain import pull
 from dulwich.repo import Repo
-from flask import Flask, redirect, render_template, url_for
+from flask import Flask, Response, redirect, render_template, request, url_for
 
 app = Flask(__name__)
 
@@ -33,6 +33,11 @@ def schedule_xml():
 @app.route("/api/pycon/<year>")
 def schedule_year_xml(year):
     return get_schedule()
+
+
+@app.route("*")
+def catch_all(path):
+    return Response(f"Hello from {path} || {request.url}", status=200)
 
 
 @cache
