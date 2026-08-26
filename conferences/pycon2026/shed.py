@@ -86,9 +86,9 @@ def get_schedule():
 
 
 if __name__ == "__main__":
-    # app.run(debug=True, host="0.0.0.0")
     with app.app_context():
         body, status, hedaers = get_schedule()
         with open("out.xml", "w") as fh:
             fh.write(body)
         # print(body)
+    app.run(debug=True, host="0.0.0.0")
