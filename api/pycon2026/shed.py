@@ -35,7 +35,7 @@ def schedule_year_xml(year):
     return get_schedule()
 
 
-@app.route("*")
+@app.route("/*")
 def catch_all(path):
     return Response(f"Hello from {path} || {request.url}", status=200)
 
