@@ -80,7 +80,7 @@ def get_talks():
 
 
 def get_schedule():
-    path = Path(mkdtemp(prefix="2026-website"))
+    path = Path(mkdtemp()) / "2026-website"
     if not path.exists():
         clone(
             "https://github.com/pyconau/2026-website.git",
