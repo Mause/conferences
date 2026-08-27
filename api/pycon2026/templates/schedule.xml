@@ -28,9 +28,7 @@
                 <description/>
                 <abstract>{{ talk.abstract }}</abstract>
                 <persons>
-                    {% for author in talk.authors %}
-                    <person>{{ author }}</person>
-                    {% endfor %}
+                    <person>{{ talk.who }}</person>
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/{{ talk.code }}">
