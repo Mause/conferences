@@ -88,6 +88,7 @@ def get_schedule():
         clone(
             "https://github.com/pyconau/2026-website.git",
             path,
+            depth=1,
         )
     else:
         pull(Repo(path))
