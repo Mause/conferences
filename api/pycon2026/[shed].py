@@ -2,6 +2,7 @@ from datetime import date, datetime, timedelta
 from functools import cache
 from itertools import groupby as _groupby
 from pathlib import Path
+from typing import TypedDict, cast
 
 import frontmatter
 from dulwich.porcelain import clone, pull
@@ -15,6 +16,22 @@ DATES = {
     str(date.year): (date, date + TWO_DAYS)
     for date in (date(2018, 8, 24), date(2019, 8, 1))
 }
+
+
+class Person(TypedDict):
+    name: str
+    bio: str
+    twitter: str
+    github: str
+    website: str
+
+
+class Session(TypedDict):
+    title: str
+    speakers: list[str]
+    start: str
+    end: str
+    room: str
 
 
 def groupby(iterable, key):
@@ -38,14 +55,16 @@ def catch_all(path):
 
 @cache
 def get_author(code: str) -> str:
-    return frontmatter.load(
-        Path(f"./2026-website/src/content/people/{code}.md")
-    ).metadata["name"]
+    metadata = cast(
+        Person,
+        frontmatter.load(Path(f"./2026-website/src/content/people/{code}.md")).metadata,
+    )
+    return metadata["name"]
 
 
 def get_talks():
     for talk in Path("./2026-website/src/content/sessions").glob("*.md"):
-        talk = frontmatter.load(talk).metadata
+        talk = cast(Session, frontmatter.load(talk).metadata)
         if not talk["start"]:
             print(talk["title"], "has no start time")
             continue
