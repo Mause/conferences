@@ -39,7 +39,8 @@ def groupby(iterable, key):
 
 
 def to_time(minutes: int) -> str:
-    return "{:02d}:{:02d}".format(*divmod(minutes, 60))
+    hours, minutes = divmod(minutes, 60)
+    return f"{int(hours):02d}:{int(minutes):02d}"
 
 
 @app.route("/api/pycon2026/<int:year>")
