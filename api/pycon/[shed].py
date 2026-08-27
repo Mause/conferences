@@ -1,8 +1,8 @@
-import requests
+from datetime import date, datetime, timedelta
 from itertools import groupby as _groupby
-from datetime import datetime, date, timedelta
-from flask import Flask, render_template, redirect, url_for
 
+import requests
+from flask import Flask, redirect, render_template, url_for
 
 app = Flask(__name__)
 
@@ -18,7 +18,7 @@ def groupby(iterable, key):
 
 
 def to_time(minutes: int) -> str:
-    return "%02d:%02d" % divmod(minutes, 60)
+    return "{:02d}:{:02d}".format(*divmod(minutes, 60))
 
 
 @app.route("/schedule.xml")

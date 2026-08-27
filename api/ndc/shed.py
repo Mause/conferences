@@ -1,17 +1,21 @@
 import json
-import requests
 from datetime import datetime
-from lxml.html import fromstring, Element
-from typing import Dict, List, Tuple
 from functools import wraps
+from itertools import chain
+from itertools import groupby as _groupby
+from zoneinfo import ZoneInfo
+
+import requests
 from flask import Flask, render_template
-from itertools import groupby as _groupby, chain
+from lxml.html import Element, fromstring
+
+TZ = ZoneInfo("Australia/Sydney")
 
 BASE = "https://ndcsydney.com/"
 DAYS = {
-    "Wednesday": datetime(2019, 10, 16),
-    "Thursday": datetime(2019, 10, 17),
-    "Friday": datetime(2019, 10, 18),
+    "Wednesday": datetime(2019, 10, 16, tzinfo=TZ),
+    "Thursday": datetime(2019, 10, 17, tzinfo=TZ),
+    "Friday": datetime(2019, 10, 18, tzinfo=TZ),
 }
 app = Flask(__name__)
 
@@ -45,7 +49,7 @@ def dotime(day: str, string: str) -> datetime:
     return DAYS[day].replace(hour=hour, minute=minute)
 
 
-def process_talk(talk: Element) -> Dict:
+def process_talk(talk: Element) -> dict:
     (link,) = talk.xpath(".//a/@href")
     (title,) = talk.xpath(".//h2/text()")
     (venue,) = talk.xpath('.//*[contains(@class, "venue")]')
@@ -69,7 +73,7 @@ def process_talk(talk: Element) -> Dict:
 
 
 @cached
-def get_talks() -> List[Dict]:
+def get_talks() -> list[dict]:
     html = get("agenda/")
 
     talks = html.xpath('.//div[contains(@class, "msnry-item")]')
@@ -94,7 +98,7 @@ def get_slug(speaker: str) -> str:
     return speaker.lower().replace(" ", "-")
 
 
-def process_speaker(speaker: str) -> Dict:
+def process_speaker(speaker: str) -> dict:
     path = "speaker/" + get_slug(speaker)
     html = get(path)
 
@@ -111,13 +115,13 @@ def process_speaker(speaker: str) -> Dict:
 
 
 @cached
-def speakers(talks: List[Dict]) -> List[Dict]:
+def speakers(talks: list[dict]) -> list[dict]:
     speakers = set(chain.from_iterable(talk["authors"] for talk in talks))
 
     return [process_speaker(speaker) for speaker in speakers if speaker]
 
 
-def get_talk_description(talk: Dict) -> Tuple[str, str]:
+def get_talk_description(talk: dict) -> tuple[str, str]:
     html = get(talk["conf_url"])
     (article,) = html.xpath(".//article")
 
@@ -128,12 +132,12 @@ def get_talk_description(talk: Dict) -> Tuple[str, str]:
 
 
 @cached
-def get_talk_descriptions(talks: List[Dict]) -> Dict[str, str]:
+def get_talk_descriptions(talks: list[dict]) -> dict[str, str]:
     return dict(get_talk_description(talk) for talk in talks)
 
 
 def to_time(minutes: int) -> str:
-    return "%02d:%02d" % divmod(minutes, 60)
+    return "{:02d}:{:02d}".format(*divmod(minutes, 60))
 
 
 @app.route("/api/ndc/shed")
