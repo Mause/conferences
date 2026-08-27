@@ -1,3 +1,4 @@
+from collections.abc import Callable, Generator, Iterable
 from datetime import date, datetime, timedelta
 from functools import cache
 from itertools import groupby as _groupby
@@ -31,7 +32,9 @@ class Session(TypedDict):
     room: str
 
 
-def groupby(iterable, key):
+def groupby[K: str | date, V](
+    iterable: Iterable[V], key: Callable[[V], K]
+) -> _groupby[K, V]:
     return _groupby(sorted(iterable, key=key), key)
 
 
@@ -60,7 +63,17 @@ def get_author(root: Path, code: str) -> str:
     return metadata["name"]
 
 
-def get_talks(root: Path):
+class ReSession(TypedDict):
+    title: str
+    speakers: list[str]
+    start: datetime
+    end: datetime
+    room: str
+    duration: float
+    authors: list[str]
+
+
+def get_talks(root: Path) -> Generator[ReSession]:
     for talk in (root / "src/content/sessions").glob("*.md"):
         talk = cast(Session, frontmatter.load(talk).metadata)
         if not talk["start"]:
@@ -79,7 +92,7 @@ def get_talks(root: Path):
         }
 
 
-def get_schedule():
+def get_schedule() -> tuple[str, int, dict[str, str]]:
     path = Path(mkdtemp()) / "2026-website"
     if not path.exists():
         clone(
