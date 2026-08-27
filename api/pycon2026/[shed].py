@@ -57,8 +57,8 @@ def groupby[K: str | date, V](
     return _groupby(sorted(iterable, key=key), key)
 
 
-def to_time(minutes: int) -> str:
-    hours, minutes = divmod(minutes, 60)
+def to_time(seconds: int) -> str:
+    hours, minutes = divmod(seconds // 60, 60)
     return f"{int(hours):02d}:{int(minutes):02d}"
 
 
