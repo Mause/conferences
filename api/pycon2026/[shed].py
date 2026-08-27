@@ -6,7 +6,7 @@ from pathlib import Path
 import frontmatter
 from dulwich.porcelain import pull
 from dulwich.repo import Repo
-from flask import Flask, Response, redirect, render_template, request, url_for
+from flask import Flask, Response, render_template, request
 
 app = Flask(__name__)
 
