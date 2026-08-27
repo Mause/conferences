@@ -1176,31 +1176,6 @@ On and off over a period of 20 years, I took that toolbox on a journey from an o
                 </links>
             </event>
             
-            <event id="BREAK-202608281235-ballroom1">
-                <slug/>
-                <date>2026-08-28T12:35:00+10:00</date>
-                <start>12:35:00</start>
-                <duration>00:55</duration>
-                <room>Ballroom 1</room>
-                <title>Lunch</title>
-                <subtitle/>
-                <track>None</track>
-                <type>break</type>
-                <language/>
-                <description/>
-                <abstract></abstract>
-                <persons>
-                    
-                </persons>
-                <links>
-                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281235-ballroom1">
-                        Conference link
-                    </link>
-                    
-                    
-                </links>
-            </event>
-            
             <event id="BREAK-202608281000-ballroom1">
                 <slug/>
                 <date>2026-08-28T10:00:00+10:00</date>
@@ -1219,6 +1194,31 @@ On and off over a period of 20 years, I took that toolbox on a journey from an o
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281235-ballroom1">
+                <slug/>
+                <date>2026-08-28T12:35:00+10:00</date>
+                <start>12:35:00</start>
+                <duration>00:55</duration>
+                <room>Ballroom 1</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281235-ballroom1">
                         Conference link
                     </link>
                     
@@ -1510,31 +1510,6 @@ In this talk, we will present new research® into when and how developers leak c
                 </links>
             </event>
             
-            <event id="BREAK-202608281235-ballroom2">
-                <slug/>
-                <date>2026-08-28T12:35:00+10:00</date>
-                <start>12:35:00</start>
-                <duration>00:55</duration>
-                <room>Ballroom 2</room>
-                <title>Lunch</title>
-                <subtitle/>
-                <track>None</track>
-                <type>break</type>
-                <language/>
-                <description/>
-                <abstract></abstract>
-                <persons>
-                    
-                </persons>
-                <links>
-                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281235-ballroom2">
-                        Conference link
-                    </link>
-                    
-                    
-                </links>
-            </event>
-            
             <event id="BREAK-202608281000-ballroom2">
                 <slug/>
                 <date>2026-08-28T10:00:00+10:00</date>
@@ -1553,6 +1528,31 @@ In this talk, we will present new research® into when and how developers leak c
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281235-ballroom2">
+                <slug/>
+                <date>2026-08-28T12:35:00+10:00</date>
+                <start>12:35:00</start>
+                <duration>00:55</duration>
+                <room>Ballroom 2</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281235-ballroom2">
                         Conference link
                     </link>
                     
@@ -1808,31 +1808,6 @@ We have our own custom flight computer with it&#39;s own custom firmware and dua
                 </links>
             </event>
             
-            <event id="BREAK-202608281235-ballroom3">
-                <slug/>
-                <date>2026-08-28T12:35:00+10:00</date>
-                <start>12:35:00</start>
-                <duration>00:55</duration>
-                <room>Ballroom 3</room>
-                <title>Lunch</title>
-                <subtitle/>
-                <track>None</track>
-                <type>break</type>
-                <language/>
-                <description/>
-                <abstract></abstract>
-                <persons>
-                    
-                </persons>
-                <links>
-                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281235-ballroom3">
-                        Conference link
-                    </link>
-                    
-                    
-                </links>
-            </event>
-            
             <event id="BREAK-202608281000-ballroom3">
                 <slug/>
                 <date>2026-08-28T10:00:00+10:00</date>
@@ -1851,6 +1826,31 @@ We have our own custom flight computer with it&#39;s own custom firmware and dua
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="BREAK-202608281235-ballroom3">
+                <slug/>
+                <date>2026-08-28T12:35:00+10:00</date>
+                <start>12:35:00</start>
+                <duration>00:55</duration>
+                <room>Ballroom 3</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>None</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract></abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281235-ballroom3">
                         Conference link
                     </link>
                     
@@ -2785,33 +2785,6 @@ In this talk, you&#39;ll learn the options you have for delivering your code to 
                 </links>
             </event>
             
-            <event id="HH8MA3">
-                <slug/>
-                <date>2026-08-29T15:10:00+10:00</date>
-                <start>15:10:00</start>
-                <duration>00:30</duration>
-                <room>Ballroom 3</room>
-                <title>Why computer science matters to musicians</title>
-                <subtitle/>
-                <track>None</track>
-                <type>talk</type>
-                <language/>
-                <description/>
-                <abstract>Making live music in a high-tech way provides new opportunities for creativity, but comes with a range of challenges. In this talk, we will open a window into just how many ‘hats’ a digital artist needs to wear, and discuss the technical hurdles they face. We’ll showcase the tools used to create custom control surfaces, how to overcome latency and stability issues, and explore the vast creative possibilities.</abstract>
-                <persons>
-                    
-                    <person>Jesse Manser</person>
-                    
-                </persons>
-                <links>
-                    <link href="https://2026.pycon.org.au/schedule/HH8MA3">
-                        Conference link
-                    </link>
-                    
-                    
-                </links>
-            </event>
-            
             <event id="BREAK-202608291000-ballroom3">
                 <slug/>
                 <date>2026-08-29T10:00:00+10:00</date>
@@ -2887,28 +2860,26 @@ In this talk, you&#39;ll learn the options you have for delivering your code to 
                 </links>
             </event>
             
-            <event id="JZQG9G">
+            <event id="HH8MA3">
                 <slug/>
-                <date>2026-08-29T10:45:00+10:00</date>
-                <start>10:45:00</start>
+                <date>2026-08-29T15:10:00+10:00</date>
+                <start>15:10:00</start>
                 <duration>00:30</duration>
                 <room>Ballroom 3</room>
-                <title>Testing Beyond Examples: Property Based Testing with Hypothesis</title>
+                <title>Why computer science matters to musicians</title>
                 <subtitle/>
                 <track>None</track>
                 <type>talk</type>
                 <language/>
                 <description/>
-                <abstract>Most of us learn testing by writing examples. Put some input in, check the output, move on. That works… until it doesn’t. Edge cases slip through, assumptions hide in plain sight, and the tests that felt thorough turn out to only cover the obvious cases.
-
-This talk is an introduction to property based testing in Python using Hypothesis. Instead of hand writing endless individual test cases, we describe the rules that should always hold true, then let Hypothesis generate a huge range of inputs for us, including the weird ones we probably would not have thought to test ourselves. I’ll show how this changes the way you think about tests, where it works especially well, and how to start using it in real Python projects without making your test suite harder to understand.</abstract>
+                <abstract>Making live music in a high-tech way provides new opportunities for creativity, but comes with a range of challenges. In this talk, we will open a window into just how many ‘hats’ a digital artist needs to wear, and discuss the technical hurdles they face. We’ll showcase the tools used to create custom control surfaces, how to overcome latency and stability issues, and explore the vast creative possibilities.</abstract>
                 <persons>
                     
-                    <person>Sam Bishop</person>
+                    <person>Jesse Manser</person>
                     
                 </persons>
                 <links>
-                    <link href="https://2026.pycon.org.au/schedule/JZQG9G">
+                    <link href="https://2026.pycon.org.au/schedule/HH8MA3">
                         Conference link
                     </link>
                     
@@ -2941,6 +2912,35 @@ But mainly the talk will focus on the new 3.15 keyword `lazy` and how it can aff
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/HZUCVL">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event id="JZQG9G">
+                <slug/>
+                <date>2026-08-29T10:45:00+10:00</date>
+                <start>10:45:00</start>
+                <duration>00:30</duration>
+                <room>Ballroom 3</room>
+                <title>Testing Beyond Examples: Property Based Testing with Hypothesis</title>
+                <subtitle/>
+                <track>None</track>
+                <type>talk</type>
+                <language/>
+                <description/>
+                <abstract>Most of us learn testing by writing examples. Put some input in, check the output, move on. That works… until it doesn’t. Edge cases slip through, assumptions hide in plain sight, and the tests that felt thorough turn out to only cover the obvious cases.
+
+This talk is an introduction to property based testing in Python using Hypothesis. Instead of hand writing endless individual test cases, we describe the rules that should always hold true, then let Hypothesis generate a huge range of inputs for us, including the weird ones we probably would not have thought to test ourselves. I’ll show how this changes the way you think about tests, where it works especially well, and how to start using it in real Python projects without making your test suite harder to understand.</abstract>
+                <persons>
+                    
+                    <person>Sam Bishop</person>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/JZQG9G">
                         Conference link
                     </link>
                     
