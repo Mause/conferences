@@ -1,35 +1,54 @@
-from collections.abc import Callable, Generator, Iterable
+import json
+from collections.abc import Callable, Iterable
 from datetime import date, datetime, timedelta
-from functools import cache
 from itertools import groupby as _groupby
-from pathlib import Path
-from tempfile import mkdtemp
-from typing import TypedDict, cast
+from typing import Literal
 
-import frontmatter
-from dulwich.porcelain import clone, pull
-from dulwich.repo import Repo
+import requests
 from flask import Flask, Response, render_template, request
+from lxml.html import fromstring
+from pydantic import BaseModel
 
 app = Flask(__name__)
 
 TWO_DAYS = timedelta(days=3)
 
 
-class Person(TypedDict):
-    name: str
-    bio: str
-    twitter: str
-    github: str
-    website: str
-
-
-class Session(TypedDict):
+class Session(BaseModel):
+    code: str
     title: str
-    speakers: list[str]
-    start: str
-    end: str
-    room: str
+    type: Literal[
+        "workshop",
+        "talk",
+        "break",
+        "plenary",
+        "other",
+    ]
+    rooms: list[
+        Literal[
+            "Lyon",
+            "Ballroom 1",
+            "Ballroom 2",
+            "Ballroom 3",
+        ]
+    ]
+    start: datetime
+    end: datetime
+    who: str
+
+    @property
+    def duration(self) -> int | float:
+        return (self.end - self.start).total_seconds()
+
+
+class Day(BaseModel):
+    key: str
+    sessions: list[Session]
+
+
+class Schedule(BaseModel):
+    tz: str
+    days: list[Day]
 
 
 def groupby[K: str | date, V](
@@ -38,8 +57,8 @@ def groupby[K: str | date, V](
     return _groupby(sorted(iterable, key=key), key)
 
 
-def to_time(minutes: int) -> str:
-    hours, minutes = divmod(minutes, 60)
+def to_time(seconds: int) -> str:
+    hours, minutes = divmod(seconds // 60, 60)
     return f"{int(hours):02d}:{int(minutes):02d}"
 
 
@@ -54,65 +73,24 @@ def catch_all(path):
     return Response(f"Hello from {path} || {request.url}", status=200)
 
 
-@cache
-def get_author(root: Path, code: str) -> str:
-    metadata = cast(
-        Person,
-        frontmatter.load(root / f"src/content/people/{code}.md").metadata,
-    )
-    return metadata["name"]
-
-
-class ReSession(TypedDict):
-    title: str
-    speakers: list[str]
-    start: datetime
-    end: datetime
-    room: str
-    duration: float
-    authors: list[str]
-
-
-def get_talks(root: Path) -> Generator[ReSession]:
-    for talk in (root / "src/content/sessions").glob("*.md"):
-        talk = cast(Session, frontmatter.load(talk).metadata)
-        if not talk["start"]:
-            print(talk["title"], "has no start time")
-            continue
-        start = datetime.fromisoformat(talk["start"])
-        end = datetime.fromisoformat(talk["end"])
-        duration = end - start
-
-        yield {
-            **talk,
-            "start": start,
-            "end": end,
-            "duration": duration.total_seconds() / 60,
-            "authors": [get_author(root, speaker) for speaker in talk["speakers"]],
-        }
+def one[T](t: list[T]) -> T:
+    # if len(t) != 1:
+    # raise ValueError(f"Expected one item, got {len(t)}")
+    return t[0]
 
 
 def get_schedule() -> tuple[str, int, dict[str, str]]:
-    path = Path(mkdtemp()) / "2026-website"
-    if not path.exists():
-        clone(
-            "https://github.com/pyconau/2026-website.git",
-            path,
-            depth=1,
-        )
-    else:
-        pull(Repo(path))
+    r = requests.get("https://2026.pycon.org.au/schedule/now")
+    r.raise_for_status()
+    (js,) = fromstring(r.content).xpath('//script[@id="board-data"]/text()')
+    days = Schedule.validate(json.loads(js))
 
-    schedule = list(get_talks(path))
-    print(schedule[0])
-
-    days = groupby(schedule, lambda talk: talk["start"].date())
     days = {
-        date: [
-            (room, sorted(room_talks, key=lambda talk: talk["start"]))
-            for room, room_talks in groupby(talks, lambda talk: talk["room"])
+        day.key: [
+            (room, sorted(room_talks, key=lambda talk: talk.start))
+            for room, room_talks in groupby(day.sessions, lambda talk: one(talk.rooms))
         ]
-        for date, talks in days
+        for day in days.days
     }
 
     start_date = date.fromisoformat("2026-08-26")
