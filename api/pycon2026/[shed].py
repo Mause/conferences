@@ -25,12 +25,7 @@ def to_time(minutes: int) -> str:
     return "{:02d}:{:02d}".format(*divmod(minutes, 60))
 
 
-@app.route("/schedule.xml")
-def schedule_xml():
-    return redirect(url_for("schedule_year_xml", year="2019"))
-
-
-@app.route("/api/pycon/<year>")
+@app.route("/api/pycon2026/<year:int>")
 def schedule_year_xml(year):
     return get_schedule()
 
