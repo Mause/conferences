@@ -28,6 +28,9 @@ def schedule_xml():
 
 @app.route("/api/pycon/<year>")
 def schedule_year_xml(year):
+    if year not in DATES:
+        return "Not Found", 404
+
     schedule = requests.get(f"https://{year}.pycon-au.org/schedule/avdata.json").json()[
         "schedule"
     ]
