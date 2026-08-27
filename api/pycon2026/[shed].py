@@ -107,7 +107,13 @@ def get_schedule() -> tuple[str, int, dict[str, str]]:
     print(schedule[0])
 
     days = groupby(schedule, lambda talk: talk["start"].date())
-    days = {date: groupby(talks, lambda talk: talk["room"]) for date, talks in days}
+    days = {
+        date: [
+            (room, sorted(room_talks, key=lambda talk: talk["start"]))
+            for room, room_talks in groupby(talks, lambda talk: talk["room"])
+        ]
+        for date, talks in days
+    }
 
     start_date = date.fromisoformat("2026-08-26")
     end_date = date.fromisoformat("2026-08-30")
