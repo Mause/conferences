@@ -12,10 +12,6 @@ from flask import Flask, Response, render_template, request
 app = Flask(__name__)
 
 TWO_DAYS = timedelta(days=3)
-DATES = {
-    str(date.year): (date, date + TWO_DAYS)
-    for date in (date(2018, 8, 24), date(2019, 8, 1))
-}
 
 
 class Person(TypedDict):
