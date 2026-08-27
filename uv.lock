@@ -3,6 +3,15 @@ revision = 3
 requires-python = ">=3.13"
 
 [[package]]
+name = "annotated-types"
+version = "0.8.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/5f/56/a8120250d128bed162cd73c76d45f6ef9991f3e068f62a8ee060afa3104a/annotated_types-0.8.0.tar.gz", hash = "sha256:13b2beaad985e05e2d6407ee4c4f35590b11f8d693a258a561055cac8f64cab7", size = 15893, upload-time = "2026-07-23T20:16:13.995Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl", hash = "sha256:f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0", size = 13427, upload-time = "2026-07-23T20:16:12.938Z" },
+]
+
+[[package]]
 name = "blinker"
 version = "1.9.0"
 source = { registry = "https://pypi.org/simple" }
@@ -106,6 +115,8 @@ dependencies = [
     { name = "dulwich" },
     { name = "flask" },
     { name = "lxml" },
+    { name = "pydantic" },
+    { name = "pydantic-core" },
     { name = "python-dateutil" },
     { name = "python-frontmatter" },
     { name = "requests" },
@@ -119,6 +130,8 @@ requires-dist = [
     { name = "flask" },
     { name = "flask", specifier = ">=3.1.3" },
     { name = "lxml" },
+    { name = "pydantic", specifier = "==2.13.0b1" },
+    { name = "pydantic-core", path = "/data/data/com.termux/files/home/.cache/tinstall/wheelhouse/pydantic-core/pydantic_core-2.42.0-cp314-cp314-android_24_arm64_v8a.whl" },
     { name = "python-dateutil" },
     { name = "python-frontmatter", specifier = ">=1.3.0" },
     { name = "requests" },
@@ -339,6 +352,35 @@ wheels = [
 ]
 
 [[package]]
+name = "pydantic"
+version = "2.13.0b1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "annotated-types" },
+    { name = "pydantic-core" },
+    { name = "typing-extensions" },
+    { name = "typing-inspection" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d8/0f/5e76f97d7fd901a060f9e911d4bad01d5651f01cf92c761ae637f2fc3311/pydantic-2.13.0b1.tar.gz", hash = "sha256:4d2b645d6e7173e5c6e1fb7f9875caea8f186580e4ca0cb515a85f38151776d0", size = 835120, upload-time = "2026-02-23T17:58:21.879Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6c/2d/030cf7eaee007f2075f9a6c7a02cd8151cc5f7c5e4a35a91fe104b01fd59/pydantic-2.13.0b1-py3-none-any.whl", hash = "sha256:4217dd70afa2bf63295996acfe9133ccd5b767eaf1c3dd8e0c5d4ea58293d26f", size = 468061, upload-time = "2026-02-23T17:58:19.973Z" },
+]
+
+[[package]]
+name = "pydantic-core"
+version = "2.42.0"
+source = { path = "/data/data/com.termux/files/home/.cache/tinstall/wheelhouse/pydantic-core/pydantic_core-2.42.0-cp314-cp314-android_24_arm64_v8a.whl" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+wheels = [
+    { filename = "pydantic_core-2.42.0-cp314-cp314-android_24_arm64_v8a.whl", hash = "sha256:facb27c33a26e2a5e3bc90f0a1429b7e5758453f0b8c4da256dc6a316af72abe" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "typing-extensions", specifier = ">=4.14.1" }]
+
+[[package]]
 name = "python-dateutil"
 version = "2.9.0.post0"
 source = { registry = "https://pypi.org/simple" }
@@ -420,6 +462,27 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031, upload-time = "2024-12-04T17:35:28.174Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050, upload-time = "2024-12-04T17:35:26.475Z" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.16.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz", hash = "sha256:dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5", size = 113555, upload-time = "2026-07-02T08:40:05.92Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl", hash = "sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8", size = 45571, upload-time = "2026-07-02T08:40:04.659Z" },
+]
+
+[[package]]
+name = "typing-inspection"
+version = "0.4.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a3/26/b09b8010994eccc3c09092e6b34058f36a460eea2d4c3e8b910c695975a0/typing_inspection-0.4.4.tar.gz", hash = "sha256:547274fa6b0a561ccf549cc9524b999a578e737d015d8709d021f9d0d13bea47", size = 76928, upload-time = "2026-08-12T12:37:25.997Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl", hash = "sha256:65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147", size = 14750, upload-time = "2026-08-12T12:37:24.648Z" },
 ]
 
 [[package]]

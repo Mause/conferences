@@ -10,25 +10,22 @@ import frontmatter
 from dulwich.porcelain import clone, pull
 from dulwich.repo import Repo
 from flask import Flask, Response, render_template, request
+from pydantic import BaseModel
 
 app = Flask(__name__)
 
 TWO_DAYS = timedelta(days=3)
 
 
-class Person(TypedDict):
+class Person(BaseModel):
     name: str
-    bio: str
-    twitter: str
-    github: str
-    website: str
 
 
-class Session(TypedDict):
+class Session(BaseModel):
     title: str
     speakers: list[str]
-    start: str
-    end: str
+    start: str | None
+    end: str | None
     room: str
 
 
@@ -56,16 +53,14 @@ def catch_all(path):
 
 @cache
 def get_author(root: Path, code: str) -> str:
-    metadata = cast(
-        Person,
+    metadata = Person.validate(
         frontmatter.load(root / f"src/content/people/{code}.md").metadata,
     )
-    return metadata["name"]
+    return metadata.name
 
 
-class ReSession(TypedDict):
+class ReSession(BaseModel):
     title: str
-    speakers: list[str]
     start: datetime
     end: datetime
     room: str
@@ -75,21 +70,25 @@ class ReSession(TypedDict):
 
 def get_talks(root: Path) -> Generator[ReSession]:
     for talk in (root / "src/content/sessions").glob("*.md"):
-        talk = cast(Session, frontmatter.load(talk).metadata)
-        if not talk["start"]:
-            print(talk["title"], "has no start time")
+        talk = Session.validate(frontmatter.load(talk).metadata)
+        if not (talk.start and talk.end):
+            print(talk.title, "has no start time")
             continue
-        start = datetime.fromisoformat(talk["start"])
-        end = datetime.fromisoformat(talk["end"])
+        start = datetime.fromisoformat(talk.start)
+        end = datetime.fromisoformat(talk.end)
         duration = end - start
 
-        yield {
-            **talk,
-            "start": start,
-            "end": end,
-            "duration": duration.total_seconds() / 60,
-            "authors": [get_author(root, speaker) for speaker in talk["speakers"]],
-        }
+        yield ReSession.validate(
+            {
+                "title": talk.title,
+                "room": talk.room,
+                # **talk,
+                "start": start,
+                "end": end,
+                "duration": duration.total_seconds() / 60,
+                "authors": [get_author(root, speaker) for speaker in talk.speakers],
+            }
+        )
 
 
 def get_schedule() -> tuple[str, int, dict[str, str]]:
@@ -106,11 +105,11 @@ def get_schedule() -> tuple[str, int, dict[str, str]]:
     schedule = list(get_talks(path))
     print(schedule[0])
 
-    days = groupby(schedule, lambda talk: talk["start"].date())
+    days = groupby(schedule, lambda talk: talk.start.date())
     days = {
         date: [
-            (room, sorted(room_talks, key=lambda talk: talk["start"]))
-            for room, room_talks in groupby(talks, lambda talk: talk["room"])
+            (room, sorted(room_talks, key=lambda talk: talk.start))
+            for room, room_talks in groupby(talks, lambda talk: talk.room)
         ]
         for date, talks in days
     }
