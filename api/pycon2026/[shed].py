@@ -2,6 +2,7 @@ from datetime import date, datetime, timedelta
 from functools import cache
 from itertools import groupby as _groupby
 from pathlib import Path
+from tempfile import mkdtemp
 from typing import TypedDict, cast
 
 import frontmatter
@@ -79,7 +80,7 @@ def get_talks():
 
 
 def get_schedule():
-    path = Path("./2026-website/")
+    path = Path(mkdtemp(prefix="2026-website"))
     if not path.exists():
         clone(
             "https://github.com/pyconau/2026-website.git",
