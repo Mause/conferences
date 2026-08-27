@@ -52,16 +52,16 @@ def catch_all(path):
 
 
 @cache
-def get_author(code: str) -> str:
+def get_author(root: Path, code: str) -> str:
     metadata = cast(
         Person,
-        frontmatter.load(Path(f"./2026-website/src/content/people/{code}.md")).metadata,
+        frontmatter.load(root / f"src/content/people/{code}.md").metadata,
     )
     return metadata["name"]
 
 
-def get_talks():
-    for talk in Path("./2026-website/src/content/sessions").glob("*.md"):
+def get_talks(root: Path):
+    for talk in (root / "src/content/sessions").glob("*.md"):
         talk = cast(Session, frontmatter.load(talk).metadata)
         if not talk["start"]:
             print(talk["title"], "has no start time")
@@ -75,7 +75,7 @@ def get_talks():
             "start": start,
             "end": end,
             "duration": duration.total_seconds() / 60,
-            "authors": [get_author(speaker) for speaker in talk["speakers"]],
+            "authors": [get_author(root, speaker) for speaker in talk["speakers"]],
         }
 
 
@@ -90,7 +90,7 @@ def get_schedule():
     else:
         pull(Repo(path))
 
-    schedule = list(get_talks())
+    schedule = list(get_talks(path))
     print(schedule[0])
 
     days = groupby(schedule, lambda talk: talk["start"].date())
