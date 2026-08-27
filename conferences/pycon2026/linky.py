@@ -1,5 +1,6 @@
 import re
-from typing import Match
+from re import Match
+
 import requests
 
 schedule = requests.get(
@@ -15,7 +16,7 @@ TEMPLATE = " * Talk: "
 
 def replace(match: Match) -> str:
     name = match.groups()[0]
-    return TEMPLATE + (name if name[0] == "[" else "[%s](%s)" % (name, schedule[name]))
+    return TEMPLATE + (name if name[0] == "[" else f"[{name}]({schedule[name]})")
 
 
 def add_links(contents: str) -> str:

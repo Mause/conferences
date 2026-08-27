@@ -1,9 +1,10 @@
-from flask import Flask, render_template
-import requests
-from datetime import datetime
-from lxml.html import fromstring, tostring
 from collections import defaultdict
+from datetime import datetime
+
+import requests
 from dateutil.parser import parse
+from flask import Flask, render_template
+from lxml.html import fromstring
 from unidecode import unidecode
 
 app = Flask(__name__)
@@ -34,10 +35,13 @@ def get_times_and_locations():
             titles = talk.xpath(".//h2/text()")
 
             for title in titles:
-                yield unidecode(title), {
-                    "room": rooms[0] if rooms else "Elsewhere",
-                    "start": time,
-                }
+                yield (
+                    unidecode(title),
+                    {
+                        "room": rooms[0] if rooms else "Elsewhere",
+                        "start": time,
+                    },
+                )
 
 
 @app.route("/api/dddperth/")
@@ -49,10 +53,7 @@ def schedule():
     talks = [
         {**talk, **locos.pop(" ".join(unidecode(talk["Title"]).split("  ")))}
         for talk in data
-    ] + [
-        {"Title": name, "Id": name, **meta}
-        for name, meta in locos.items()
-    ]
+    ] + [{"Title": name, "Id": name, **meta} for name, meta in locos.items()]
 
     rtalks = defaultdict(list)
     for talk in talks:
@@ -69,4 +70,3 @@ def schedule():
         200,
         {"content-type": "application/xml"},
     )
-
