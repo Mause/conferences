@@ -19,7 +19,7 @@
                 <date>2026-08-25T23:30:00+00:00</date>
                 <start>23:30:00</start>
                 <duration>120:00</duration>
-                <room></room>
+                <room>Lyon</room>
                 <title>Build a cross-platform GUI app with Python</title>
                 <subtitle/>
                 <track></track>
@@ -44,7 +44,7 @@
                 <date>2026-08-26T01:30:00+00:00</date>
                 <start>01:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Lyon</room>
                 <title>Lunch break</title>
                 <subtitle/>
                 <track></track>
@@ -69,7 +69,7 @@
                 <date>2026-08-26T02:00:00+00:00</date>
                 <start>02:00:00</start>
                 <duration>120:00</duration>
-                <room></room>
+                <room>Lyon</room>
                 <title>Typed Python: from Zero to Hero</title>
                 <subtitle/>
                 <track></track>
@@ -94,7 +94,7 @@
                 <date>2026-08-26T04:00:00+00:00</date>
                 <start>04:00:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Lyon</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -119,7 +119,7 @@
                 <date>2026-08-26T04:30:00+00:00</date>
                 <start>04:30:00</start>
                 <duration>120:00</duration>
-                <room></room>
+                <room>Lyon</room>
                 <title>Building Durable AI Agents with Open AI Agents SDK, MCP, and Temporal</title>
                 <subtitle/>
                 <track></track>
@@ -152,7 +152,7 @@
                 <date>2026-08-26T22:30:00+00:00</date>
                 <start>22:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>First Timers Session (in Lyon)</title>
                 <subtitle/>
                 <track></track>
@@ -177,7 +177,7 @@
                 <date>2026-08-26T23:00:00+00:00</date>
                 <start>23:00:00</start>
                 <duration>15:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Conference welcome</title>
                 <subtitle/>
                 <track></track>
@@ -202,7 +202,7 @@
                 <date>2026-08-26T23:15:00+00:00</date>
                 <start>23:15:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>30 to 70 PRs a day: How we managed to not wreck our systems</title>
                 <subtitle/>
                 <track></track>
@@ -227,7 +227,7 @@
                 <date>2026-08-27T00:00:00+00:00</date>
                 <start>00:00:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Morning Tea</title>
                 <subtitle/>
                 <track></track>
@@ -252,7 +252,7 @@
                 <date>2026-08-27T00:45:00+00:00</date>
                 <start>00:45:00</start>
                 <duration>35:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Kubernetes as LEGO: Building Platforms one block at a time</title>
                 <subtitle/>
                 <track></track>
@@ -277,7 +277,7 @@
                 <date>2026-08-27T01:30:00+00:00</date>
                 <start>01:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Automation First, Regrets Later</title>
                 <subtitle/>
                 <track></track>
@@ -302,7 +302,7 @@
                 <date>2026-08-27T02:05:00+00:00</date>
                 <start>02:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>TOGA: Checklists and Safety Measures for &#34;Yoloing&#34; in Prod</title>
                 <subtitle/>
                 <track></track>
@@ -327,7 +327,7 @@
                 <date>2026-08-27T02:40:00+00:00</date>
                 <start>02:40:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Developing Problem Solvers under Pressure: SREs, DBREs and Ponies &lt;3</title>
                 <subtitle/>
                 <track></track>
@@ -352,7 +352,7 @@
                 <date>2026-08-27T03:10:00+00:00</date>
                 <start>03:10:00</start>
                 <duration>55:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -377,7 +377,7 @@
                 <date>2026-08-27T04:05:00+00:00</date>
                 <start>04:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>From On-Prem to the Cloud and Back Again</title>
                 <subtitle/>
                 <track></track>
@@ -402,7 +402,7 @@
                 <date>2026-08-27T04:40:00+00:00</date>
                 <start>04:40:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>What Happened in Production?! Instrumenting with OpenTelemetry</title>
                 <subtitle/>
                 <track></track>
@@ -427,7 +427,7 @@
                 <date>2026-08-27T05:15:00+00:00</date>
                 <start>05:15:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Just Enough Reliability</title>
                 <subtitle/>
                 <track></track>
@@ -452,7 +452,7 @@
                 <date>2026-08-27T05:45:00+00:00</date>
                 <start>05:45:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -477,7 +477,7 @@
                 <date>2026-08-27T06:30:00+00:00</date>
                 <start>06:30:00</start>
                 <duration>60:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Thursday lightning talks</title>
                 <subtitle/>
                 <track></track>
@@ -506,7 +506,7 @@
                 <date>2026-08-27T00:00:00+00:00</date>
                 <start>00:00:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Morning Tea</title>
                 <subtitle/>
                 <track></track>
@@ -531,7 +531,7 @@
                 <date>2026-08-27T00:45:00+00:00</date>
                 <start>00:45:00</start>
                 <duration>35:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Switching from Sphinx to Markdown</title>
                 <subtitle/>
                 <track></track>
@@ -556,7 +556,7 @@
                 <date>2026-08-27T01:30:00+00:00</date>
                 <start>01:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>from where?!? import what?!?</title>
                 <subtitle/>
                 <track></track>
@@ -581,7 +581,7 @@
                 <date>2026-08-27T02:05:00+00:00</date>
                 <start>02:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Enterprise Grade Accessibility for Everyone</title>
                 <subtitle/>
                 <track></track>
@@ -606,7 +606,7 @@
                 <date>2026-08-27T02:40:00+00:00</date>
                 <start>02:40:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Your Python container is 90% stuff you didn&#39;t ask for</title>
                 <subtitle/>
                 <track></track>
@@ -631,7 +631,7 @@
                 <date>2026-08-27T03:10:00+00:00</date>
                 <start>03:10:00</start>
                 <duration>55:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -656,7 +656,7 @@
                 <date>2026-08-27T04:05:00+00:00</date>
                 <start>04:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>An Intro to Glue Work</title>
                 <subtitle/>
                 <track></track>
@@ -681,7 +681,7 @@
                 <date>2026-08-27T04:40:00+00:00</date>
                 <start>04:40:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Goodbye GIL: Exploring the Free-threaded mode in Python</title>
                 <subtitle/>
                 <track></track>
@@ -706,7 +706,7 @@
                 <date>2026-08-27T05:15:00+00:00</date>
                 <start>05:15:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Adventures in FastAPI: A Choose-Your-Own PyCon AU Talk</title>
                 <subtitle/>
                 <track></track>
@@ -731,7 +731,7 @@
                 <date>2026-08-27T05:45:00+00:00</date>
                 <start>05:45:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -760,7 +760,7 @@
                 <date>2026-08-27T00:00:00+00:00</date>
                 <start>00:00:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Morning Tea</title>
                 <subtitle/>
                 <track></track>
@@ -785,7 +785,7 @@
                 <date>2026-08-27T00:45:00+00:00</date>
                 <start>00:45:00</start>
                 <duration>35:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>AI-assisted coding, Python and dbt: taking Chronos live in two days</title>
                 <subtitle/>
                 <track></track>
@@ -810,7 +810,7 @@
                 <date>2026-08-27T01:30:00+00:00</date>
                 <start>01:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Ship Reliable RAG: Evals That Grow with Your Retrieval Complexity</title>
                 <subtitle/>
                 <track></track>
@@ -835,7 +835,7 @@
                 <date>2026-08-27T02:05:00+00:00</date>
                 <start>02:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Why Your ML Pipeline Needs an Agent (and How to Build One)</title>
                 <subtitle/>
                 <track></track>
@@ -860,7 +860,7 @@
                 <date>2026-08-27T02:40:00+00:00</date>
                 <start>02:40:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>From Pixels to Points: Inferring Archery Scores with Computer Vision</title>
                 <subtitle/>
                 <track></track>
@@ -885,7 +885,7 @@
                 <date>2026-08-27T03:10:00+00:00</date>
                 <start>03:10:00</start>
                 <duration>55:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -910,7 +910,7 @@
                 <date>2026-08-27T04:05:00+00:00</date>
                 <start>04:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Please Don&#39;t Put That in a Dict: Better Data Models in Python</title>
                 <subtitle/>
                 <track></track>
@@ -935,7 +935,7 @@
                 <date>2026-08-27T04:40:00+00:00</date>
                 <start>04:40:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Stop Prompting, Start Composing: Agent Skills in Practice</title>
                 <subtitle/>
                 <track></track>
@@ -960,7 +960,7 @@
                 <date>2026-08-27T05:15:00+00:00</date>
                 <start>05:15:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Vibing Vision: how we built a pose tracking art installation in two weeks</title>
                 <subtitle/>
                 <track></track>
@@ -985,7 +985,7 @@
                 <date>2026-08-27T05:45:00+00:00</date>
                 <start>05:45:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -1018,7 +1018,7 @@
                 <date>2026-08-27T23:00:00+00:00</date>
                 <start>23:00:00</start>
                 <duration>15:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Conference welcome</title>
                 <subtitle/>
                 <track></track>
@@ -1043,7 +1043,7 @@
                 <date>2026-08-27T23:15:00+00:00</date>
                 <start>23:15:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Why Australians don&#39;t trust AI and what that means for all of us</title>
                 <subtitle/>
                 <track></track>
@@ -1068,7 +1068,7 @@
                 <date>2026-08-28T00:00:00+00:00</date>
                 <start>00:00:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Morning Tea</title>
                 <subtitle/>
                 <track></track>
@@ -1093,7 +1093,7 @@
                 <date>2026-08-28T00:45:00+00:00</date>
                 <start>00:45:00</start>
                 <duration>35:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>The Good, The Bad, and the Ugly – Python in Secondary Education in Queensland</title>
                 <subtitle/>
                 <track></track>
@@ -1118,7 +1118,7 @@
                 <date>2026-08-28T01:30:00+00:00</date>
                 <start>01:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>How Being Terrified of Code Helped Me Get Girls to Love It</title>
                 <subtitle/>
                 <track></track>
@@ -1143,7 +1143,7 @@
                 <date>2026-08-28T02:05:00+00:00</date>
                 <start>02:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Hash It Out: Teaching Password Security Through Code</title>
                 <subtitle/>
                 <track></track>
@@ -1168,7 +1168,7 @@
                 <date>2026-08-28T02:35:00+00:00</date>
                 <start>02:35:00</start>
                 <duration>55:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -1193,7 +1193,7 @@
                 <date>2026-08-28T03:30:00+00:00</date>
                 <start>03:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>The Neurospicy Toolbox: A Guide for Educators</title>
                 <subtitle/>
                 <track></track>
@@ -1218,7 +1218,7 @@
                 <date>2026-08-28T04:05:00+00:00</date>
                 <start>04:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Assessment in the age of AI</title>
                 <subtitle/>
                 <track></track>
@@ -1243,7 +1243,7 @@
                 <date>2026-08-28T04:40:00+00:00</date>
                 <start>04:40:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Feed-Forward, Not Feedback: Rethinking Project Based Assessment</title>
                 <subtitle/>
                 <track></track>
@@ -1268,7 +1268,7 @@
                 <date>2026-08-28T05:10:00+00:00</date>
                 <start>05:10:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -1293,7 +1293,7 @@
                 <date>2026-08-28T05:55:00+00:00</date>
                 <start>05:55:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>The 20-Year Port: from PhD project to polished professional Python packaging</title>
                 <subtitle/>
                 <track></track>
@@ -1318,7 +1318,7 @@
                 <date>2026-08-28T06:30:00+00:00</date>
                 <start>06:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>From COBOL to Copilots: Why “No-Code” Never Kills the Coder</title>
                 <subtitle/>
                 <track></track>
@@ -1347,7 +1347,7 @@
                 <date>2026-08-28T00:00:00+00:00</date>
                 <start>00:00:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Morning Tea</title>
                 <subtitle/>
                 <track></track>
@@ -1372,7 +1372,7 @@
                 <date>2026-08-28T00:45:00+00:00</date>
                 <start>00:45:00</start>
                 <duration>35:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>40,000 CVEs and Counting: What 60 Years of AppSec Tells Us About 2026</title>
                 <subtitle/>
                 <track></track>
@@ -1397,7 +1397,7 @@
                 <date>2026-08-28T01:30:00+00:00</date>
                 <start>01:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Can I Trust You? Service-to-Service Identity with SPIFFE</title>
                 <subtitle/>
                 <track></track>
@@ -1422,7 +1422,7 @@
                 <date>2026-08-28T02:05:00+00:00</date>
                 <start>02:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Whoops! I Accidentally Leaked My Credentials (again)</title>
                 <subtitle/>
                 <track></track>
@@ -1447,7 +1447,7 @@
                 <date>2026-08-28T02:35:00+00:00</date>
                 <start>02:35:00</start>
                 <duration>55:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -1472,7 +1472,7 @@
                 <date>2026-08-28T03:30:00+00:00</date>
                 <start>03:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Vibe-Check Your Vibe Code: Surviving the Era of Agentic Open Source Dependencies</title>
                 <subtitle/>
                 <track></track>
@@ -1497,7 +1497,7 @@
                 <date>2026-08-28T04:05:00+00:00</date>
                 <start>04:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Authentication for humans, why passkeys finally make sense.</title>
                 <subtitle/>
                 <track></track>
@@ -1522,7 +1522,7 @@
                 <date>2026-08-28T04:40:00+00:00</date>
                 <start>04:40:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Privacy data encryption &amp; deletion while preserving analytical integrity</title>
                 <subtitle/>
                 <track></track>
@@ -1547,7 +1547,7 @@
                 <date>2026-08-28T05:10:00+00:00</date>
                 <start>05:10:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -1572,7 +1572,7 @@
                 <date>2026-08-28T05:55:00+00:00</date>
                 <start>05:55:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Disentangling formatted strings with T-strings</title>
                 <subtitle/>
                 <track></track>
@@ -1597,7 +1597,7 @@
                 <date>2026-08-28T06:30:00+00:00</date>
                 <start>06:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>From Trauma ICU to InfoSec: A Nurse&#39;s Pivot into Cybersecurity</title>
                 <subtitle/>
                 <track></track>
@@ -1626,7 +1626,7 @@
                 <date>2026-08-28T00:00:00+00:00</date>
                 <start>00:00:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Morning Tea</title>
                 <subtitle/>
                 <track></track>
@@ -1651,7 +1651,7 @@
                 <date>2026-08-28T00:45:00+00:00</date>
                 <start>00:45:00</start>
                 <duration>35:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Productivity: a dialogue</title>
                 <subtitle/>
                 <track></track>
@@ -1676,7 +1676,7 @@
                 <date>2026-08-28T01:30:00+00:00</date>
                 <start>01:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Launching Rockets with Python</title>
                 <subtitle/>
                 <track></track>
@@ -1701,7 +1701,7 @@
                 <date>2026-08-28T02:05:00+00:00</date>
                 <start>02:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Experiments in Engineering without reading code</title>
                 <subtitle/>
                 <track></track>
@@ -1726,7 +1726,7 @@
                 <date>2026-08-28T02:35:00+00:00</date>
                 <start>02:35:00</start>
                 <duration>55:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -1751,7 +1751,7 @@
                 <date>2026-08-28T03:30:00+00:00</date>
                 <start>03:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Breaking the PR Review Bottleneck</title>
                 <subtitle/>
                 <track></track>
@@ -1776,7 +1776,7 @@
                 <date>2026-08-28T04:05:00+00:00</date>
                 <start>04:05:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Research Software Stories: Four Years of Lessons in Sustainable Science</title>
                 <subtitle/>
                 <track></track>
@@ -1801,7 +1801,7 @@
                 <date>2026-08-28T04:40:00+00:00</date>
                 <start>04:40:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Why should I write software well?</title>
                 <subtitle/>
                 <track></track>
@@ -1826,7 +1826,7 @@
                 <date>2026-08-28T05:10:00+00:00</date>
                 <start>05:10:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -1851,7 +1851,7 @@
                 <date>2026-08-28T05:55:00+00:00</date>
                 <start>05:55:00</start>
                 <duration>100:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Student Showcase</title>
                 <subtitle/>
                 <track></track>
@@ -1884,7 +1884,7 @@
                 <date>2026-08-28T23:00:00+00:00</date>
                 <start>23:00:00</start>
                 <duration>15:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Conference welcome</title>
                 <subtitle/>
                 <track></track>
@@ -1909,7 +1909,7 @@
                 <date>2026-08-28T23:15:00+00:00</date>
                 <start>23:15:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>The Care of Software: Ethics and Ecosystems</title>
                 <subtitle/>
                 <track></track>
@@ -1934,7 +1934,7 @@
                 <date>2026-08-29T00:00:00+00:00</date>
                 <start>00:00:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Morning Tea</title>
                 <subtitle/>
                 <track></track>
@@ -1959,7 +1959,7 @@
                 <date>2026-08-29T00:45:00+00:00</date>
                 <start>00:45:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>DevRelling in the age of GenAI</title>
                 <subtitle/>
                 <track></track>
@@ -1984,7 +1984,7 @@
                 <date>2026-08-29T01:20:00+00:00</date>
                 <start>01:20:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Unlocking growth, collaboration and impact through developer communities</title>
                 <subtitle/>
                 <track></track>
@@ -2009,7 +2009,7 @@
                 <date>2026-08-29T01:55:00+00:00</date>
                 <start>01:55:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Hands-on learning in the age of AI: are developer workshops still relevant</title>
                 <subtitle/>
                 <track></track>
@@ -2034,7 +2034,7 @@
                 <date>2026-08-29T02:30:00+00:00</date>
                 <start>02:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>When the demo has to land</title>
                 <subtitle/>
                 <track></track>
@@ -2059,7 +2059,7 @@
                 <date>2026-08-29T03:00:00+00:00</date>
                 <start>03:00:00</start>
                 <duration>60:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -2084,7 +2084,7 @@
                 <date>2026-08-29T04:00:00+00:00</date>
                 <start>04:00:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Gerrymandering Australia</title>
                 <subtitle/>
                 <track></track>
@@ -2109,7 +2109,7 @@
                 <date>2026-08-29T04:35:00+00:00</date>
                 <start>04:35:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>How to make a blob breathe like a human</title>
                 <subtitle/>
                 <track></track>
@@ -2134,7 +2134,7 @@
                 <date>2026-08-29T05:10:00+00:00</date>
                 <start>05:10:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>From Jupyter Notebook to Eruption: Getting Geohazard Research into Production</title>
                 <subtitle/>
                 <track></track>
@@ -2159,7 +2159,7 @@
                 <date>2026-08-29T05:40:00+00:00</date>
                 <start>05:40:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -2184,7 +2184,7 @@
                 <date>2026-08-29T06:25:00+00:00</date>
                 <start>06:25:00</start>
                 <duration>50:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Saturday lightning talks</title>
                 <subtitle/>
                 <track></track>
@@ -2209,7 +2209,7 @@
                 <date>2026-08-29T07:15:00+00:00</date>
                 <start>07:15:00</start>
                 <duration>15:00</duration>
-                <room></room>
+                <room>Ballroom 1</room>
                 <title>Closing address</title>
                 <subtitle/>
                 <track></track>
@@ -2238,7 +2238,7 @@
                 <date>2026-08-29T00:00:00+00:00</date>
                 <start>00:00:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Morning Tea</title>
                 <subtitle/>
                 <track></track>
@@ -2263,7 +2263,7 @@
                 <date>2026-08-29T00:45:00+00:00</date>
                 <start>00:45:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Your Research Code Works.. Until It Doesn’t: Rethinking Reproducibility</title>
                 <subtitle/>
                 <track></track>
@@ -2288,7 +2288,7 @@
                 <date>2026-08-29T01:20:00+00:00</date>
                 <start>01:20:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Things I don’t worry about as NumPy does them for me</title>
                 <subtitle/>
                 <track></track>
@@ -2313,7 +2313,7 @@
                 <date>2026-08-29T01:55:00+00:00</date>
                 <start>01:55:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Optimizing Scientific Python with C++, CUDA, and Serverless Compute</title>
                 <subtitle/>
                 <track></track>
@@ -2338,7 +2338,7 @@
                 <date>2026-08-29T02:30:00+00:00</date>
                 <start>02:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Why and How to Cite Software (and Get Your Software Cited Too)</title>
                 <subtitle/>
                 <track></track>
@@ -2363,7 +2363,7 @@
                 <date>2026-08-29T03:00:00+00:00</date>
                 <start>03:00:00</start>
                 <duration>60:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -2388,7 +2388,7 @@
                 <date>2026-08-29T04:00:00+00:00</date>
                 <start>04:00:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>I am bad at things – And that’s okay</title>
                 <subtitle/>
                 <track></track>
@@ -2413,7 +2413,7 @@
                 <date>2026-08-29T04:35:00+00:00</date>
                 <start>04:35:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Is This Actually Getting Better? A Three-Layer Approach to Measuring AI Products</title>
                 <subtitle/>
                 <track></track>
@@ -2438,7 +2438,7 @@
                 <date>2026-08-29T05:10:00+00:00</date>
                 <start>05:10:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Super secret python talk</title>
                 <subtitle/>
                 <track></track>
@@ -2463,7 +2463,7 @@
                 <date>2026-08-29T05:40:00+00:00</date>
                 <start>05:40:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 2</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -2492,7 +2492,7 @@
                 <date>2026-08-29T00:00:00+00:00</date>
                 <start>00:00:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Morning Tea</title>
                 <subtitle/>
                 <track></track>
@@ -2517,7 +2517,7 @@
                 <date>2026-08-29T00:45:00+00:00</date>
                 <start>00:45:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Testing Beyond Examples: Property Based Testing with Hypothesis</title>
                 <subtitle/>
                 <track></track>
@@ -2542,7 +2542,7 @@
                 <date>2026-08-29T01:20:00+00:00</date>
                 <start>01:20:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>The Virtues of Being Lazy</title>
                 <subtitle/>
                 <track></track>
@@ -2567,7 +2567,7 @@
                 <date>2026-08-29T01:55:00+00:00</date>
                 <start>01:55:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Is storing files in Slack emojis a bad idea? Maybe. Let’s do it anyway!</title>
                 <subtitle/>
                 <track></track>
@@ -2592,7 +2592,7 @@
                 <date>2026-08-29T02:30:00+00:00</date>
                 <start>02:30:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>How to give your Python code to someone else</title>
                 <subtitle/>
                 <track></track>
@@ -2617,7 +2617,7 @@
                 <date>2026-08-29T03:00:00+00:00</date>
                 <start>03:00:00</start>
                 <duration>60:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -2642,7 +2642,7 @@
                 <date>2026-08-29T04:00:00+00:00</date>
                 <start>04:00:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Knocking On A Process’s Door: Introspecting Live Python Processes</title>
                 <subtitle/>
                 <track></track>
@@ -2667,7 +2667,7 @@
                 <date>2026-08-29T04:35:00+00:00</date>
                 <start>04:35:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Not Black and White: Cryptic Crosswords, Code Golf, and the Rules of a Language</title>
                 <subtitle/>
                 <track></track>
@@ -2692,7 +2692,7 @@
                 <date>2026-08-29T05:10:00+00:00</date>
                 <start>05:10:00</start>
                 <duration>30:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Why computer science matters to musicians</title>
                 <subtitle/>
                 <track></track>
@@ -2717,7 +2717,7 @@
                 <date>2026-08-29T05:40:00+00:00</date>
                 <start>05:40:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Ballroom 3</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>
@@ -2746,7 +2746,7 @@
                 <date>2026-08-29T03:00:00+00:00</date>
                 <start>03:00:00</start>
                 <duration>60:00</duration>
-                <room></room>
+                <room>Lyon</room>
                 <title>Lunch</title>
                 <subtitle/>
                 <track></track>
@@ -2771,7 +2771,7 @@
                 <date>2026-08-29T04:00:00+00:00</date>
                 <start>04:00:00</start>
                 <duration>100:00</duration>
-                <room></room>
+                <room>Lyon</room>
                 <title>DevRel Unconference</title>
                 <subtitle/>
                 <track></track>
@@ -2796,7 +2796,7 @@
                 <date>2026-08-29T05:40:00+00:00</date>
                 <start>05:40:00</start>
                 <duration>45:00</duration>
-                <room></room>
+                <room>Lyon</room>
                 <title>Afternoon Tea</title>
                 <subtitle/>
                 <track></track>

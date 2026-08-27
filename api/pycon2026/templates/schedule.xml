@@ -19,7 +19,7 @@
                 <date>{{ talk.start.isoformat() }}</date>
                 <start>{{ talk.start.time().isoformat() }}</start>
                 <duration>{{ to_time(talk.duration) }}</duration>
-                <room>{{ talk.room }}</room>
+                <room>{{ talk.rooms[0] }}</room>
                 <title>{{ talk.title }}</title>
                 <subtitle/>
                 <track>{{ talk.track }}</track>
