@@ -22,11 +22,15 @@ class Person(BaseModel):
 
 
 class Session(BaseModel):
+    code: str
     title: str
     speakers: list[str]
     start: str | None
     end: str | None
     room: str
+    track: str | None
+    type: str
+    abstract: str | None = None
 
 
 def groupby[K: str | date, V](
@@ -60,17 +64,30 @@ def get_author(root: Path, code: str) -> str:
 
 
 class ReSession(BaseModel):
+    code: str
+    track: str
     title: str
     start: datetime
     end: datetime
     room: str
     duration: float
     authors: list[str]
+    type: str
+    abstract: str
+    video_url: None = None
+    twitter_ids: list[str] =[]
+
+    @property
+    def id(self) -> int:
+        return abs(hash(self.code))
+
+    def __getattr__(self, name):
+        breakpoint()
 
 
 def get_talks(root: Path) -> Generator[ReSession]:
     for talk in (root / "src/content/sessions").glob("*.md"):
-        talk = Session.validate(frontmatter.load(talk).metadata)
+        talk = Session.model_validate(frontmatter.load(talk).metadata)
         if not (talk.start and talk.end):
             print(talk.title, "has no start time")
             continue
@@ -78,16 +95,18 @@ def get_talks(root: Path) -> Generator[ReSession]:
         end = datetime.fromisoformat(talk.end)
         duration = end - start
 
-        yield ReSession.validate(
-            {
-                "title": talk.title,
-                "room": talk.room,
-                # **talk,
-                "start": start,
-                "end": end,
-                "duration": duration.total_seconds() / 60,
-                "authors": [get_author(root, speaker) for speaker in talk.speakers],
-            }
+        yield ReSession(
+            title=talk.title,
+            room=talk.room,
+            code=talk.code,
+            track=talk.track or "no track",
+            # **talk,
+            type=talk.type,
+            abstract=talk.abstract or "No abstract provided",
+            start=start,
+            end=end,
+            duration=duration.total_seconds() / 60,
+            authors=[get_author(root, speaker) for speaker in talk.speakers],
         )
 
 
