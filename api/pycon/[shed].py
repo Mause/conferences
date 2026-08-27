@@ -18,7 +18,7 @@ def groupby(iterable, key):
 
 
 def to_time(minutes: int) -> str:
-    return "%02d:%02d" % divmod(minutes, 60)
+    return "{:02d}:{:02d}".format(*divmod(minutes, 60))
 
 
 @app.route("/schedule.xml")

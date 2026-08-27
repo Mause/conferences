@@ -134,7 +134,7 @@ def get_talk_descriptions(talks: list[dict]) -> dict[str, str]:
 
 
 def to_time(minutes: int) -> str:
-    return "%02d:%02d" % divmod(minutes, 60)
+    return "{:02d}:{:02d}".format(*divmod(minutes, 60))
 
 
 @app.route("/api/ndc/shed")
