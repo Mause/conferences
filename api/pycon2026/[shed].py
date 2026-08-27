@@ -4,7 +4,7 @@ from functools import cache
 from itertools import groupby as _groupby
 from pathlib import Path
 from tempfile import mkdtemp
-from typing import TypedDict, cast
+from uuid import UUID
 
 import frontmatter
 from dulwich.porcelain import clone, pull
@@ -75,11 +75,15 @@ class ReSession(BaseModel):
     type: str
     abstract: str
     video_url: None = None
-    twitter_ids: list[str] =[]
+    twitter_ids: list[str] = []
 
     @property
     def id(self) -> int:
         return abs(hash(self.code))
+
+    @property
+    def guid(self) -> UUID:
+        return UUID(int=self.id)
 
     def __getattr__(self, name):
         breakpoint()
@@ -90,6 +94,9 @@ def get_talks(root: Path) -> Generator[ReSession]:
         talk = Session.model_validate(frontmatter.load(talk).metadata)
         if not (talk.start and talk.end):
             print(talk.title, "has no start time")
+            continue
+        if talk.code.startswith("BREAK"):
+            print(talk.title, "is a break")
             continue
         start = datetime.fromisoformat(talk.start)
         end = datetime.fromisoformat(talk.end)
