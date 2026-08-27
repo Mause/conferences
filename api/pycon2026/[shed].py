@@ -4,7 +4,7 @@ from itertools import groupby as _groupby
 from pathlib import Path
 
 import frontmatter
-from dulwich.porcelain import pull
+from dulwich.porcelain import clone, pull
 from dulwich.repo import Repo
 from flask import Flask, Response, render_template, request
 
@@ -63,7 +63,14 @@ def get_talks():
 
 
 def get_schedule():
-    pull(Repo("./2026-website/"))
+    path = Path("./2026-website/")
+    if not path.exists():
+        clone(
+            "https://github.com/pyconau/2026-website.git",
+            path,
+        )
+    else:
+        pull(Repo(path))
 
     schedule = list(get_talks())
     print(schedule[0])
