@@ -3,16 +3,19 @@ from datetime import datetime
 from functools import wraps
 from itertools import chain
 from itertools import groupby as _groupby
+from zoneinfo import ZoneInfo
 
 import requests
 from flask import Flask, render_template
 from lxml.html import Element, fromstring
 
+TZ = ZoneInfo("Australia/Sydney")
+
 BASE = "https://ndcsydney.com/"
 DAYS = {
-    "Wednesday": datetime(2019, 10, 16),
-    "Thursday": datetime(2019, 10, 17),
-    "Friday": datetime(2019, 10, 18),
+    "Wednesday": datetime(2019, 10, 16, tzinfo=TZ),
+    "Thursday": datetime(2019, 10, 17, tzinfo=TZ),
+    "Friday": datetime(2019, 10, 18, tzinfo=TZ),
 }
 app = Flask(__name__)
 

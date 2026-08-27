@@ -1,5 +1,6 @@
 from collections import defaultdict
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import requests
 from dateutil.parser import parse
@@ -9,8 +10,9 @@ from unidecode import unidecode
 
 app = Flask(__name__)
 
+TZ = ZoneInfo("Australia/Perth")
 
-start_date = end_date = datetime(2022, 9, 10, 0, 0, 0)
+start_date = end_date = datetime(2022, 9, 10, 0, 0, 0, tzinfo=TZ)
 
 
 def to_time(t):
