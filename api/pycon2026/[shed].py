@@ -166,10 +166,24 @@ def get_schedule() -> tuple[str, int, dict[str, str]]:
     )
 
 
+def validate_schedule(
+    xml_path: str = "out.xml", xsd_path: str = "schedule.xsd"
+) -> bool:
+    schema = etree.XMLSchema(etree.parse(xsd_path))
+    doc = etree.parse(xml_path)
+    is_valid = schema.validate(doc)
+    if is_valid:
+        print("schedule.xml valid against c3voc schema")
+    else:
+        for err in schema.error_log:
+            print(f"  Line {err.line}: {err.message}")
+    return is_valid
+
+
 if __name__ == "__main__":
     with app.app_context():
         body, status, hedaers = get_schedule()
         with open("out.xml", "w") as fh:
             fh.write(body)
-        # print(body)
+        validate_schedule()
     app.run(debug=True, host="0.0.0.0")
