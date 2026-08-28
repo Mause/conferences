@@ -68,7 +68,7 @@ def catch_all(path):
 
 @cache
 def get_author(root: Path, code: str) -> str:
-    metadata = Person.validate(
+    metadata = Person.model_validate(
         frontmatter.load(root / f"src/content/people/{code}.md").metadata,
     )
     return metadata.name
