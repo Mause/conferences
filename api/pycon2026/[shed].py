@@ -10,18 +10,26 @@ import frontmatter
 from dulwich.porcelain import clone, pull
 from dulwich.repo import Repo
 from flask import Flask, Response, render_template, request
-from pydantic import BaseModel
+from lxml import etree
+from pydantic import BaseModel, ConfigDict, Field
+from pydantic.alias_generators import to_camel
 
 app = Flask(__name__)
 
 TWO_DAYS = timedelta(days=3)
 
 
-class Person(BaseModel):
+class NoExtraModel(BaseModel):
+    model_config = ConfigDict(extra="forbid", alias_generator=to_camel)
+
+
+class Person(NoExtraModel):
     name: str
+    code: str
+    has_avatar: bool
 
 
-class Session(BaseModel):
+class Session(NoExtraModel):
     code: str
     title: str
     speakers: list[str]
@@ -29,8 +37,11 @@ class Session(BaseModel):
     end: str | None
     room: str
     track: str | None
+    track_name: str | None = None
     type: str
     abstract: str | None = None
+    tags: list[str] = Field(default_factory=list)
+    sponsor: str | None = None
 
 
 def groupby[K: str | date, V](
@@ -106,7 +117,7 @@ def get_talks(root: Path) -> Generator[ReSession]:
             title=talk.title,
             room=talk.room,
             code=talk.code,
-            track=talk.track or "no track",
+            track=talk.track_name or "no track",
             # **talk,
             type=talk.type,
             abstract=talk.abstract or "No abstract provided",
