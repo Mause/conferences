@@ -166,9 +166,7 @@ def get_schedule() -> tuple[str, int, dict[str, str]]:
     )
 
 
-def validate_schedule(
-    xml_path: str = "out.xml", xsd_path: str = "schedule.xsd"
-) -> bool:
+def validate_schedule(xml_path: str = "out.xml", xsd_path: str = "schema.xsd") -> bool:
     schema = etree.XMLSchema(etree.parse(xsd_path))
     doc = etree.parse(xml_path)
     is_valid = schema.validate(doc)
