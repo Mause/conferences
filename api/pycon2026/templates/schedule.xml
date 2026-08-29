@@ -23,7 +23,7 @@
                 <track>{{ talk.track }}</track>
                 <type>{{ talk.type }}</type>
                 <language/>
-                <description/>
+                <description>{{ talk.description }}</description>
                 <abstract>{{ talk.abstract }}</abstract>
                 <persons>
                     {% for author in talk.authors %}

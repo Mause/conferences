@@ -32,7 +32,7 @@ class Person(NoExtraModel):
     has_avatar: bool
 
 
-class Session(NoExtraModel):
+class SessionMetadata(NoExtraModel):
     code: str
     title: str
     speakers: list[str]
@@ -45,6 +45,11 @@ class Session(NoExtraModel):
     abstract: str | None = None
     tags: list[str] = Field(default_factory=list)
     sponsor: str | None = None
+
+
+class Session(NoExtraModel):
+    metadata: SessionMetadata
+    content: str
 
 
 def groupby[K: str | date, V](
@@ -88,6 +93,7 @@ class ReSession(BaseModel):
     authors: list[str]
     type: str
     abstract: str
+    description: str
     video_url: None = None
     twitter_ids: list[str] = []
 
@@ -106,27 +112,31 @@ class ReSession(BaseModel):
 
 
 def get_talks(root: Path) -> Generator[ReSession]:
-    for talk in (root / "src/content/sessions").glob("*.md"):
-        talk = Session.model_validate(frontmatter.load(talk).metadata)
-        if not (talk.start and talk.end):
-            print(talk.title, "has no start time")
+    for meta in (root / "src/content/sessions").glob("*.md"):
+        talk = Session.model_validate(
+            frontmatter.load(meta),
+            from_attributes=True,
+        )
+        meta = talk.metadata
+        if not (meta.start and meta.end):
+            print(meta.title, "has no start time")
             continue
-        start = datetime.fromisoformat(talk.start)
-        end = datetime.fromisoformat(talk.end)
+        start = datetime.fromisoformat(meta.start)
+        end = datetime.fromisoformat(meta.end)
         duration = end - start
 
         yield ReSession(
-            title=talk.title,
-            room=talk.room,
-            code=talk.code,
-            track=talk.track_name or "no track",
-            # **talk,
-            type=talk.type,
-            abstract=talk.abstract or "No abstract provided",
+            title=meta.title,
+            room=meta.room,
+            code=meta.code,
+            track=meta.track_name or "no track",
+            description=talk.content,
+            type=meta.type,
+            abstract=meta.abstract or "No abstract provided",
             start=start,
             end=end,
             duration=duration.total_seconds() / 60,
-            authors=[get_author(root, speaker) for speaker in talk.speakers],
+            authors=[get_author(root, speaker) for speaker in meta.speakers],
         )
 
 
