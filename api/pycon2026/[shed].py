@@ -101,7 +101,8 @@ class ReSession(BaseModel):
         return UUID(int=self.id)
 
     def __getattr__(self, name):
-        breakpoint()
+        raise AttributeError(f"{self.__class__.__name__} has no attribute {name}")
+        # breakpoint()
 
 
 def get_talks(root: Path) -> Generator[ReSession]:
