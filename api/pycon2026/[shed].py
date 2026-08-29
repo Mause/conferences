@@ -110,9 +110,6 @@ def get_talks(root: Path) -> Generator[ReSession]:
         if not (talk.start and talk.end):
             print(talk.title, "has no start time")
             continue
-        if talk.code.startswith("BREAK"):
-            print(talk.title, "is a break")
-            continue
         start = datetime.fromisoformat(talk.start)
         end = datetime.fromisoformat(talk.end)
         duration = end - start
@@ -130,6 +127,13 @@ def get_talks(root: Path) -> Generator[ReSession]:
             duration=duration.total_seconds() / 60,
             authors=[get_author(root, speaker) for speaker in talk.speakers],
         )
+
+
+def get_code(talk: ReSession) -> str:
+    code = talk.code
+    if len(code) == 6:
+        return code
+    return hashlib.sha256(code.encode()).hexdigest()[:6].upper()
 
 
 def get_schedule() -> tuple[str, int, dict[str, str]]:
@@ -164,6 +168,7 @@ def get_schedule() -> tuple[str, int, dict[str, str]]:
             "schedule.xml",
             days=days,
             to_time=to_time,
+            get_code=get_code,
             start_date=start_date,
             end_date=end_date,
         ),

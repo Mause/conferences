@@ -39,6 +39,30 @@
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-f5b5-4586c0882d29" id="17705133955135057193" code="F5B545">
+                <date>2026-08-26T11:30:00+10:00</date>
+                <start>11:30:00</start>
+                <duration>00:30</duration>
+                <room>Lyon</room>
+                <title>Lunch break</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608261130-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-5b75-b5d974e5ea3b" id="6590373575300344379" code="GGCEE9">
                 <date>2026-08-26T12:00:00+10:00</date>
                 <start>12:00:00</start>
@@ -58,6 +82,30 @@
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/GGCEE9">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event guid="00000000-0000-0000-586c-b69a11044719" id="6371668345649121049" code="586CB6">
+                <date>2026-08-26T14:00:00+10:00</date>
+                <start>14:00:00</start>
+                <duration>00:30</duration>
+                <room>Lyon</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608261400-lyon">
                         Conference link
                     </link>
                     
@@ -100,9 +148,33 @@ In this hands-on workshop, you&#39;ll learn how to build AI agents that actually
         
     </day>
     
-    <day date="2026-08-27" start="2026-08-27T10:45:00+10:00" end="2026-08-27T15:45:00+10:00" index="2">
+    <day date="2026-08-27" start="2026-08-27T10:00:00+10:00" end="2026-08-27T16:30:00+10:00" index="2">
         
         <room name="Ballroom 1">
+            
+            <event guid="00000000-0000-0000-1f35-ef368f1ca478" id="2248966606549722232" code="1F35EF">
+                <date>2026-08-27T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271000-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
             
             <event guid="00000000-0000-0000-16ce-cee012bd6592" id="1643478375819208082" code="7JZY3E">
                 <date>2026-08-27T10:45:00+10:00</date>
@@ -225,6 +297,30 @@ The speaker has spent 8 years as an SRE, DBRE and Support Engineer working with 
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-26e5-0c597fa31569" id="2802659921641018729" code="26E50C">
+                <date>2026-08-27T13:10:00+10:00</date>
+                <start>13:10:00</start>
+                <duration>00:55</duration>
+                <room>Ballroom 1</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271310-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-5607-93170e87c0f1" id="6199085139336085745" code="8VSJFM">
                 <date>2026-08-27T14:05:00+10:00</date>
                 <start>14:05:00</start>
@@ -313,9 +409,57 @@ Leave knowing exactly where to start instrumenting your own services—and why y
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-0d2a-ec69ebd9741f" id="948830611187528735" code="0D2AEC">
+                <date>2026-08-27T15:45:00+10:00</date>
+                <start>15:45:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271545-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
         </room>
         
         <room name="Ballroom 2">
+            
+            <event guid="00000000-0000-0000-e700-f0357545c110" id="16645568335152791824" code="E700F0">
+                <date>2026-08-27T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271000-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
             
             <event guid="00000000-0000-0000-0729-7b542ac75fc5" id="516079233735811013" code="ZYSPB3">
                 <date>2026-08-27T10:45:00+10:00</date>
@@ -425,6 +569,30 @@ But obviously not everyone has the resources available for this kind of setup. S
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-cd67-e7856c9c86b2" id="14801053260615288498" code="CD67E7">
+                <date>2026-08-27T13:10:00+10:00</date>
+                <start>13:10:00</start>
+                <duration>00:55</duration>
+                <room>Ballroom 2</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271310-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-ceb7-eeb09e5ab437" id="14895636734889604151" code="3CYQGY">
                 <date>2026-08-27T14:05:00+10:00</date>
                 <start>14:05:00</start>
@@ -505,6 +673,30 @@ There&#39;s far too much in one framework to talk about it all in 30 minutes tho
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/XQ8VVL">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event guid="00000000-0000-0000-01c9-440110580900" id="128708835716630784" code="01C944">
+                <date>2026-08-27T15:45:00+10:00</date>
+                <start>15:45:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271545-ballroom2">
                         Conference link
                     </link>
                     
@@ -596,6 +788,30 @@ AI amplifies your existing practices. A dysfunctional org gets more dysfunctiona
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/NDWRBS">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event guid="00000000-0000-0000-6e06-320ece0a6f31" id="7928079233200058161" code="6E0632">
+                <date>2026-08-27T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271000-ballroom3">
                         Conference link
                     </link>
                     
@@ -721,6 +937,30 @@ In this talk, I show how I trained and validated a computer vision pipeline usin
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-4175-b0dc3fd30fa2" id="4716870644750552994" code="4175B0">
+                <date>2026-08-27T13:10:00+10:00</date>
+                <start>13:10:00</start>
+                <duration>00:55</duration>
+                <room>Ballroom 3</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271310-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-2e64-8a5c58ccefb7" id="3342948952647200695" code="TYXRSM">
                 <date>2026-08-27T14:05:00+10:00</date>
                 <start>14:05:00</start>
@@ -805,6 +1045,30 @@ This talk will take you through the process - from running pose tracking models 
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-3e48-d3c25f2021a3" id="4488069860447756707" code="3E48D3">
+                <date>2026-08-27T15:45:00+10:00</date>
+                <start>15:45:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608271545-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-8906-49a1ce0bde00" id="9873660192351837696" code="U8CRTN">
                 <date>2026-08-27T16:30:00+10:00</date>
                 <start>16:30:00</start>
@@ -837,9 +1101,33 @@ This talk will take you through the process - from running pose tracking models 
         
     </day>
     
-    <day date="2026-08-28" start="2026-08-28T10:45:00+10:00" end="2026-08-28T17:00:00+10:00" index="3">
+    <day date="2026-08-28" start="2026-08-28T10:00:00+10:00" end="2026-08-28T17:00:00+10:00" index="3">
         
         <room name="Ballroom 1">
+            
+            <event guid="00000000-0000-0000-0922-df7772d84f82" id="658334199670394754" code="0922DF">
+                <date>2026-08-28T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
             
             <event guid="00000000-0000-0000-21da-dcd371985a85" id="2439504948876565125" code="QCWMLU">
                 <date>2026-08-28T10:45:00+10:00</date>
@@ -916,6 +1204,30 @@ Come along to see how I took a concept that I wanted students to care about, and
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/J9UC8X">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event guid="00000000-0000-0000-833d-892eaba9ef3a" id="9456865626089451322" code="833D89">
+                <date>2026-08-28T12:35:00+10:00</date>
+                <start>12:35:00</start>
+                <duration>00:55</duration>
+                <room>Ballroom 1</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281235-ballroom1">
                         Conference link
                     </link>
                     
@@ -1007,6 +1319,30 @@ For educators teaching Python, data science, or project-based computing subjects
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-528d-0c2414822b77" id="5948424031928724343" code="528D0C">
+                <date>2026-08-28T15:10:00+10:00</date>
+                <start>15:10:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281510-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-ef08-41ae976e797d" id="17224088992999176573" code="8LEEB7">
                 <date>2026-08-28T15:55:00+10:00</date>
                 <start>15:55:00</start>
@@ -1066,6 +1402,30 @@ On and off over a period of 20 years, I took that toolbox on a journey from an o
         </room>
         
         <room name="Ballroom 2">
+            
+            <event guid="00000000-0000-0000-a464-9d2b38441ed9" id="11845765728844390105" code="A4649D">
+                <date>2026-08-28T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
             
             <event guid="00000000-0000-0000-0b19-3e4b79234b47" id="799738902710799175" code="NF9ZDV">
                 <date>2026-08-28T10:45:00+10:00</date>
@@ -1148,6 +1508,30 @@ In this talk, we will present new research® into when and how developers leak c
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/9TWWJA">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event guid="00000000-0000-0000-b767-050d63b18660" id="13215537186607302240" code="B76705">
+                <date>2026-08-28T12:35:00+10:00</date>
+                <start>12:35:00</start>
+                <duration>00:55</duration>
+                <room>Ballroom 2</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281235-ballroom2">
                         Conference link
                     </link>
                     
@@ -1242,6 +1626,30 @@ Attendees will leave with a clear mental model of how passkeys work, understand 
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/PZTFZF">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event guid="00000000-0000-0000-76d3-e83d82ae77db" id="8562442667444565979" code="76D3E8">
+                <date>2026-08-28T15:10:00+10:00</date>
+                <start>15:10:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281510-ballroom2">
                         Conference link
                     </link>
                     
@@ -1362,6 +1770,30 @@ Join us for a short welcome address followed by our second keynote (to be announ
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-9f7c-7b67da067dac" id="11492196035112369580" code="9F7C7B">
+                <date>2026-08-28T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281000-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-8869-1d59e598c4c8" id="9829419933654107336" code="SS9FAU">
                 <date>2026-08-28T10:45:00+10:00</date>
                 <start>10:45:00</start>
@@ -1445,6 +1877,30 @@ With AI we&#39;re writing more code than ever, and more and more non-Engineers a
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/X9MRPY">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event guid="00000000-0000-0000-d599-9f60bf430cc6" id="15391508439389899974" code="D5999F">
+                <date>2026-08-28T12:35:00+10:00</date>
+                <start>12:35:00</start>
+                <duration>00:55</duration>
+                <room>Ballroom 3</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281235-ballroom3">
                         Conference link
                     </link>
                     
@@ -1536,6 +1992,30 @@ This talk comprises an exploration of how to discuss trade-offs during software 
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-51a9-b1dca049f44f" id="5884429949276386383" code="51A9B1">
+                <date>2026-08-28T15:10:00+10:00</date>
+                <start>15:10:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608281510-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-8513-8ec4672f79d3" id="9589165005797816787" code="KRR377">
                 <date>2026-08-28T15:55:00+10:00</date>
                 <start>15:55:00</start>
@@ -1570,9 +2050,33 @@ This talk comprises an exploration of how to discuss trade-offs during software 
         
     </day>
     
-    <day date="2026-08-29" start="2026-08-29T10:45:00+10:00" end="2026-08-29T15:40:00+10:00" index="4">
+    <day date="2026-08-29" start="2026-08-29T10:00:00+10:00" end="2026-08-29T16:20:00+10:00" index="4">
         
         <room name="Ballroom 1">
+            
+            <event guid="00000000-0000-0000-eeed-6cbf918e6707" id="17216536520543856391" code="EEED6C">
+                <date>2026-08-29T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 1</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291000-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
             
             <event guid="00000000-0000-0000-1ceb-daaa2c1c1bfe" id="2083999677008321534" code="S9AR8C">
                 <date>2026-08-29T10:45:00+10:00</date>
@@ -1686,6 +2190,30 @@ We’ll look at how to turn a feature-parade into a coherent narrative, when and
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-5907-7c49a0705457" id="6415232849878733911" code="59077C">
+                <date>2026-08-29T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 1</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291300-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-c683-31d253fc7324" id="14304331620880773924" code="ZJET3E">
                 <date>2026-08-29T14:00:00+10:00</date>
                 <start>14:00:00</start>
@@ -1766,9 +2294,57 @@ Turns out there&#39;s a lot more to what keeps us alive than first meets the eye
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-4048-d49e617a5c0a" id="4632185993455885322" code="4048D4">
+                <date>2026-08-29T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:40</duration>
+                <room>Ballroom 1</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291540-ballroom1">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
         </room>
         
         <room name="Ballroom 2">
+            
+            <event guid="00000000-0000-0000-4886-84ab2b6373b8" id="5226010288312251320" code="488684">
+                <date>2026-08-29T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 2</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291000-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
             
             <event guid="00000000-0000-0000-1639-9da08f7abe15" id="1601484455434436117" code="ZPGW8C">
                 <date>2026-08-29T10:45:00+10:00</date>
@@ -1891,6 +2467,30 @@ After this talk, you will learn how to:
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-5219-c4c0497b0b4d" id="5915975915673422669" code="5219C4">
+                <date>2026-08-29T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 2</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291300-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-6ac3-20e102eb3aa0" id="7693028739267639968" code="QGMTZP">
                 <date>2026-08-29T14:00:00+10:00</date>
                 <start>14:00:00</start>
@@ -1977,6 +2577,30 @@ Different languages, platforms, and frameworks all not only handle errors differ
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-ef4a-f4d12d733b72" id="17242863302589234034" code="EF4AF4">
+                <date>2026-08-29T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:40</duration>
+                <room>Ballroom 2</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291540-ballroom2">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
         </room>
         
         <room name="Ballroom 3">
@@ -2031,6 +2655,30 @@ Join us for a short welcome address followed by our third keynote (to be announc
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/X79GWF">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event guid="00000000-0000-0000-13f5-411f7fa887fc" id="1438127259556284412" code="13F541">
+                <date>2026-08-29T10:00:00+10:00</date>
+                <start>10:00:00</start>
+                <duration>00:45</duration>
+                <room>Ballroom 3</room>
+                <title>Morning Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291000-ballroom3">
                         Conference link
                     </link>
                     
@@ -2153,6 +2801,30 @@ In this talk, you&#39;ll learn the options you have for delivering your code to 
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-f737-5a6fe5c2ac66" id="17813806287729896550" code="F7375A">
+                <date>2026-08-29T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Ballroom 3</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291300-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-dae2-ef93d5158b34" id="15772432263219088180" code="97G398">
                 <date>2026-08-29T14:00:00+10:00</date>
                 <start>14:00:00</start>
@@ -2240,10 +2912,34 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
                 </links>
             </event>
             
+            <event guid="00000000-0000-0000-2abc-6688d2818bc3" id="3079448983047867331" code="2ABC66">
+                <date>2026-08-29T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:40</duration>
+                <room>Ballroom 3</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291540-ballroom3">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-e80b-e8a58e24adad" id="16720713839295114669" code="PKSEBP">
-                <date>2026-08-29T16:25:00+10:00</date>
-                <start>16:25:00</start>
-                <duration>00:50</duration>
+                <date>2026-08-29T16:20:00+10:00</date>
+                <start>16:20:00</start>
+                <duration>01:00</duration>
                 <room>Ballroom 3</room>
                 <title>Saturday lightning talks</title>
                 <subtitle/>
@@ -2269,8 +2965,8 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
             </event>
             
             <event guid="00000000-0000-0000-0dbf-62e55cbc6a7c" id="990619180287683196" code="TGQGWT">
-                <date>2026-08-29T17:15:00+10:00</date>
-                <start>17:15:00</start>
+                <date>2026-08-29T17:20:00+10:00</date>
+                <start>17:20:00</start>
                 <duration>00:15</duration>
                 <room>Ballroom 3</room>
                 <title>Closing address</title>
@@ -2302,6 +2998,30 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
         
         <room name="Lyon">
             
+            <event guid="00000000-0000-0000-87b6-338b7e87a179" id="9779060315097899385" code="87B633">
+                <date>2026-08-29T13:00:00+10:00</date>
+                <start>13:00:00</start>
+                <duration>01:00</duration>
+                <room>Lyon</room>
+                <title>Lunch</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291300-lyon">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
             <event guid="00000000-0000-0000-a9a4-679bba5e434d" id="12224009207134700365" code="AJQASH">
                 <date>2026-08-29T14:00:00+10:00</date>
                 <start>14:00:00</start>
@@ -2323,6 +3043,30 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
                 </persons>
                 <links>
                     <link href="https://2026.pycon.org.au/schedule/AJQASH">
+                        Conference link
+                    </link>
+                    
+                    
+                </links>
+            </event>
+            
+            <event guid="00000000-0000-0000-795e-a1564e4db685" id="8745604918453057157" code="795EA1">
+                <date>2026-08-29T15:40:00+10:00</date>
+                <start>15:40:00</start>
+                <duration>00:40</duration>
+                <room>Lyon</room>
+                <title>Afternoon Tea</title>
+                <subtitle/>
+                <track>no track</track>
+                <type>break</type>
+                <language/>
+                <description/>
+                <abstract>No abstract provided</abstract>
+                <persons>
+                    
+                </persons>
+                <links>
+                    <link href="https://2026.pycon.org.au/schedule/BREAK-202608291540-lyon">
                         Conference link
                     </link>
                     

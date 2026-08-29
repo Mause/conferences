@@ -13,7 +13,7 @@
         {% for room, talks in rooms %}
         <room name="{{ room }}">
             {% for talk in talks %}
-            <event guid="{{ talk.guid }}" id="{{ talk.id }}" code="{{ talk.code }}">
+            <event guid="{{ talk.guid }}" id="{{ talk.id }}" code="{{ get_code(talk) }}">
                 <date>{{ talk.start.isoformat() }}</date>
                 <start>{{ talk.start.time().isoformat() }}</start>
                 <duration>{{ to_time(talk.duration) }}</duration>
