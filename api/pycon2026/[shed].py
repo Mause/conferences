@@ -1,4 +1,5 @@
 import hashlib
+import os
 from collections.abc import Callable, Generator, Iterable
 from datetime import date, datetime, timedelta
 from functools import cache
@@ -14,6 +15,7 @@ from flask import Flask, Response, render_template, request
 from lxml import etree
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic.alias_generators import to_camel
+from rich.status import Status
 
 app = Flask(__name__)
 
@@ -131,15 +133,17 @@ def get_talks(root: Path) -> Generator[ReSession]:
 
 
 def get_schedule() -> tuple[str, int, dict[str, str]]:
-    path = Path(mkdtemp()) / "2026-website"
-    if not path.exists():
+    if "TERMUX_VERSION" not in os.environ:
+        path = Path(mkdtemp()) / "2026-website"
         clone(
             "https://github.com/pyconau/2026-website.git",
             path,
             depth=1,
         )
     else:
-        pull(Repo(path))
+        path = Path("./2026-website")
+        with Status("Pulling latest changes from 2026-website"):
+            pull(Repo(path))
 
     schedule = list(get_talks(path))
     print(schedule[0])
