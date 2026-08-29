@@ -14,7 +14,7 @@
         
         <room name="Lyon">
             
-            <event guid="00000000-0000-0000-2391-6830912bf837" id="2562944220753819703" code="H33RW8">
+            <event guid="00000000-0000-0000-2830-fef279f807ed" id="2896094877781067757" code="H33RW8">
                 <date>2026-08-26T09:30:00+10:00</date>
                 <start>09:30:00</start>
                 <duration>02:00</duration>
@@ -40,7 +40,7 @@
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-3533-ddf9197e8111" id="3833651769766740241" code="GGCEE9">
+            <event guid="00000000-0000-0000-5b75-b5d974e5ea3b" id="6590373575300344379" code="GGCEE9">
                 <date>2026-08-26T12:00:00+10:00</date>
                 <start>12:00:00</start>
                 <duration>02:00</duration>
@@ -66,7 +66,7 @@
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-44ae-ee71217ffb98" id="4949155210187504536" code="PZPG8U">
+            <event guid="00000000-0000-0000-6213-57f60ad11115" id="7067088954529485077" code="PZPG8U">
                 <date>2026-08-26T14:30:00+10:00</date>
                 <start>14:30:00</start>
                 <duration>02:00</duration>
@@ -105,7 +105,7 @@ In this hands-on workshop, you&#39;ll learn how to build AI agents that actually
         
         <room name="Ballroom 1">
             
-            <event guid="00000000-0000-0000-631d-86ce2f77f25e" id="7142012804197249630" code="7JZY3E">
+            <event guid="00000000-0000-0000-16ce-cee012bd6592" id="1643478375819208082" code="7JZY3E">
                 <date>2026-08-27T10:45:00+10:00</date>
                 <start>10:45:00</start>
                 <duration>00:35</duration>
@@ -133,7 +133,7 @@ At each step, we ask: Does this next block solve a real problem, or create a new
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-12ef-ee302b24fe91" id="1364571102766235281" code="8ZAAPX">
+            <event guid="00000000-0000-0000-9250-f7bb1237fd68" id="10543199110510935400" code="8ZAAPX">
                 <date>2026-08-27T11:30:00+10:00</date>
                 <start>11:30:00</start>
                 <duration>00:30</duration>
@@ -166,7 +166,7 @@ Solving complex problems with Infrastructure as Software is a great way to creat
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-46e4-dcf28f7e5b94" id="5108450811692604308" code="QRNWPN">
+            <event guid="00000000-0000-0000-95ef-e562e9fcabb2" id="10804106244080315314" code="QRNWPN">
                 <date>2026-08-27T12:05:00+10:00</date>
                 <start>12:05:00</start>
                 <duration>00:30</duration>
@@ -198,7 +198,7 @@ In this talk, I’ll draw on those ideas and apply them to platform engineering,
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-0ddd-2d1a2f4cbbce" id="999004282832075726" code="BZ93H7">
+            <event guid="00000000-0000-0000-048f-1dfd4c444f29" id="328514271564812073" code="BZ93H7">
                 <date>2026-08-27T12:40:00+10:00</date>
                 <start>12:40:00</start>
                 <duration>00:30</duration>
@@ -226,7 +226,7 @@ The speaker has spent 8 years as an SRE, DBRE and Support Engineer working with 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-0f31-43edabb2b0e2" id="1094730872494665954" code="8VSJFM">
+            <event guid="00000000-0000-0000-5607-93170e87c0f1" id="6199085139336085745" code="8VSJFM">
                 <date>2026-08-27T14:05:00+10:00</date>
                 <start>14:05:00</start>
                 <duration>00:30</duration>
@@ -252,7 +252,7 @@ The speaker has spent 8 years as an SRE, DBRE and Support Engineer working with 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-0088-fd0d0e6c39d7" id="38558829351025111" code="7GHUBT">
+            <event guid="00000000-0000-0000-4681-013fd2ba9a82" id="5080343228280642178" code="7GHUBT">
                 <date>2026-08-27T14:40:00+10:00</date>
                 <start>14:40:00</start>
                 <duration>00:30</duration>
@@ -288,7 +288,7 @@ Leave knowing exactly where to start instrumenting your own services—and why y
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-1502-a90f1058010a" id="1513958306913714442" code="V9UCGA">
+            <event guid="00000000-0000-0000-1fd8-85d6650e2e69" id="2294731166010191465" code="V9UCGA">
                 <date>2026-08-27T15:15:00+10:00</date>
                 <start>15:15:00</start>
                 <duration>00:30</duration>
@@ -318,7 +318,7 @@ Leave knowing exactly where to start instrumenting your own services—and why y
         
         <room name="Ballroom 2">
             
-            <event guid="00000000-0000-0000-76ee-997371d597fe" id="8569955862042744830" code="ZYSPB3">
+            <event guid="00000000-0000-0000-0729-7b542ac75fc5" id="516079233735811013" code="ZYSPB3">
                 <date>2026-08-27T10:45:00+10:00</date>
                 <start>10:45:00</start>
                 <duration>00:35</duration>
@@ -346,7 +346,7 @@ In this talk, you&#39;ll learn why Markdown is a better option for your project&
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-427e-cc618828c607" id="4791491772837053959" code="S9CGAD">
+            <event guid="00000000-0000-0000-bb17-50e2331e3f77" id="13481332942007320439" code="S9CGAD">
                 <date>2026-08-27T11:30:00+10:00</date>
                 <start>11:30:00</start>
                 <duration>00:30</duration>
@@ -372,7 +372,7 @@ In this talk, you&#39;ll learn why Markdown is a better option for your project&
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-115f-bf66ef165927" id="1251929670251075879" code="NGF8XQ">
+            <event guid="00000000-0000-0000-b7da-cf9e997c226d" id="13248129533950567021" code="NGF8XQ">
                 <date>2026-08-27T12:05:00+10:00</date>
                 <start>12:05:00</start>
                 <duration>00:30</duration>
@@ -400,7 +400,7 @@ But obviously not everyone has the resources available for this kind of setup. S
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-436a-9f9af638432b" id="4857870635977163563" code="KQMV9M">
+            <event guid="00000000-0000-0000-7852-8a071cf755a5" id="8670143995797001637" code="KQMV9M">
                 <date>2026-08-27T12:40:00+10:00</date>
                 <start>12:40:00</start>
                 <duration>00:30</duration>
@@ -426,7 +426,7 @@ But obviously not everyone has the resources available for this kind of setup. S
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-5f78-657e2ceae1e1" id="6879360023402308065" code="3CYQGY">
+            <event guid="00000000-0000-0000-ceb7-eeb09e5ab437" id="14895636734889604151" code="3CYQGY">
                 <date>2026-08-27T14:05:00+10:00</date>
                 <start>14:05:00</start>
                 <duration>00:30</duration>
@@ -453,7 +453,7 @@ Are they being recognised for contributions to building a cohesive team, or gett
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-4c20-9b6735447bfd" id="5485555213714881533" code="RQ7STH">
+            <event guid="00000000-0000-0000-e8d2-89264b39b311" id="16776622359472354065" code="RQ7STH">
                 <date>2026-08-27T14:40:00+10:00</date>
                 <start>14:40:00</start>
                 <duration>00:30</duration>
@@ -481,7 +481,7 @@ Through this talk, we’ll set up and run the free-threaded interpreter, benchma
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-6643-c63cbc272809" id="7368951379465283593" code="XQ8VVL">
+            <event guid="00000000-0000-0000-ff03-e18164ca0444" id="18375778850459747396" code="XQ8VVL">
                 <date>2026-08-27T15:15:00+10:00</date>
                 <start>15:15:00</start>
                 <duration>00:30</duration>
@@ -517,7 +517,7 @@ There&#39;s far too much in one framework to talk about it all in 30 minutes tho
         
         <room name="Ballroom 3">
             
-            <event guid="00000000-0000-0000-5297-a88ed90010f1" id="5951410764072882417" code="EEKS97">
+            <event guid="00000000-0000-0000-7d47-35cb6c5b1f37" id="9027243125899992887" code="EEKS97">
                 <date>2026-08-27T08:30:00+10:00</date>
                 <start>08:30:00</start>
                 <duration>00:30</duration>
@@ -545,7 +545,7 @@ Whether you&#39;re a first-time attendee, a first-time speaker, or just curious 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-546f-fbc7f72a1eca" id="6084358457864625866" code="3FQZVE">
+            <event guid="00000000-0000-0000-3e00-9f75fa85f5aa" id="4467746159414605226" code="3FQZVE">
                 <date>2026-08-27T09:00:00+10:00</date>
                 <start>09:00:00</start>
                 <duration>00:15</duration>
@@ -576,7 +576,7 @@ Join us for a short welcome address followed by our first keynote (to be announc
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-0fb1-b8f227e80e7d" id="1130888331637821053" code="NDWRBS">
+            <event guid="00000000-0000-0000-85d6-48b9048bf396" id="9643975611542926230" code="NDWRBS">
                 <date>2026-08-27T09:15:00+10:00</date>
                 <start>09:15:00</start>
                 <duration>00:45</duration>
@@ -604,7 +604,7 @@ AI amplifies your existing practices. A dysfunctional org gets more dysfunctiona
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-6d9e-07052b9db268" id="7898758515242414696" code="VHXDSA">
+            <event guid="00000000-0000-0000-7905-bdde798d0d28" id="8720585016692509992" code="VHXDSA">
                 <date>2026-08-27T10:45:00+10:00</date>
                 <start>10:45:00</start>
                 <duration>00:35</duration>
@@ -634,7 +634,7 @@ This talk focuses on a practical Python engineering question: when does a founda
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-2090-d88b2936974a" id="2346613498063525706" code="XWLM8L">
+            <event guid="00000000-0000-0000-a61e-948efdc4207f" id="11970168201461112959" code="XWLM8L">
                 <date>2026-08-27T11:30:00+10:00</date>
                 <start>11:30:00</start>
                 <duration>00:30</duration>
@@ -666,7 +666,7 @@ This talk is for Python developers and data scientists who are building or plann
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-6d4f-63f04ab6f2a1" id="7876624156991091361" code="J7NSZH">
+            <event guid="00000000-0000-0000-f2f5-adb6a917e986" id="17507090126505240966" code="J7NSZH">
                 <date>2026-08-27T12:05:00+10:00</date>
                 <start>12:05:00</start>
                 <duration>00:30</duration>
@@ -694,7 +694,7 @@ This talk is for Python developers and data scientists who are building or plann
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-121c-18f10dbbd6f7" id="1304945415627200247" code="YGUJEG">
+            <event guid="00000000-0000-0000-43d5-d1bf0a0c6803" id="4888043589018085379" code="YGUJEG">
                 <date>2026-08-27T12:40:00+10:00</date>
                 <start>12:40:00</start>
                 <duration>00:30</duration>
@@ -722,7 +722,7 @@ In this talk, I show how I trained and validated a computer vision pipeline usin
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-7e7b-ba74b01f17a4" id="9114083281248130980" code="TYXRSM">
+            <event guid="00000000-0000-0000-2e64-8a5c58ccefb7" id="3342948952647200695" code="TYXRSM">
                 <date>2026-08-27T14:05:00+10:00</date>
                 <start>14:05:00</start>
                 <duration>00:30</duration>
@@ -748,7 +748,7 @@ In this talk, I show how I trained and validated a computer vision pipeline usin
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-6941-8e4942371a23" id="7584499692763290147" code="7KE7PU">
+            <event guid="00000000-0000-0000-c532-f1040ff57b19" id="14209684774057245465" code="7KE7PU">
                 <date>2026-08-27T14:40:00+10:00</date>
                 <start>14:40:00</start>
                 <duration>00:30</duration>
@@ -774,7 +774,7 @@ In this talk, I show how I trained and validated a computer vision pipeline usin
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-5080-74e5ef95d0f7" id="5800764850969104631" code="GFGHGR">
+            <event guid="00000000-0000-0000-5695-b68cf4cad464" id="6239093575310300260" code="GFGHGR">
                 <date>2026-08-27T15:15:00+10:00</date>
                 <start>15:15:00</start>
                 <duration>00:30</duration>
@@ -806,7 +806,7 @@ This talk will take you through the process - from running pose tracking models 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-24dc-3efe738820b2" id="2656067142822666418" code="U8CRTN">
+            <event guid="00000000-0000-0000-8906-49a1ce0bde00" id="9873660192351837696" code="U8CRTN">
                 <date>2026-08-27T16:30:00+10:00</date>
                 <start>16:30:00</start>
                 <duration>01:00</duration>
@@ -842,7 +842,7 @@ This talk will take you through the process - from running pose tracking models 
         
         <room name="Ballroom 1">
             
-            <event guid="00000000-0000-0000-722f-a640c97f2815" id="8227977841417857045" code="QCWMLU">
+            <event guid="00000000-0000-0000-21da-dcd371985a85" id="2439504948876565125" code="QCWMLU">
                 <date>2026-08-28T10:45:00+10:00</date>
                 <start>10:45:00</start>
                 <duration>00:35</duration>
@@ -868,7 +868,7 @@ This talk will take you through the process - from running pose tracking models 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-31a7-048587759f6c" id="3577833400518942572" code="CGG8LN">
+            <event guid="00000000-0000-0000-855c-a34e26b8880e" id="9609735260954200078" code="CGG8LN">
                 <date>2026-08-28T11:30:00+10:00</date>
                 <start>11:30:00</start>
                 <duration>00:30</duration>
@@ -894,7 +894,7 @@ This talk will take you through the process - from running pose tracking models 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-3268-dd2bb5a24574" id="3632396279274947956" code="J9UC8X">
+            <event guid="00000000-0000-0000-6587-9bd997617996" id="7315987478536616342" code="J9UC8X">
                 <date>2026-08-28T12:05:00+10:00</date>
                 <start>12:05:00</start>
                 <duration>00:30</duration>
@@ -924,7 +924,7 @@ Come along to see how I took a concept that I wanted students to care about, and
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-739e-a2ef1f4f8a3c" id="8331275508588186172" code="M9HBCP">
+            <event guid="00000000-0000-0000-eb9d-e9616d09a334" id="16977982774907085620" code="M9HBCP">
                 <date>2026-08-28T13:30:00+10:00</date>
                 <start>13:30:00</start>
                 <duration>00:30</duration>
@@ -952,7 +952,7 @@ By constructing your projects with intention for a neurodiverse audience, it can
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-4388-de4dabadf0fd" id="4866383822547972349" code="KYA9TU">
+            <event guid="00000000-0000-0000-902c-45cccfb7163a" id="10388755186397419066" code="KYA9TU">
                 <date>2026-08-28T14:05:00+10:00</date>
                 <start>14:05:00</start>
                 <duration>00:30</duration>
@@ -978,7 +978,7 @@ By constructing your projects with intention for a neurodiverse audience, it can
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-4c9f-351ded44023b" id="5521190070830498363" code="HBK7XS">
+            <event guid="00000000-0000-0000-8b81-e65528bc3062" id="10052569096697688162" code="HBK7XS">
                 <date>2026-08-28T14:40:00+10:00</date>
                 <start>14:40:00</start>
                 <duration>00:30</duration>
@@ -1008,7 +1008,7 @@ For educators teaching Python, data science, or project-based computing subjects
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-2547-29066f31c26f" id="2686160810361864815" code="8LEEB7">
+            <event guid="00000000-0000-0000-ef08-41ae976e797d" id="17224088992999176573" code="8LEEB7">
                 <date>2026-08-28T15:55:00+10:00</date>
                 <start>15:55:00</start>
                 <duration>00:30</duration>
@@ -1038,7 +1038,7 @@ On and off over a period of 20 years, I took that toolbox on a journey from an o
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-218f-7ff102869431" id="2418292198027465777" code="K3B9LZ">
+            <event guid="00000000-0000-0000-0a0d-4a6094a30040" id="724316893747544128" code="K3B9LZ">
                 <date>2026-08-28T16:30:00+10:00</date>
                 <start>16:30:00</start>
                 <duration>00:30</duration>
@@ -1068,7 +1068,7 @@ On and off over a period of 20 years, I took that toolbox on a journey from an o
         
         <room name="Ballroom 2">
             
-            <event guid="00000000-0000-0000-2cb2-c3ecdec5812d" id="3220852105640509741" code="NF9ZDV">
+            <event guid="00000000-0000-0000-0b19-3e4b79234b47" id="799738902710799175" code="NF9ZDV">
                 <date>2026-08-28T10:45:00+10:00</date>
                 <start>10:45:00</start>
                 <duration>00:35</duration>
@@ -1098,7 +1098,7 @@ The goal is understanding which problems are structural, which are self-inflicte
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-172c-77389583489a" id="1669840646757894298" code="KFJLUE">
+            <event guid="00000000-0000-0000-53c9-4d5533c3bff7" id="6037441803802886135" code="KFJLUE">
                 <date>2026-08-28T11:30:00+10:00</date>
                 <start>11:30:00</start>
                 <duration>00:30</duration>
@@ -1128,7 +1128,7 @@ This talk follows Sam the SRE through a nightly battle against Omen the Evil Hac
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-6be3-cc8c9e43edee" id="7774282286094347758" code="9TWWJA">
+            <event guid="00000000-0000-0000-ec99-17b72a3c1f0f" id="17048683939842760463" code="9TWWJA">
                 <date>2026-08-28T12:05:00+10:00</date>
                 <start>12:05:00</start>
                 <duration>00:30</duration>
@@ -1156,7 +1156,7 @@ In this talk, we will present new research® into when and how developers leak c
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-3252-287045186dd3" id="3626005112647347667" code="RQR97D">
+            <event guid="00000000-0000-0000-6fc9-b6bf0b000f77" id="8055170340168404855" code="RQR97D">
                 <date>2026-08-28T13:30:00+10:00</date>
                 <start>13:30:00</start>
                 <duration>00:30</duration>
@@ -1190,7 +1190,7 @@ We’ll also talk: private forks, dynamic cooldowns, and whether or not that one
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-4264-00531cd1ecfb" id="4783949061140114683" code="K3M8AE">
+            <event guid="00000000-0000-0000-5e29-6bf73f29ca22" id="6785073023271160354" code="K3M8AE">
                 <date>2026-08-28T14:05:00+10:00</date>
                 <start>14:05:00</start>
                 <duration>00:30</duration>
@@ -1224,7 +1224,7 @@ Attendees will leave with a clear mental model of how passkeys work, understand 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-528c-89f70cdc9d2d" id="5948280902015294765" code="PZTFZF">
+            <event guid="00000000-0000-0000-bd2c-d4fa2f8641eb" id="13631504343147889131" code="PZTFZF">
                 <date>2026-08-28T14:40:00+10:00</date>
                 <start>14:40:00</start>
                 <duration>00:30</duration>
@@ -1250,7 +1250,7 @@ Attendees will leave with a clear mental model of how passkeys work, understand 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-3f3e-2e9ae39a0ca9" id="4557131115723885737" code="8CA7D3">
+            <event guid="00000000-0000-0000-1396-4ad85d92d54f" id="1411397826370524495" code="8CA7D3">
                 <date>2026-08-28T15:55:00+10:00</date>
                 <start>15:55:00</start>
                 <duration>00:30</duration>
@@ -1276,7 +1276,7 @@ Attendees will leave with a clear mental model of how passkeys work, understand 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-5c91-3f502479308c" id="6670182136554270860" code="T3ALAS">
+            <event guid="00000000-0000-0000-39a2-dd84873142d3" id="4153125367662592723" code="T3ALAS">
                 <date>2026-08-28T16:30:00+10:00</date>
                 <start>16:30:00</start>
                 <duration>00:30</duration>
@@ -1306,7 +1306,7 @@ Attendees will leave with a clear mental model of how passkeys work, understand 
         
         <room name="Ballroom 3">
             
-            <event guid="00000000-0000-0000-6901-2406e0eace82" id="7566368460921032322" code="VQD3SG">
+            <event guid="00000000-0000-0000-2e76-618b44c98d6f" id="3347970623778950511" code="VQD3SG">
                 <date>2026-08-28T09:00:00+10:00</date>
                 <start>09:00:00</start>
                 <duration>00:15</duration>
@@ -1337,7 +1337,7 @@ Join us for a short welcome address followed by our second keynote (to be announ
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-55c7-b23671d7bf99" id="6181104960497237913" code="BYLBNB">
+            <event guid="00000000-0000-0000-aa2a-c7add4d75698" id="12261832484883748504" code="BYLBNB">
                 <date>2026-08-28T09:15:00+10:00</date>
                 <start>09:15:00</start>
                 <duration>00:45</duration>
@@ -1363,7 +1363,7 @@ Join us for a short welcome address followed by our second keynote (to be announ
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-4b65-952300fafcb2" id="5432912503065214130" code="SS9FAU">
+            <event guid="00000000-0000-0000-8869-1d59e598c4c8" id="9829419933654107336" code="SS9FAU">
                 <date>2026-08-28T10:45:00+10:00</date>
                 <start>10:45:00</start>
                 <duration>00:35</duration>
@@ -1393,7 +1393,7 @@ So when a tool comes along and promises to make you more productive, how do you 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-39d3-5ae3e6be1d03" id="4166774015123135747" code="9KBBEQ">
+            <event guid="00000000-0000-0000-b511-5e66f386f736" id="13047313391734421302" code="9KBBEQ">
                 <date>2026-08-28T11:30:00+10:00</date>
                 <start>11:30:00</start>
                 <duration>00:30</duration>
@@ -1425,7 +1425,7 @@ We have our own custom flight computer with it&#39;s own custom firmware and dua
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-61c3-f3ec21cc1a10" id="7044742437642443280" code="X9MRPY">
+            <event guid="00000000-0000-0000-3ba4-7940b0fd5d67" id="4297693263172558183" code="X9MRPY">
                 <date>2026-08-28T12:05:00+10:00</date>
                 <start>12:05:00</start>
                 <duration>00:30</duration>
@@ -1453,7 +1453,7 @@ With AI we&#39;re writing more code than ever, and more and more non-Engineers a
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-628b-c71c31743caf" id="7100988161382431919" code="QUZ9TS">
+            <event guid="00000000-0000-0000-bac4-096048c4a482" id="13457891895632241794" code="QUZ9TS">
                 <date>2026-08-28T13:30:00+10:00</date>
                 <start>13:30:00</start>
                 <duration>00:30</duration>
@@ -1481,7 +1481,7 @@ This talk explores why PR queues stall, what we can learn from massive open sour
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-67df-9fa035f34a32" id="7484876616161774130" code="J9DDEA">
+            <event guid="00000000-0000-0000-1216-686494107fa2" id="1303343923360464802" code="J9DDEA">
                 <date>2026-08-28T14:05:00+10:00</date>
                 <start>14:05:00</start>
                 <duration>00:30</duration>
@@ -1507,7 +1507,7 @@ This talk explores why PR queues stall, what we can learn from massive open sour
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-7307-61a44206991a" id="8288700997308946714" code="JK7XEF">
+            <event guid="00000000-0000-0000-284d-6d2319255f9c" id="2904097332237000604" code="JK7XEF">
                 <date>2026-08-28T14:40:00+10:00</date>
                 <start>14:40:00</start>
                 <duration>00:30</duration>
@@ -1537,7 +1537,7 @@ This talk comprises an exploration of how to discuss trade-offs during software 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-228f-0102959c07c0" id="2490210229570766784" code="KRR377">
+            <event guid="00000000-0000-0000-8513-8ec4672f79d3" id="9589165005797816787" code="KRR377">
                 <date>2026-08-28T15:55:00+10:00</date>
                 <start>15:55:00</start>
                 <duration>01:40</duration>
@@ -1575,7 +1575,7 @@ This talk comprises an exploration of how to discuss trade-offs during software 
         
         <room name="Ballroom 1">
             
-            <event guid="00000000-0000-0000-1534-a8ae3f5fdf00" id="1528031639926464256" code="S9AR8C">
+            <event guid="00000000-0000-0000-1ceb-daaa2c1c1bfe" id="2083999677008321534" code="S9AR8C">
                 <date>2026-08-29T10:45:00+10:00</date>
                 <start>10:45:00</start>
                 <duration>00:30</duration>
@@ -1601,7 +1601,7 @@ This talk comprises an exploration of how to discuss trade-offs during software 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-3262-94b3cf4f3c44" id="3630627749612174404" code="CWFAQP">
+            <event guid="00000000-0000-0000-36cf-e06053c6d72b" id="3949622102554236715" code="CWFAQP">
                 <date>2026-08-29T11:20:00+10:00</date>
                 <start>11:20:00</start>
                 <duration>00:30</duration>
@@ -1631,7 +1631,7 @@ We’ll also unpack what separates a good community from a great one, from foste
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-5a6e-ad27fc6ac92b" id="6516336098101872939" code="ASSXNF">
+            <event guid="00000000-0000-0000-9f85-2e47f4b313c5" id="11494644510515991493" code="ASSXNF">
                 <date>2026-08-29T11:55:00+10:00</date>
                 <start>11:55:00</start>
                 <duration>00:30</duration>
@@ -1657,7 +1657,7 @@ We’ll also unpack what separates a good community from a great one, from foste
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-2f24-36f95cd3d97f" id="3396900463576340863" code="MDSJTA">
+            <event guid="00000000-0000-0000-5958-adbd0c7774f4" id="6438086694795703540" code="MDSJTA">
                 <date>2026-08-29T12:30:00+10:00</date>
                 <start>12:30:00</start>
                 <duration>00:30</duration>
@@ -1687,7 +1687,7 @@ We’ll look at how to turn a feature-parade into a coherent narrative, when and
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-2ef8-88de88395697" id="3384605609318504087" code="ZJET3E">
+            <event guid="00000000-0000-0000-c683-31d253fc7324" id="14304331620880773924" code="ZJET3E">
                 <date>2026-08-29T14:00:00+10:00</date>
                 <start>14:00:00</start>
                 <duration>00:30</duration>
@@ -1713,7 +1713,7 @@ We’ll look at how to turn a feature-parade into a coherent narrative, when and
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-2acd-3c5326646903" id="3084187647642724611" code="FCLJP9">
+            <event guid="00000000-0000-0000-2b6d-b32539a23cc1" id="3129354288554458305" code="FCLJP9">
                 <date>2026-08-29T14:35:00+10:00</date>
                 <start>14:35:00</start>
                 <duration>00:30</duration>
@@ -1741,7 +1741,7 @@ Turns out there&#39;s a lot more to what keeps us alive than first meets the eye
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-61e2-8d1f5823296c" id="7053355132177820012" code="QNHZNS">
+            <event guid="00000000-0000-0000-b382-bef8d61a3ef6" id="12935111055714696950" code="QNHZNS">
                 <date>2026-08-29T15:10:00+10:00</date>
                 <start>15:10:00</start>
                 <duration>00:30</duration>
@@ -1771,7 +1771,7 @@ Turns out there&#39;s a lot more to what keeps us alive than first meets the eye
         
         <room name="Ballroom 2">
             
-            <event guid="00000000-0000-0000-4c84-e8f4b60526c5" id="5513787981531784901" code="ZPGW8C">
+            <event guid="00000000-0000-0000-1639-9da08f7abe15" id="1601484455434436117" code="ZPGW8C">
                 <date>2026-08-29T10:45:00+10:00</date>
                 <start>10:45:00</start>
                 <duration>00:30</duration>
@@ -1801,7 +1801,7 @@ The talk introduces a lightweight way of identifying and tracking reproducibilit
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-0af5-120724465525" id="789557131556050213" code="A3XLCE">
+            <event guid="00000000-0000-0000-bd83-fb3bc1674770" id="13656034729183889264" code="A3XLCE">
                 <date>2026-08-29T11:20:00+10:00</date>
                 <start>11:20:00</start>
                 <duration>00:30</duration>
@@ -1829,7 +1829,7 @@ This isn&#39;t a talk about becoming a NumPy wizard or writing &#34;clever&#34; 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-238e-e24c784d6a6c" id="2562234056084122220" code="NF98VJ">
+            <event guid="00000000-0000-0000-3832-48b9bd6ccd3e" id="4049378977543671102" code="NF98VJ">
                 <date>2026-08-29T11:55:00+10:00</date>
                 <start>11:55:00</start>
                 <duration>00:30</duration>
@@ -1866,7 +1866,7 @@ After this talk, you will learn how to:
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-3d30-e80220769fea" id="4409279131027939306" code="8PXFQM">
+            <event guid="00000000-0000-0000-077b-4fb87c45855f" id="539112234178413919" code="8PXFQM">
                 <date>2026-08-29T12:30:00+10:00</date>
                 <start>12:30:00</start>
                 <duration>00:30</duration>
@@ -1892,7 +1892,7 @@ After this talk, you will learn how to:
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-1363-8aad80c5bacb" id="1397112787209403083" code="QGMTZP">
+            <event guid="00000000-0000-0000-6ac3-20e102eb3aa0" id="7693028739267639968" code="QGMTZP">
                 <date>2026-08-29T14:00:00+10:00</date>
                 <start>14:00:00</start>
                 <duration>00:30</duration>
@@ -1918,7 +1918,7 @@ After this talk, you will learn how to:
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-2933-fcb9c39d3720" id="2968994454148298528" code="9AK3WS">
+            <event guid="00000000-0000-0000-d60c-baf2b1f09bca" id="15423908375367293898" code="9AK3WS">
                 <date>2026-08-29T14:35:00+10:00</date>
                 <start>14:35:00</start>
                 <duration>00:30</duration>
@@ -1950,23 +1950,27 @@ If you&#39;re building AI products and can&#39;t answer &#34;is this actually ge
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-62ed-3799741ec6be" id="7128414917415061182" code="3LN3GZ">
+            <event guid="00000000-0000-0000-07bd-8d895be183be" id="557757549955351486" code="JE3KTP">
                 <date>2026-08-29T15:10:00+10:00</date>
                 <start>15:10:00</start>
                 <duration>00:30</duration>
                 <room>Ballroom 2</room>
-                <title>Super secret python talk</title>
+                <title>State of Exception(s)</title>
                 <subtitle/>
                 <track>Main Conference</track>
                 <type>talk</type>
                 <language/>
                 <description/>
-                <abstract>not yet announced</abstract>
+                <abstract>Errors. They happen. Sometimes we wish they wouldn&#39;t but they do and the code we write and the systems we build have to handle that. The processes by which we detect failures and handle them varies a lot though and the &#34;right&#34; way to deal with failures has been a topic of discussion generally only eclipsed by how to do packaging and how to format code.
+
+Different languages, platforms, and frameworks all not only handle errors differently but frequently have entirely different ways of thinking about what an error even is. I&#39;d like to take you on a bit of a philosophical exploration about what happens when things go wrong, how we know they&#39;ve gone wrong, and what we do about it.</abstract>
                 <persons>
+                    
+                    <person>Benno Rice</person>
                     
                 </persons>
                 <links>
-                    <link href="https://2026.pycon.org.au/schedule/3LN3GZ">
+                    <link href="https://2026.pycon.org.au/schedule/JE3KTP">
                         Conference link
                     </link>
                     
@@ -1978,7 +1982,7 @@ If you&#39;re building AI products and can&#39;t answer &#34;is this actually ge
         
         <room name="Ballroom 3">
             
-            <event guid="00000000-0000-0000-02fa-9a2e3ce6b75d" id="214653455634446173" code="9PXVYP">
+            <event guid="00000000-0000-0000-4149-5c58aed01dea" id="4704392821724945898" code="9PXVYP">
                 <date>2026-08-29T09:00:00+10:00</date>
                 <start>09:00:00</start>
                 <duration>00:15</duration>
@@ -2009,7 +2013,7 @@ Join us for a short welcome address followed by our third keynote (to be announc
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-03c9-3225e72c64c5" id="272804390806250693" code="X79GWF">
+            <event guid="00000000-0000-0000-783e-81abc92f01a3" id="8664505307922104739" code="X79GWF">
                 <date>2026-08-29T09:15:00+10:00</date>
                 <start>09:15:00</start>
                 <duration>00:45</duration>
@@ -2035,7 +2039,7 @@ Join us for a short welcome address followed by our third keynote (to be announc
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-7d8e-2efd45c70c33" id="9047220366766181427" code="JZQG9G">
+            <event guid="00000000-0000-0000-0029-4b57aa7018f9" id="11623313938847993" code="JZQG9G">
                 <date>2026-08-29T10:45:00+10:00</date>
                 <start>10:45:00</start>
                 <duration>00:30</duration>
@@ -2063,7 +2067,7 @@ This talk is an introduction to property based testing in Python using Hypothesi
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-55de-6fc5980d2772" id="6187505832503879538" code="HZUCVL">
+            <event guid="00000000-0000-0000-9b31-749028653efc" id="11182847512239488764" code="HZUCVL">
                 <date>2026-08-29T11:20:00+10:00</date>
                 <start>11:20:00</start>
                 <duration>00:30</duration>
@@ -2094,7 +2098,7 @@ But mainly the talk will focus on the new 3.15 keyword `lazy` and how it can aff
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-520a-466bcbd5daf6" id="5911614889672432374" code="Q7LCGQ">
+            <event guid="00000000-0000-0000-6899-cb46685c2b67" id="7537278954640255847" code="Q7LCGQ">
                 <date>2026-08-29T11:55:00+10:00</date>
                 <start>11:55:00</start>
                 <duration>00:30</duration>
@@ -2107,7 +2111,7 @@ But mainly the talk will focus on the new 3.15 keyword `lazy` and how it can aff
                 <description/>
                 <abstract>_Do you feel that hard drives and USBs aren’t keeping pace with your organisation’s &#34;AI-first dynamic cloud-based SaaS B2B&#34; technology strategy?_ 
 
-Today, I present a novel (and potentially ill-advised) alternative: a file-system that uses Slack Emojis as a storage device. We&#39;ll dive into how file systems work, how you can use Python to turn Slack Emojis into infinite free file storage, and maybe find out if this was secretly a terrible idea all along.</abstract>
+Today, I present a novel (and potentially ill-advised) alternative: a file-system that uses Slack Emojis as a storage device. We&#39;ll dive into how file systems work, how you can use Python to turn Slack Emojis into infinite free file storage, and maybe find out if this was secretly a terrible idea all along. Plus maybe there&#39;ll be stickers :)</abstract>
                 <persons>
                     
                     <person>Ashley Lamont</person>
@@ -2122,7 +2126,7 @@ Today, I present a novel (and potentially ill-advised) alternative: a file-syste
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-2578-450a4ef571e1" id="2699983887185310177" code="AVCYHU">
+            <event guid="00000000-0000-0000-73c0-0221b6c8752c" id="8340668853713925420" code="AVCYHU">
                 <date>2026-08-29T12:30:00+10:00</date>
                 <start>12:30:00</start>
                 <duration>00:30</duration>
@@ -2150,7 +2154,7 @@ In this talk, you&#39;ll learn the options you have for delivering your code to 
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-624a-1c42e1cd72c8" id="7082504437575283400" code="97G398">
+            <event guid="00000000-0000-0000-dae2-ef93d5158b34" id="15772432263219088180" code="97G398">
                 <date>2026-08-29T14:00:00+10:00</date>
                 <start>14:00:00</start>
                 <duration>00:30</duration>
@@ -2178,7 +2182,7 @@ We will look at how we can introspect live Python processes, uncovering what a p
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-6da9-c677ddee2435" id="7902065239325025333" code="VSVXTJ">
+            <event guid="00000000-0000-0000-d81a-64756cbcff68" id="15571869117085187944" code="VSVXTJ">
                 <date>2026-08-29T14:35:00+10:00</date>
                 <start>14:35:00</start>
                 <duration>00:30</duration>
@@ -2211,7 +2215,7 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-3e1c-d518b98acc0a" id="4475686431868242954" code="HH8MA3">
+            <event guid="00000000-0000-0000-77ce-622dee52a3bf" id="8632945485127263167" code="HH8MA3">
                 <date>2026-08-29T15:10:00+10:00</date>
                 <start>15:10:00</start>
                 <duration>00:30</duration>
@@ -2237,7 +2241,7 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-0bd8-530c5c600657" id="853523441941218903" code="PKSEBP">
+            <event guid="00000000-0000-0000-e80b-e8a58e24adad" id="16720713839295114669" code="PKSEBP">
                 <date>2026-08-29T16:25:00+10:00</date>
                 <start>16:25:00</start>
                 <duration>00:50</duration>
@@ -2265,7 +2269,7 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
                 </links>
             </event>
             
-            <event guid="00000000-0000-0000-798b-16f47b16693e" id="8758119139644959038" code="TGQGWT">
+            <event guid="00000000-0000-0000-0dbf-62e55cbc6a7c" id="990619180287683196" code="TGQGWT">
                 <date>2026-08-29T17:15:00+10:00</date>
                 <start>17:15:00</start>
                 <duration>00:15</duration>
@@ -2299,7 +2303,7 @@ Likewise code golf can be a puzzle that helps you to learn the tricks of a langu
         
         <room name="Lyon">
             
-            <event guid="00000000-0000-0000-35be-364420a8d3e7" id="3872592395818816487" code="AJQASH">
+            <event guid="00000000-0000-0000-a9a4-679bba5e434d" id="12224009207134700365" code="AJQASH">
                 <date>2026-08-29T14:00:00+10:00</date>
                 <start>14:00:00</start>
                 <duration>01:40</duration>

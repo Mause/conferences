@@ -1,3 +1,4 @@
+import hashlib
 from collections.abc import Callable, Generator, Iterable
 from datetime import date, datetime, timedelta
 from functools import cache
@@ -90,7 +91,8 @@ class ReSession(BaseModel):
 
     @property
     def id(self) -> int:
-        return abs(hash(self.code))
+        digest = hashlib.sha256(self.code.encode()).digest()
+        return int.from_bytes(digest[:8], "big")
 
     @property
     def guid(self) -> UUID:
