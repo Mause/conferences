@@ -1,16 +1,15 @@
 <schedule>
+    <version>1.0</version>
     <conference>
         <acronym>pyconau-{{ start_date.year }}</acronym>
         <title>PyCon Au {{ start_date.year }} X</title>
-        <subtitle/>
-        <venue>Sofitel Brisbane Central, Brisbane</venue>
         <start>{{ start_date.isoformat() }}</start>
         <end>{{ end_date.isoformat() }}</end>
         <days>5</days>
         <timeslot_duration>01:00</timeslot_duration>
     </conference>
     {% for date, rooms in days.items() %}
-    <day date="{{ date }}">
+    <day date="{{ date }}" start="{{ rooms[0][1][0].start.isoformat() }}" end="{{ rooms[0][1][-1].end.isoformat() }}" index="{{ loop.index }}">
         {% for room, talks in rooms %}
         <room name="{{ room }}">
             {% for talk in talks %}
