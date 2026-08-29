@@ -149,6 +149,14 @@ def get_code(talk: ReSession) -> str:
 
 
 def get_schedule() -> tuple[str, int, dict[str, str]]:
+    return (
+        get_schedule_xml(),
+        200,
+        {"content-type": "application/xml"},
+    )
+
+
+def get_schedule_xml() -> str:
     if "TERMUX_VERSION" not in os.environ:
         path = Path(mkdtemp()) / "2026-website"
         clone(
@@ -175,18 +183,15 @@ def get_schedule() -> tuple[str, int, dict[str, str]]:
 
     start_date = date.fromisoformat("2026-08-26")
     end_date = date.fromisoformat("2026-08-30")
-    return (
-        render_template(
-            "schedule.xml",
-            days=days,
-            to_time=to_time,
-            get_code=get_code,
-            start_date=start_date,
-            end_date=end_date,
-        ),
-        200,
-        {"content-type": "application/xml"},
+    body = render_template(
+        "schedule.xml",
+        days=days,
+        to_time=to_time,
+        get_code=get_code,
+        start_date=start_date,
+        end_date=end_date,
     )
+    return body.replace("\r\n", "\n")
 
 
 def validate_schedule(xml_path: str = "out.xml", xsd_path: str = "schema.xsd"):
@@ -203,7 +208,7 @@ def validate_schedule(xml_path: str = "out.xml", xsd_path: str = "schema.xsd"):
 
 if __name__ == "__main__":
     with app.app_context():
-        body, status, hedaers = get_schedule()
+        body = get_schedule_xml()
         with open("out.xml", "w") as fh:
             fh.write(body)
         validate_schedule()
