@@ -15,6 +15,7 @@ from flask import Flask, Response, render_template, request
 from lxml import etree
 from pydantic import BaseModel, ConfigDict, Field
 from pydantic.alias_generators import to_camel
+from rich import print
 from rich.status import Status
 
 app = Flask(__name__)
